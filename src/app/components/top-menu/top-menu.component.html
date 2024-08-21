@@ -1,0 +1,56 @@
+<!-- BEGIN #top-menu -->
+<div class="app-top-menu" data-bs-theme="dark">
+	<div class="menu">
+		<ng-template ngFor let-menu [ngForOf]="menus">
+			<div *ngIf="!menu.is_divider && !menu.is_header" class="menu-item" [ngClass]="{ 'active': (menu.url && isActive(menu.url)) || (menu.submenu && isChildActive(menu.submenu)), 'has-sub': menu.submenu }">
+				<a [routerLink]="!menu.submenu ? menu.url : null" class="menu-link">
+					<div class="menu-icon-img" *ngIf="menu.img"><img src="{{ menu.img }}" /></div>
+					<div class="menu-icon" *ngIf="menu.icon"><i [ngClass]="menu.icon"></i></div>
+					<span class="menu-text" *ngIf="menu.title">
+						{{ menu.title }}
+						<span class="menu-label ms-5px" *ngIf="menu.label">{{ menu.label }}</span>
+					</span>
+					<div class="menu-badge" *ngIf="menu.badge">{{ menu.badge }}</div>
+					<div class="menu-caret" *ngIf="menu.caret"></div>
+				</a>
+				<div class="menu-submenu" *ngIf="menu.submenu">
+					<ng-template ngFor let-childmenu [ngForOf]="menu.submenu">
+						<div class="menu-item" [ngClass]="{ 'active': (childmenu.url && isActive(childmenu.url)) || (childmenu.submenu && isChildActive(childmenu.submenu)), 'has-sub': childmenu.submenu }">
+							<a [routerLink]="!childmenu.submenu ? childmenu.url : null" class="menu-link">
+								<span class="menu-text">{{ childmenu.title }}</span>
+								<div class="menu-caret" *ngIf="childmenu.caret"></div>
+							</a>
+							<div class="menu-submenu" *ngIf="childmenu.submenu">
+								<ng-template ngFor let-childmenu1 [ngForOf]="childmenu.submenu">
+									<div class="menu-item" [ngClass]="{ 'active': (childmenu1.url && isActive(childmenu1.url)) || (childmenu1.submenu && isChildActive(childmenu1.submenu)), 'has-sub': childmenu1.submenu }">
+										<a [routerLink]="!childmenu1.submenu ? childmenu1.url : null" class="menu-link">
+											<span class="menu-text">{{ childmenu1.title }}</span>
+											<div class="menu-caret" *ngIf="childmenu1.caret"></div>
+										</a>
+										<div class="menu-submenu" *ngIf="childmenu1.submenu">
+											<ng-template ngFor let-childmenu2 [ngForOf]="childmenu1.submenu">
+												<div class="menu-item" [ngClass]="{ 'active': isActive(childmenu2.url) }">
+													<a [routerLink]="!childmenu2.submenu ? childmenu2.url : null" class="menu-link">
+														<span class="menu-text">{{ childmenu2.title }}</span>
+														<div class="menu-caret" *ngIf="childmenu2.caret"></div>
+													</a>
+												</div>
+											</ng-template>
+										</div>
+									</div>
+								</ng-template>
+							</div>
+						</div>
+					</ng-template>
+				</div>
+			</div>
+		</ng-template>
+		<div class="menu-item menu-control menu-control-start">
+			<a href="javascript:;" class="menu-link" (click)="handleTopMenuControlAction($event, 'prev')"><i class="fa fa-angle-left"></i></a>
+		</div>
+		<div class="menu-item menu-control menu-control-end">
+			<a href="javascript:;" class="menu-link" (click)="handleTopMenuControlAction($event, 'next')"><i class="fa fa-angle-right"></i></a>
+		</div>
+	</div>
+</div>
+<!-- END #top-menu -->

@@ -1,0 +1,49 @@
+<div class="app-sidebar-float-submenu-container"  [attr.data-bs-theme]="this.appSettings.appSidebarLight ? '' : 'dark'" *ngIf="menus" (mouseenter)="remainMenu()" (mouseleave)="hideMenu()" [style.top]="(top) ? top : ''" [style.left]="(left) ? left : ''" [style.right]="right" [style.bottom]="bottom">
+    <div class="app-sidebar-float-submenu-arrow" [style.top]="arrowTop" [style.bottom]="arrowBottom"></div>
+    <div class="app-sidebar-float-submenu-line" [style.top]="lineTop" [style.bottom]="lineBottom"></div>
+  
+    <!-- render subMenuNav -->
+    <ng-template #subMenuNav let-menu="menu">
+      <div class="menu-text">
+          {{ menu.title }}
+          <i class="fa fa-paper-plane text-theme ms-5px" *ngIf="menu.highlight"></i>
+      </div>
+      <div class="menu-caret" *ngIf="menu.caret"></div>
+    </ng-template>
+  
+    <div class="app-sidebar-float-submenu" [style.display]="(expand) ? 'block' : ''">
+      <div class="menu-item" *ngFor="let menu of menus" routerLinkActive="active" #rla="routerLinkActive" [routerLinkActiveOptions]="{exact: true}" [ngClass]="{ 'expand': menu.expand }">
+        <a class="menu-link" *ngIf="menu.submenu" (click)="(menu.submenu) ? expandCollapseSubmenu($event, menu, menus, rla) : ''">
+          <ng-template *ngTemplateOutlet="subMenuNav; context: {menu: menu}"></ng-template>
+        </a>
+        <a class="menu-link" *ngIf="!menu.submenu" [routerLink]="menu.url">
+          <ng-template *ngTemplateOutlet="subMenuNav; context: {menu: menu}"></ng-template>
+        </a>
+  
+        <!-- sidebar submenu -->
+        <div class="menu-submenu" *ngIf="menu.submenu" [style.display]="(menu.state == 'expand') ? 'block' : (menu.state == 'collapse') ? 'none' : ''">
+  
+          <div class="menu-item" *ngFor="let menu1 of menu.submenu" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [ngClass]="{ 'expand': menu1.state == 'expand', 'closed': menu1.state == 'collapsed', 'has-sub': menu1.submenu }" #rla1="routerLinkActive">
+            <a class="menu-link" *ngIf="menu1.submenu" (click)="(menu1.submenu) ? expandCollapseSubmenu($event, menu1, menu.submenu, rla1) : ''">
+              <ng-template *ngTemplateOutlet="subMenuNav; context: {menu: menu1}"></ng-template>
+            </a>
+            <a class="menu-link" *ngIf="!menu1.submenu" [routerLink]="menu1.url">
+              <ng-template *ngTemplateOutlet="subMenuNav; context: {menu: menu1}"></ng-template>
+            </a>
+  
+            <div class="menu-submenu" *ngIf="menu1.submenu" [style.display]="(menu1.state == 'expand') ? 'block' : (menu1.state == 'collapse') ? 'none' : ''">
+              <div class="menu-item" *ngFor="let menu2 of menu1.submenu" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [ngClass]="{ 'expand': menu2.state == 'expand', 'closed': menu2.state == 'collapsed', 'has-sub': menu2.submenu }" #rla2="routerLinkActive">
+                <a class="menu-link" *ngIf="menu2.submenu" (click)="(menu2.submenu) ? expandCollapseSubmenu($event, menu2, menu1.submenu, rla2) : ''">
+                  <ng-template *ngTemplateOutlet="subMenuNav; context: {menu: menu2}"></ng-template>
+                </a>
+                <a class="menu-link" *ngIf="!menu2.submenu" [routerLink]="menu2.url">
+                  <ng-template *ngTemplateOutlet="subMenuNav; context: {menu: menu2}"></ng-template>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

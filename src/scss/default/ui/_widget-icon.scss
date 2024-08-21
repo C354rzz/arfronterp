@@ -1,0 +1,56 @@
+.widget-icon {
+	position: relative;
+	overflow: hidden;
+	width: _rem(40px);
+	height: _rem(40px);
+	font-size: _rem(28px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	&.user {
+		font-size: _rem(36px);
+		
+		& i {
+			display: block;
+			margin: 0 auto;
+			padding-top: 38%;
+		}
+	}
+	&.widget-icon-xs {
+		width: _rem(20px);
+		height: _rem(20px);
+		font-size: _rem(14px);
+		
+		&.user {
+			font-size: _rem(18px);
+		}
+	}
+	&.widget-icon-sm {
+		width: _rem(30px);
+		height: _rem(30px);
+		font-size: _rem(21px);
+		
+		&.user {
+			font-size: _rem(27px);
+		}
+	}
+	&.widget-icon-lg {
+		width: _rem(60px);
+		height: _rem(60px);
+		font-size: _rem(42px);
+		
+		&.user {
+			font-size: _rem(54px);
+		}
+	}
+	&.widget-icon-xl {
+		width: _rem(80px);
+		height: _rem(80px);
+		font-size: _rem(56px);
+		
+		&.user {
+			font-size: _rem(72px);
+		}
+	}
+}

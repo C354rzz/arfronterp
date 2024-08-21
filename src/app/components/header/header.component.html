@@ -1,0 +1,146 @@
+<!-- BEGIN #header -->
+<div id="header" class="app-header" [attr.data-bs-theme]="this.appSettings.appHeaderInverse ? 'dark' : ''">
+    <!-- BEGIN navbar-header -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-mobile-toggler" *ngIf="this.appSidebarTwo" (click)="toggleAppSidebarEndMobile()">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand"><span class="navbar-logo"></span> <b>Front</b> ERP</a>
+      <button type="button" class="navbar-mobile-toggler" (click)="toggleAppTopMenuMobile()" *ngIf="this.appSettings.appTopMenu && !this.appSettings.appSidebarNone">
+        <span class="fa-stack fa-lg text-inverse">
+          <i class="far fa-square fa-stack-2x"></i>
+          <i class="fa fa-cog fa-stack-1x"></i>
+        </span>
+      </button>
+      <button type="button" class="navbar-mobile-toggler" (click)="toggleAppHeaderMegaMenuMobile()" *ngIf="this.appSettings.appHeaderMegaMenu">
+        <span class="fa-stack fa-lg text-inverse">
+          <i class="far fa-square fa-stack-2x"></i>
+          <i class="fa fa-cog fa-stack-1x"></i>
+        </span>
+      </button>
+      <button type="button" class="navbar-mobile-toggler" (click)="toggleAppSidebarMobile()" *ngIf="!this.appSettings.appSidebarNone">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <button type="button" class="navbar-mobile-toggler" (click)="toggleAppTopMenuMobile()" *ngIf="this.appSettings.appTopMenu && this.appSettings.appSidebarNone">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <!-- END navbar-header -->
+  
+    <!-- BEGIN mega-menu -->
+    <div class="collapse d-md-block me-auto" *ngIf="this.appSettings.appHeaderMegaMenu" [ngClass]="{ 'd-block': (this.appSettings.appHeaderMegaMenu && this.appSettings.appHeaderMegaMenuMobileToggled) }">
+     <div class="navbar-nav">
+              <div class="navbar-item dropdown dropdown-lg">
+          <a href="javascript:;" class="navbar-link dropdown-toggle d-flex align-items-center" data-bs-toggle="dropdown">
+                      <i class="fa fa-th-large fa-fw me-1"></i> 
+                      <span class="d-lg-inline d-md-none">Mega</span>
+                      <b class="caret ms-1"></b>
+                  </a>
+          <div class="dropdown-menu dropdown-menu-lg">
+              Content here
+          </div>
+        </div>
+              <div class="navbar-item">
+                  <a href="javascript:;" class="navbar-link d-flex align-items-center">
+                      <i class="fa fa-gem fa-fw me-1"></i>
+                      <span class="d-lg-inline d-md-none">Client</span>
+                  </a>
+              </div>
+              <div class="navbar-item dropdown">
+          <a href="javascript:;" class="navbar-link dropdown-toggle d-flex align-items-center" data-bs-toggle="dropdown">
+            <i class="fa fa-database fa-fw me-1"></i> 
+            <span class="d-lg-inline d-md-none">New</span>
+            <b class="caret ms-1"></b>
+          </a>
+          <div class="dropdown-menu">
+            <a href="javascript:;" class="dropdown-item">Action</a>
+            <a href="javascript:;" class="dropdown-item">Another action</a>
+            <a href="javascript:;" class="dropdown-item">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a href="javascript:;" class="dropdown-item">Separated link</a>
+            <div class="dropdown-divider"></div>
+            <a href="javascript:;" class="dropdown-item">One more separated link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END mega-menu -->
+  
+    <!-- BEGIN nav -->
+    <div class="navbar-nav">
+          <div class="navbar-item navbar-form">
+              <form action="" method="POST" name="search">
+                  <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Buscar" />
+                      <button type="submit" class="btn btn-search"><i class="fa fa-search"></i></button>
+                  </div>
+              </form>
+          </div>
+      <div class="navbar-item dropdown">
+        <a href="javascript:;" data-bs-toggle="dropdown" class="navbar-link dropdown-toggle icon">
+          <i class="fa fa-bell"></i>
+          <span class="badge">32</span>
+        </a>
+           <div class="dropdown-menu media-list dropdown-menu-end">
+                  <div class="dropdown-header">NOTIFICACIONES (32)</div>
+                  <div class="text-center w-300px py-3">
+                      No hay notificaciones
+                  </div>
+                  <div class="dropdown-footer text-center">
+                      <a href="javascript:;" class="text-decoration-none">Ver más</a>
+                  </div>
+              </div>
+      </div>
+      <div class="navbar-item dropdown" *ngIf="this.appSettings.appHeaderLanguageBar">
+        <a href="javascript:;" class="navbar-link dropdown-toggle" data-bs-toggle="dropdown">
+          <span class="fi fi-us" title="us"></span>
+                  <span class="d-none d-sm-inline ms-1">EN</span> <b class="caret"></b>
+        </a>
+        <div class="dropdown-menu">
+          <a href="javascript:;" class="dropdown-item"><span class="fi fi-us me-2" title="us"></span> English</a>
+          <a href="javascript:;" class="dropdown-item"><span class="fi fi-cn me-2" title="cn"></span> Chinese</a>
+          <a href="javascript:;" class="dropdown-item"><span class="fi fi-jp me-2" title="jp"></span> Japanese</a>
+          <a href="javascript:;" class="dropdown-item"><span class="fi fi-be me-2" title="be"></span> Belgium</a>
+          <div class="dropdown-divider"></div>
+          <a href="javascript:;" class="dropdown-item text-center">more options</a>
+        </div>
+      </div>
+      <div class="navbar-item navbar-user dropdown">
+        <a href="javascript:;" class="navbar-link dropdown-toggle d-flex align-items-center" data-bs-toggle="dropdown">
+          <div class="image image-icon bg-gray-800 text-gray-600">
+                      <i class="fa fa-user"></i>
+                  </div>
+          <span>
+                      <span class="d-none d-md-inline">Julio Armijo</span>
+                      <b class="caret"></b>
+                  </span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-end me-1">
+                  <a href="javascript:;" class="dropdown-item">Editar Perfil</a>
+                  <a href="javascript:;" class="dropdown-item d-flex align-items-center">
+                      Mensajes
+                      <span class="badge bg-danger rounded-pill ms-auto pb-4px">5</span>
+                  </a>
+                  <a href="javascript:;" class="dropdown-item">Calendario</a>
+                  <a href="javascript:;" class="dropdown-item">Configuración</a>
+                  <div class="dropdown-divider"></div>
+                  <a href="javascript:;" class="dropdown-item">Cerrar sesión</a>
+              </div>
+      </div>
+      <div class="navbar-divider d-none d-md-block" *ngIf="this.appSidebarTwo"></div>
+          <div class="navbar-item d-none d-md-block" *ngIf="this.appSidebarTwo">
+              <a href="javascript:;" (click)="toggleAppSidebarEnd()" class="navbar-link icon">
+                  <i class="fa fa-th"></i>
+              </a>
+          </div>
+    </div>
+    <!-- END nav -->
+  </div>
+  <!-- END #header -->
+  

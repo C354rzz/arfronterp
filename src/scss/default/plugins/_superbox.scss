@@ -1,0 +1,110 @@
+.superbox {
+	&.superbox-active {
+		font-size: 0;
+		margin: _rem(-1px) _rem(-1px) 0 0;
+	
+		& .superbox-list {
+			display: inline-block;
+			position: relative;
+			background: none;
+		
+			& .superbox-img {
+				width: 100%;
+				cursor: pointer;
+				display: block;
+				padding-top: 75%;
+				position: relative;
+			
+				& img {
+					display: none;
+				}
+				& span {
+					position: absolute;
+					top: _rem(1px);
+					left: _rem(1px);
+					right: _rem(1px);
+					bottom: _rem(1px);
+					background-size: cover !important;
+					background-position: center !important;
+				}
+				&:hover {
+					opacity: .8;
+				}
+			}
+			&.superbox-O {
+				z-index: 10;
+			
+				&:before {
+					content: '';
+					position: absolute;
+					left: 50%;
+					bottom: _rem(0px);
+					border: 10px solid transparent;
+					border-bottom-color: $body-bg;
+					margin-left: _rem(-10px);
+					z-index: 10;
+				}
+				&:after {
+					content: '';
+					position: absolute;
+					left: 50%;
+					bottom: _rem(-3px);
+					border: 10px solid transparent;
+					border-bottom-color: $gray-800;
+					margin-left: _rem(-10px);
+					z-index: 20;
+				}
+			}
+		}
+		& .superbox-show {
+			background: $gray-800 !important;
+			margin: _rem(1px) 0;
+			box-shadow: none;
+		
+			& .superbox-current-img {
+				max-width: 100%;
+				border: none;
+				box-shadow: $box-shadow;
+			}
+			& .superbox-prev {
+				@if $enable-rtl {
+					left: auto;
+					right: _rem(10px);
+				}
+				& .icon-circle-arrow-left {
+					&:before {
+						@if $enable-rtl {
+							content: '\e4a2';	
+						}
+					}
+				}
+			}
+			& .superbox-next {
+				@if $enable-rtl {
+					right: auto;
+					left: _rem(10px);
+				}
+				& .icon-circle-arrow-right {
+					&:before {
+						@if $enable-rtl {
+							content: '\e4a1';	
+						}
+					}
+				}
+			}
+		}
+		& .superbox-close {
+			cursor: pointer;
+			position: absolute;
+			top: $spacer;
+			right: $spacer;
+			width: _rem(35px);
+			height: _rem(35px);
+			
+			@if $enable-rtl {
+				right: auto;
+				left: _rem(25px);
+			}
+		}
+	}
+}

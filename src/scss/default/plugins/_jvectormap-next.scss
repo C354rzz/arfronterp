@@ -1,0 +1,71 @@
+.jvectormap-container {
+	& .jvectormap-zoomin, 
+	& .jvectormap-zoomout {
+		width: _rem(16px);
+		height: _rem(16px);
+		padding: 0;
+		left: $spacer;
+		color: var(--#{$prefix}component-color);
+		background: var(--#{$prefix}component-secondary-bg);
+		box-shadow: $box-shadow;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+		@if $enable-rtl {
+			left: auto;
+			right: $spacer;
+		}
+		&:hover,
+		&:focus {
+			background: var(--#{$prefix}component-tertiary-bg);
+		}
+	}
+	& .jvectormap-label {
+		padding: _rem(3px) _rem(6px);
+		border: none;
+		background: rgba($black, .6);
+	}
+}
+.jvectormap-tip {
+	padding: _rem(3px) _rem(6px) !important;
+	border: none !important;
+	background: rgba($black, .6) !important;
+}
+.map-page {
+	& .jvectormap-zoomin,
+	& .jvectormap-zoomout {
+		width: _rem(25px) !important;
+		height: _rem(25px) !important;
+		font-size: $h3-font-size;
+		left: $app-content-padding-x !important;
+		border-radius: $border-radius-lg;
+		
+		@if $enable-rtl {
+			left: auto !important;
+			right: $app-content-padding-x !important;
+		}
+		@include media-breakpoint-down(md) {
+			left: $app-content-padding-x-sm !important;
+			
+			@if $enable-rtl {
+				left: auto !important;
+				right: $app-content-padding-x-sm !important;
+			}
+		}
+	}
+	& .jvectormap-zoomin {
+		top: $app-header-height + _rem(20px);
+		
+		@include media-breakpoint-down(lg) {
+			top: $app-header-height + _rem(20px) + _rem(30px);
+		}
+	}
+	& .jvectormap-zoomout {
+		top: $app-header-height + _rem(50px);
+		
+		@include media-breakpoint-down(lg) {
+			top: $app-header-height + _rem(30px) + _rem(55px);
+		}
+	}
+}

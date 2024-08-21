@@ -1,18 +1,59 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+//Core Module
+import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
+import { BrowserAnimationsModule }               from '@angular/platform-browser/animations';
+import { BrowserModule, Title }                  from '@angular/platform-browser';
+import { HttpClientModule }                      from '@angular/common/http';
+import { AppRoutingModule }                      from './app-routing.module';
+import { NgModule }                              from '@angular/core';
+import { FormsModule, ReactiveFormsModule }      from '@angular/forms';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+//Main Component
+import { AppComponent }                         from './app.component';
+import { PanelComponent }                       from './components/panel/panel.component';
+import { HeaderComponent }                      from './components/header/header.component';
+import { FloatSubMenuComponent }                from './components/float-sub-menu/float-sub-menu.component';
+import { SidebarComponent }                     from './components/sidebar/sidebar.component';
+import { SidebarRightComponent }                from './components/sidebar-right/sidebar-right.component';
+import { TopMenuComponent }                     from './components/top-menu/top-menu.component';
+import { ThemePanelComponent }                  from './components/theme-panel/theme-panel.component';
+
+//Component Module
+// import { NgScrollbarModule, NG_SCROLLBAR_OPTIONS } from 'ngx-scrollbar';
+
+//Pages
+import { HomePage } from './pages/home/home';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    SidebarComponent,
+    SidebarRightComponent,
+    TopMenuComponent,
+    PanelComponent,
+    FloatSubMenuComponent,
+    ThemePanelComponent,
+
+    HomePage,
   ],
   imports: [
+    AppRoutingModule,
+    BrowserAnimationsModule,
     BrowserModule,
-    AppRoutingModule
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule,
   ],
-  providers: [],
+  providers: [Title],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(private router: Router, private titleService: Title, private route: ActivatedRoute) {
+    router.events.subscribe((e) => {
+      if (e instanceof NavigationEnd) {
+        var title = 'Front ERP | '+ this.route.snapshot.firstChild?.data['title'];
+        this.titleService.setTitle(title);
+      }
+    });
+  }
+}
