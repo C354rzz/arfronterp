@@ -1,0 +1,3 @@
+<script>
+  introJs().setOption('showProgress', true).start()
+</script>

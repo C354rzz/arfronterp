@@ -1,0 +1,43 @@
+<!-- page.ts -->
+import { TableData } from './data';
+import { ColumnMode, DatatableComponent } from '@swimlane/ngx-datatable';
+
+export class TableDataPage {
+  columns = [{ prop: 'name' }, { name: 'Company' }, { name: 'Gender' }];
+  @ViewChild(DatatableComponent) table: DatatableComponent;
+
+  ColumnMode = ColumnMode;
+
+  constructor() {
+    this.fetch(data => {
+      // cache our list
+      this.temp = [...data];
+
+      // push our inital complete list
+      this.rows = data;
+    });
+  }
+
+  fetch(cb) {
+    const req = new XMLHttpRequest();
+    req.open('GET', 'assets/data/company.json');
+
+    req.onload = () => {
+      cb(JSON.parse(req.response));
+    };
+
+    req.send();
+  }
+}
+
+<!-- page.html -->
+<ngx-datatable
+  #table
+  class="bootstrap"
+  [columns]="columns"
+  [columnMode]="ColumnMode.force"
+  [headerHeight]="50"
+  [footerHeight]="50"
+  rowHeight="auto"
+  [limit]="10"
+  [rows]="rows"></ngx-datatable>

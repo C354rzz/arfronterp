@@ -1,0 +1,13 @@
+<!-- begin widget-card -->
+<a href="#" class="widget-card rounded">
+  <div class="widget-card-cover rounded" style="background-image: url(/assets/img/gallery/gallery-portrait-11-thumb.jpg)"></div>
+  <div class="widget-card-content">
+    <b class="text-white">Download and get free trial.</b>
+  </div>
+  <div class="widget-card-content bottom">
+    <i class="fab fa-pushed fa-5x text-indigo"></i>
+    <h4 class="text-white mt-10px"><b>Apple Draw<br /> Photo Booth</b></h4>
+    <h5 class="fs-12px text-white text-opacity-75"><b>EASILY DRAW ON PHOTOS</b></h5>
+  </div>
+</a>
+<!-- end widget-card -->

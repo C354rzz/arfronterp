@@ -1,0 +1,102 @@
+<!-- main.ts -->
+import { Component } from '@angular/core';
+import { AppVariablesService } from '../../../service/app-variables.service';
+
+@Component({
+  selector: 'chart-apex',
+  templateUrl: './chart-apex.html'
+})
+
+export class ChartApexPage {
+  appVariables = this.appVariablesService.getAppVariables();
+  
+  chartOptions: any;
+
+  constructor(private appVariablesService: AppVariablesService) {
+    this.appVariablesService.variablesReload.subscribe(() => {
+      this.appVariables = this.appVariablesService.getAppVariables();
+      this.chartOptions = this.getChartOptions();
+    });
+  }
+  
+  getChartOptions() {
+    return {
+      chart: {
+        height: 350,
+        type: 'area',
+      },
+      dataLabels: { enabled: false },
+      stroke: { curve: 'smooth', width: 3 },
+      colors: [this.appVariables.color.teal, this.appVariables.color.inverse],
+      series: [
+        { name: 'series1', data: [31, 40, 28, 51, 42, 109, 100] }, 
+        { name: 'series2', data: [11, 32, 45, 32, 34, 52, 41] }
+      ],
+      legend: {
+        fontFamily: this.appVariables.font.bodyFontFamily,
+        labels: { colors: this.appVariables.color.bodyColor }
+      },
+      grid: { borderColor: this.appVariables.color.borderColor },
+      xaxis: {
+        type: 'datetime',
+        categories: ['2019-09-19T00:00:00', '2019-09-19T01:30:00', '2019-09-19T02:30:00', '2019-09-19T03:30:00', '2019-09-19T04:30:00', '2019-09-19T05:30:00', '2019-09-19T06:30:00'],
+        axisBorder: {
+          show: true,
+          color: this.appVariables.color.borderColor,
+          height: 1,
+          width: '100%',
+          offsetX: 0,
+          offsetY: -1
+        },
+        axisTicks: {
+          show: true,
+          borderType: 'solid',
+          color: this.appVariables.color.borderColor,
+          height: 6,
+          offsetX: 0,
+          offsetY: 0
+        },
+        labels: {
+          style: {
+            colors: this.appVariables.color.bodyColor,
+            fontSize: '12px',
+            fontFamily: this.appVariables.font.bodyFontFamily,
+            fontWeight: this.appVariables.font.bodyFontWeight,
+            cssClass: 'apexcharts-xaxis-label',
+          }
+        }           
+      },
+      yaxis: {
+        labels: {
+          style: {
+            colors: this.appVariables.color.bodyColor,
+            fontSize: '12px',
+            fontFamily: this.appVariables.font.bodyFontFamily,
+            fontWeight: this.appVariables.font.bodyFontWeight,
+            cssClass: 'apexcharts-xaxis-label',
+          }
+        }
+      },
+      tooltip: { x: { format: 'dd/MM/yy HH:mm' } }
+    };
+  }
+  
+  ngOnInit() {
+    this.chartOptions = this.getChartOptions();
+  }
+}
+
+
+<!-- html -->
+<apx-chart
+  [series]="chart3Options.series"
+  [chart]="chart3Options.chart"
+  [colors]="chart3Options.colors"
+  [legend]="chart3Options.legend"
+  [xaxis]="chart3Options.xaxis"
+  [yaxis]="chart3Options.yaxis"
+  [dataLabels]="chart3Options.dataLabels"
+  [grid]="chart3Options.grid"
+  [stroke]="chart3Options.stroke"
+  [tooltip]="chart3Options.tooltip"
+></apx-chart>

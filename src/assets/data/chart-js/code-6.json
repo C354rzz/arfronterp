@@ -1,0 +1,63 @@
+<!-- main.ts -->
+import { Component } from '@angular/core';
+import { Chart, ChartConfiguration, ChartOptions, ChartType } from 'chart.js';
+import { AppVariablesService } from '../../../service/app-variables.service';
+
+@Component({
+  selector: 'chart-js',
+  templateUrl: './chart-js.html'
+})
+
+export class ChartJsPage {
+  appVariables = this.appVariablesService.getAppVariables();
+  
+  public doughnutChartData: ChartConfiguration<'doughnut'>['data'] = { labels: [], datasets: [] };
+  public doughnutChartOptions: ChartOptions<'doughnut'> = { };
+  public doughnutChartLegend = true;
+  
+  constructor(private appVariablesService: AppVariablesService) {
+    this.appVariablesService.variablesReload.subscribe(() => {
+      this.appVariables = this.appVariablesService.getAppVariables();
+      this.setChartOptions();
+      this.renderDoughnutChart();
+    });
+  }
+  
+  setChartOptions() {
+    Chart.defaults.font.family = this.appVariables.font.bodyFontFamily;
+    Chart.defaults.font.size = 12;
+    Chart.defaults.color = this.appVariables.color.bodyColor;
+    Chart.defaults.borderColor = this.appVariables.color.borderColor;
+    Chart.defaults.plugins.legend.display = false;
+    Chart.defaults.plugins.tooltip.padding = { left: 8, right: 12, top: 8, bottom: 8 };
+    Chart.defaults.plugins.tooltip.cornerRadius = 8;
+    Chart.defaults.plugins.tooltip.titleMarginBottom = 6;
+    Chart.defaults.plugins.tooltip.displayColors = true;
+    Chart.defaults.plugins.tooltip.boxPadding = 6;
+  }
+  
+  renderDoughnutChart() {
+    this.doughnutChartData = {
+      labels: ['Total Visitor', 'New Visitor', 'Returning Visitor'],
+      datasets: [{
+        data: [300, 50, 100],
+        backgroundColor: ['rgba('+ this.appVariables.color.themeRgb +', .75)', 'rgba('+ this.appVariables.color.themeRgb +', .25)', 'rgba('+ this.appVariables.color.themeRgb +', .5)'],
+        hoverBackgroundColor: [this.appVariables.color.theme, this.appVariables.color.theme, this.appVariables.color.theme],
+        borderWidth: 0
+      }]
+    };
+    this.doughnutChartOptions = {
+      color: this.appVariables.color.bodyColor,
+      scales: { }
+    }
+  }
+  
+  ngOnInit() {
+    this.setChartOptions();
+    this.renderDoughnutChart();
+  }
+}
+
+
+<!-- html -->
+<canvas baseChart [type]="'doughnut'" [data]="doughnutChartData" [options]="doughnutChartOptions" [legend]="doughnutChartLegend"></canvas>

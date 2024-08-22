@@ -1,0 +1,14 @@
+<!-- required files -->
+<script src="/assets/plugins/ionicons/dist/ionicons/ionicons.js"></script>
+
+<!-- outline -->
+<ion-icon name="analytics-outline"></ion-icon>
+
+<!-- filled -->
+<ion-icon name="analytics"></ion-icon>
+
+<!-- sharp -->
+<ion-icon name="analytics-sharp"></ion-icon>
+
+<!-- logo -->
+<ion-icon name="logo-youtube"></ion-icon>

@@ -1,0 +1,24 @@
+<table class="table align-middle">
+  <tbody>
+    <tr>
+      <!-- with input -->
+      <td>
+        <input type="text" class="form-control my-n1" />
+      </td>
+    </tr>
+    
+    <tr>
+      <!-- with input-group -->
+      <td>
+        <div class="input-group my-n1"></div>
+      </td>
+    </tr>
+    
+    <tr>
+      <!-- with btn-group -->
+      <td>
+        <div class="btn-group my-n1"></div>
+      </td>
+    </tr>
+  </tbody>
+</table>

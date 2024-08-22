@@ -1,0 +1,18 @@
+<!-- page.ts -->
+pieChartData;
+chartColor;
+
+ngOnInit() {
+  this.pieChartData = [{"name":"Germany","value":8940000},{"name":"USA","value":5000000},{"name":"France","value":7200000}];
+  this.chartColor = { domain: [this.appVariables.color.blue, this.appVariables.color.success, this.appVariables.color.purple, this.appVariables.color.componentColor] };
+}
+
+<!-- page.html -->
+<ngx-charts-pie-chart
+  [scheme]="chartColor"
+  [results]="pieChartData"
+  [legend]="false"
+  [explodeSlices]="false"
+  [labels]="true"
+  [doughnut]="false">
+</ngx-charts-pie-chart>

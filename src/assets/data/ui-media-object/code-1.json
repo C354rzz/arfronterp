@@ -1,0 +1,11 @@
+<div class="d-flex">
+  <a class="w-60px" href="javascript:;">
+    <img src="/assets/img/user/user-1.jpg" alt="" class="mw-100 rounded" />
+  </a>
+  <div class="ps-3 flex-1">
+    <h5 class="mb-1">...</h5>
+    <p class="mb-0">...</p>
+  </div>
+</div>
+
+<hr class="bg-gray-500" />

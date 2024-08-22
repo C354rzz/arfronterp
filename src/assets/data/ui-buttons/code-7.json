@@ -1,0 +1,11 @@
+<!-- button group vertical -->
+<div class="btn-group-vertical">
+  <button class="btn btn-purple">Button</button>
+  <button class="btn btn-purple active">Button</button>
+  <button class="btn btn-purple">Button</button>
+</div>
+
+<!-- button group justified -->
+<div class="btn-group w-100">
+  ...
+</div>

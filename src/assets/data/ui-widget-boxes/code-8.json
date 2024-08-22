@@ -1,0 +1,5 @@
+<panel title="Panel with Scrollbar">
+  <ng-scrollbar style="height: 280px">
+    ...
+  </ng-scrollbar>
+</panel>

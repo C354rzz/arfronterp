@@ -1,0 +1,4 @@
+<a href="#" class="btn btn-primary btn-lg">Large Button</a>
+<a href="#" class="btn btn-primary">Default Button</a>
+<a href="#" class="btn btn-primary btn-sm">Small Button</a>
+<a href="#" class="btn btn-primary btn-xs">Extra Small</a>

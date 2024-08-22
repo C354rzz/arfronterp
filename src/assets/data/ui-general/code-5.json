@@ -1,0 +1,20 @@
+<!-- pagination -->
+<div class="pagination">
+  <div class="page-item disabled"><a href="#" class="page-link">«</a></div>
+  <div class="page-item active"><a href="#" class="page-link">1</a></div>
+  <div class="page-item"><a href="#" class="page-link">2</a></div>
+  <div class="page-item"><a href="#" class="page-link">3</a></div>
+  <div class="page-item"><a href="#" class="page-link">4</a></div>
+  <div class="page-item"><a href="#" class="page-link">5</a></div>
+  <div class="page-item"><a href="#" class="page-link">»</a></div>
+</div>
+
+<!-- pagination rounded -->
+<div class="pagination">
+  <div class="page-item me-auto">
+    <a href="#" class="page-link rounded-pill px-3">Previous</a>
+  </div>
+  <div class="page-item">
+    <a href="#" class="page-link rounded-pill px-3">Next</a>
+  </div>
+</div>

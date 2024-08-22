@@ -1,0 +1,40 @@
+<!-- begin widget-map -->
+<div class="widget-map rounded">
+  <!-- begin widget-input-container -->
+  <div class="widget-input-container">
+    <div class="widget-input-icon"><a href="#" class="text-body"><i class="fa fa-ellipsis-v"></i></a></div>
+    <div class="widget-input-box">
+      <input type="text" class="form-control" placeholder="Search here">
+    </div>
+    <div class="widget-input-icon"><a href="#" class="text-body"><i class="fa fa-microphone"></i></a></div>
+    <div class="widget-input-divider"></div>
+    <div class="widget-input-icon"><a href="#"><i class="fa fa-location-arrow"></i></a></div>
+  </div>
+  <!-- end widget-input-container -->
+  <!-- begin widget-map-body -->
+  <div class="widget-map-body">
+    <iframe src="-- googlemap embed url here --" width="100%" height="230" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  <!-- end widget-map-body -->
+  <!-- begin widget-map-list -->
+  <div class="widget-map-list">
+    <div class="widget-list bg-none mb-4">
+      <!-- begin widget-list-item -->
+      <div class="widget-list-item">
+        <div class="widget-list-media text-center">
+          <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
+        </div>
+        <div class="widget-list-content">
+          <h4 class="widget-list-title">Twitter Headquater</h4>
+          <p class="widget-list-desc">Corporate Office</p>
+        </div>
+        <div class="widget-list-action">
+          <a href="#" data-bs-toggle="dropdown" class="text-body text-opacity-50"><i class="fa fa-angle-right fa-2x"></i></a>
+        </div>
+      </div>
+      <!-- end widget-list-item -->
+    </div>
+  </div>
+  <!-- end widget-map-list -->
+</div>
+<!-- begin widget-map -->

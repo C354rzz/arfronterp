@@ -1,0 +1,19 @@
+<!-- begin widget-list -->
+<div class="widget-list rounded">
+  <!-- begin widget-list-item -->
+  <a href="#" class="widget-list-item">
+    <div class="widget-list-media icon">
+      <i class="fa fa-link bg-yellow text-dark"></i>
+    </div>
+    <div class="widget-list-content">
+      <h4 class="widget-list-title">Personal Hotspot</h4>
+    </div>
+    <div class="widget-list-action text-nowrap text-body text-opacity-50 fw-bold text-decoration-none">
+      Off
+      <i class="fa fa-angle-right text-body text-opacity-30 fa-lg"></i>
+    </div>
+  </a>
+  <!-- end widget-list-item -->
+  ...
+</div>
+<!-- end widget-list -->

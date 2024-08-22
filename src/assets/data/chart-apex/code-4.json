@@ -1,0 +1,113 @@
+<!-- main.ts -->
+import { Component } from '@angular/core';
+import { AppVariablesService } from '../../../service/app-variables.service';
+
+@Component({
+  selector: 'chart-apex',
+  templateUrl: './chart-apex.html'
+})
+
+export class ChartApexPage {
+  appVariables = this.appVariablesService.getAppVariables();
+  
+  chartOptions: any;
+
+  constructor(private appVariablesService: AppVariablesService) {
+    this.appVariablesService.variablesReload.subscribe(() => {
+      this.appVariables = this.appVariablesService.getAppVariables();
+      this.chartOptions = this.getChartOptions();
+    });
+  }
+  
+  getChartOptions() {
+    return {
+      chart: {
+        height: 350,
+        type: 'bar',
+      },
+      plotOptions: {
+        bar: {
+          horizontal: true,
+          dataLabels: { position: 'top' }
+        }  
+      },
+      dataLabels: {
+        enabled: true,
+        offsetX: -6,
+        style: {
+          fontSize: '12px',
+          colors: [this.appVariables.color.white]
+        }
+      },
+      colors: [this.appVariables.color.warning, this.appVariables.color.gray500],
+      stroke: { show: false },
+      legend: {
+        fontFamily: this.appVariables.font.bodyFontFamily,
+        labels: { colors: this.appVariables.color.bodyColor }
+      },
+      series: [
+        { data: [44, 55, 41, 64, 22, 43, 21] },
+        { data: [53, 32, 33, 52, 13, 44, 32] }
+      ],
+      xaxis: {
+        categories: [2013, 2014, 2015, 2016, 2017, 2018, 2019],
+        axisBorder: {
+          show: true,
+          color: this.appVariables.color.borderColor,
+          height: 1,
+          width: '100%',
+          offsetX: 0,
+          offsetY: -1
+        },
+        axisTicks: {
+          show: true,
+          borderType: 'solid',
+          color: this.appVariables.color.borderColor,
+          height: 6,
+          offsetX: 0,
+          offsetY: 0
+        },
+        labels: {
+          style: {
+            colors: this.appVariables.color.bodyColor,
+            fontSize: '12px',
+            fontFamily: this.appVariables.font.bodyFontFamily,
+            fontWeight: this.appVariables.font.bodyFontWeight,
+            cssClass: 'apexcharts-xaxis-label',
+          }
+        }
+      },
+      yaxis: {
+        labels: {
+          style: {
+            colors: this.appVariables.color.bodyColor,
+            fontSize: '12px',
+            fontFamily: this.appVariables.font.bodyFontFamily,
+            fontWeight: this.appVariables.font.bodyFontWeight,
+            cssClass: 'apexcharts-xaxis-label',
+          }
+        }
+      },
+      grid: { borderColor: this.appVariables.color.borderColor }
+    };
+  }
+  
+  ngOnInit() {
+    this.chartOptions = this.getChartOptions();
+  }
+}
+
+
+<!-- html -->
+<apx-chart
+	[series]="chart4Options.series"
+	[chart]="chart4Options.chart"
+	[colors]="chart4Options.colors"
+	[legend]="chart4Options.legend"
+	[xaxis]="chart4Options.xaxis"
+	[yaxis]="chart4Options.yaxis"
+	[dataLabels]="chart4Options.dataLabels"
+	[grid]="chart4Options.grid"
+	[stroke]="chart4Options.stroke"
+	[plotOptions]="chart4Options.plotOptions"
+></apx-chart>

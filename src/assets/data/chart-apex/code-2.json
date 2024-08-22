@@ -1,0 +1,141 @@
+<!-- main.ts -->
+import { Component } from '@angular/core';
+import { AppVariablesService } from '../../../service/app-variables.service';
+
+@Component({
+  selector: 'chart-apex',
+  templateUrl: './chart-apex.html'
+})
+
+export class ChartApexPage {
+  appVariables = this.appVariablesService.getAppVariables();
+  
+  chartOptions: any;
+
+  constructor(private appVariablesService: AppVariablesService) {
+    this.appVariablesService.variablesReload.subscribe(() => {
+      this.appVariables = this.appVariablesService.getAppVariables();
+      this.chartOptions = this.getChartOptions();
+    });
+  }
+  
+  getChartOptions() {
+    return {
+      series: [
+        { name: 'Net Profit', data: [44, 55, 57, 56, 61, 58, 63, 60, 66] }, 
+        { name: 'Revenue', data: [76, 85, 101, 98, 87, 105, 91, 114, 94] }, 
+        { name: 'Free Cash Flow', data: [35, 41, 36, 26, 45, 48, 52, 53, 41] }
+      ],
+      title: {
+        text: 'Profit & Margin Chart',
+        align: 'center',
+        style: {
+          fontSize: '14px',
+          fontWeight: '600',
+          fontFamily: this.appVariables.font.bodyFontFamily,
+          color: this.appVariables.color.bodyColor
+        }
+      },
+      chart: {
+        height: 350,
+        type: 'bar'
+      },
+      plotOptions: {
+        bar: {
+          horizontal: false,
+          columnWidth: '55%',
+          endingShape: 'rounded'  
+        },
+      },
+      legend: {
+        fontFamily: this.appVariables.font.bodyFontFamily,
+        labels: { colors: this.appVariables.color.bodyColor }
+      },
+      tooltip: {
+        style: {
+          fontSize: '12px',
+          fontFamily: this.appVariables.font.bodyFontFamily
+        }
+      },
+      grid: { borderColor: this.appVariables.color.borderColor },
+      dataLabels: { enabled: false },
+      stroke: {
+        show: true,
+        width: 2,
+        colors: ['transparent']
+      },
+      colors: [this.appVariables.color.theme, this.appVariables.color.indigo, this.appVariables.color.inverse],
+      xaxis: {
+        categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+        axisBorder: {
+          show: true,
+          color: this.appVariables.color.borderColor,
+          height: 1,
+          width: '100%',
+          offsetX: 0,
+          offsetY: -1
+        },
+        axisTicks: {
+          show: true,
+          borderType: 'solid',
+          color: this.appVariables.color.borderColor,
+          height: 6,
+          offsetX: 0,
+          offsetY: 0
+        },
+        labels: {
+          style: {
+            colors: this.appVariables.color.bodyColor,
+            fontSize: '12px',
+            fontFamily: this.appVariables.font.bodyFontFamily,
+            fontWeight: this.appVariables.font.bodyFontWeight,
+            cssClass: 'apexcharts-xaxis-label',
+          }
+        }
+      },
+      yaxis: {
+        title: {
+          text: '$ (thousands)',
+          style: {
+            color: 'rgba('+ this.appVariables.color.bodyColorRgb + ', .5)',
+            fontSize: '12px',
+            fontFamily: this.appVariables.font.bodyFontFamily,
+            fontWeight: this.appVariables.font.bodyFontWeight
+          }
+        },
+        labels: {
+          style: {
+            colors: this.appVariables.color.bodyColor,
+            fontSize: '12px',
+            fontFamily: this.appVariables.font.bodyFontFamily,
+            fontWeight: this.appVariables.font.bodyFontWeight,
+            cssClass: 'apexcharts-xaxis-label',
+          }
+        }
+      },
+      fill: { opacity: 1 }
+    };
+  }
+  
+  ngOnInit() {
+    this.chartOptions = this.getChartOptions();
+  }
+}
+
+
+<!-- html -->
+<apx-chart
+	[series]="chart2Options.series"
+	[chart]="chart2Options.chart"
+	[colors]="chart2Options.colors"
+	[legend]="chart2Options.legend"
+	[xaxis]="chart2Options.xaxis"
+	[yaxis]="chart2Options.yaxis"
+	[dataLabels]="chart2Options.dataLabels"
+	[grid]="chart2Options.grid"
+	[stroke]="chart2Options.stroke"
+	[title]="chart2Options.title"
+	[plotOptions]="chart2Options.plotOptions"
+	[fill]="chart2Options.fill"
+	[tooltip]="chart2Options.tooltip"
+></apx-chart>

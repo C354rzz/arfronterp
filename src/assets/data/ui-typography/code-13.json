@@ -1,0 +1,9 @@
+<dl>
+  <dt class="text-body">Description Title</dt>
+  <dd>A description list...</dd>
+  <dt class="text-body mt-10px">Description Title</dt>
+  <dd>A description list....</dd>
+  <dd>A description list...</dd>
+  <dt class="text-body mt-10px">Description Title</dt>
+  <dd>A description list...</dd>
+</dl>

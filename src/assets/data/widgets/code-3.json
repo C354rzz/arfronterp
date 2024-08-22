@@ -1,0 +1,52 @@
+<!-- begin widget-chat -->
+<div class="widget-chat rounded">
+  <!-- begin widget-chat-header -->
+  <div class="widget-chat-header">
+    <div class="widget-chat-header-icon">
+      <i class="fab fa-earlybirds w-30px h-30px fs-20px bg-yellow text-gray-900 text-center rounded-pill" style="line-height: 30px"></i>
+    </div>
+    <div class="widget-chat-header-content">
+      <h4 class="widget-chat-header-title">Company Discussion Group</h4>
+      <p class="widget-chat-header-desc">55 members, 4 online</p>
+    </div>
+  </div>
+  <!-- end widget-chat-header -->
+  
+  <!-- begin widget-chat-body -->
+  <div class="widget-chat-body" data-scrollbar="true" data-height="235px">
+    <div class="text-center text-gray-500 m-3 fw-bold">Today</div>
+    <div class="widget-chat-item with-media start">
+      <div class="widget-chat-media">
+        <img alt="" src="/assets/img/user/user-1.jpg" />
+      </div>
+      <div class="widget-chat-info">
+        <div class="widget-chat-info-container">
+          <div class="widget-chat-name text-indigo">Hudson Mendes</div>
+          <div class="widget-chat-message">Should we plan for a company trip this year?</div>
+          <div class="widget-chat-time">6:00PM</div>
+        </div>
+      </div>
+    </div>
+    <div class="widget-chat-item end">
+      ...
+    </div>
+  </div>
+  <!-- end widget-chat-body -->
+  
+  <!-- begin widget-input -->
+  <div class="widget-input">
+    <form action="" method="POST" name="">
+      <div class="widget-input-container">
+        <div class="widget-input-icon"><a href="#" class="text-body text-opacity-50"><i class="fa fa-camera"></i></a></div>
+        <div class="widget-input-box">
+          <input type="text" class="form-control" placeholder="Write a message..." />
+        </div>
+        <div class="widget-input-icon"><a href="#" class="text-body text-opacity-50"><i class="fa fa-smile"></i></a></div>
+        <div class="widget-input-divider"></div>
+        <div class="widget-input-icon"><a href="#" class="text-body text-opacity-50"><i class="fa fa-microphone"></i></a></div>
+      </div>
+    </form>
+  </div>
+  <!-- end widget-input -->
+</div>
+<!-- end widget-chat -->

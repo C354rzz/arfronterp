@@ -1,0 +1,14 @@
+<!-- required files -->
+<link href="/assets/plugins/intro.js/minified/introjs.min.css" rel="stylesheet" />
+<script src="/assets/plugins/intro.js/minified/intro.min.js"></script>
+
+<!-- html -->
+<a class="btn btn-lg btn-primary" href="#" onclick="javascript:introJs().start();">Demo</a>
+
+<h1 class="display-4" data-step="1" 
+  data-intro="Hello world! I'm Intro.js" 
+  data-hint="Hello world! I'm Intro.js" 
+  data-hintPosition="top-middle" 
+  data-position="bottom-right-aligned">
+  Intro.js
+</h1>

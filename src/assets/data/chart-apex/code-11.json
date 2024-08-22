@@ -1,0 +1,78 @@
+<!-- main.ts -->
+import { Component } from '@angular/core';
+import { AppVariablesService } from '../../../service/app-variables.service';
+
+@Component({
+  selector: 'chart-apex',
+  templateUrl: './chart-apex.html'
+})
+
+export class ChartApexPage {
+  appVariables = this.appVariablesService.getAppVariables();
+  
+  chartOptions: any;
+
+  constructor(private appVariablesService: AppVariablesService) {
+    this.appVariablesService.variablesReload.subscribe(() => {
+      this.appVariables = this.appVariablesService.getAppVariables();
+      this.chartOptions = this.getChartOptions();
+    });
+  }
+  
+  getChartOptions() {
+    return {
+      chart: {
+        height: 350,
+        type: 'radialBar'
+      },
+      plotOptions: {
+        radialBar: {
+          offsetY: 0,
+          startAngle: 0,
+          endAngle: 270,
+          hollow: {
+            margin: 5,
+            size: '30%',
+            background: 'transparent',
+            image: undefined,
+          },
+          track: { background: this.appVariables.color.borderColor },
+          dataLabels: {
+            name: { show: false },
+            value: { show: false }
+          }
+        }
+      },
+      colors: [this.appVariables.color.cyan, this.appVariables.color.theme, this.appVariables.color.indigo, this.appVariables.color.gray300],
+      series: [76, 67, 61, 90],
+      labels: ['Vimeo', 'Messenger', 'Facebook', 'LinkedIn'],
+      legend: {
+        show: true,
+        floating: true,
+        position: 'left',
+        labels: { 
+          useSeriesColors: true,
+          colors: this.appVariables.color.bodyColor
+        },
+        markers: { size: 0 },
+        itemMargin: { horizontal: 1 },
+        fontFamily: this.appVariables.font.bodyFontFamily
+      }
+    };
+  }
+  
+  ngOnInit() {
+    this.chartOptions = this.getChartOptions();
+  }
+}
+
+
+<!-- html -->
+<apx-chart
+  [chart]="chart11Options.chart"
+  [plotOptions]="chart11Options.plotOptions"
+  [colors]="chart11Options.colors"
+  [series]="chart11Options.series"
+  [labels]="chart11Options.labels"
+  [legend]="chart11Options.legend"
+></apx-chart>

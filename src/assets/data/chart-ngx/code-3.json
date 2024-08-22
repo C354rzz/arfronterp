@@ -1,0 +1,21 @@
+<!-- page.ts -->
+barChartData;
+chartColor;
+
+ngOnInit() {
+  this.barChartData = [{name:"Germany",value:40632},{name:"United States",value:49737},{name:"France",value:36745},{name:"United Kingdom",value:36240},{name:"Spain",value:33e3},{name:"Italy",value:35800}];
+  this.chartColor = { domain: [this.appVariables.color.blue, this.appVariables.color.success, this.appVariables.color.purple, this.appVariables.color.componentColor] };
+}
+
+<!-- page.html -->
+<ngx-charts-bar-vertical
+  [scheme]="chartColor"
+  [results]="barChartData"
+  [xAxis]="true"
+  [yAxis]="true"
+  [legend]="true"
+  [showXAxisLabel]="true"
+  [xAxisLabel]="'Census Date'"
+  [showYAxisLabel]="true"
+  [yAxisLabel]="'GDP Per Capita'">
+</ngx-charts-bar-vertical>

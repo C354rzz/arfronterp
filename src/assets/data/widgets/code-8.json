@@ -1,0 +1,14 @@
+<!-- begin widget-card-square -->
+<a href="#" class="widget-card rounded square mb-5px">
+  <div class="widget-card-cover rounded" style="background-image: url(/assets/img/login-bg/login-bg-10.jpg)">
+    <div class="d-flex h-100 align-items-center justify-content-center">
+      <div class="text-center">
+        <div class="text-white fs-14px"><b>PORTRAITS OF</b></div>
+        <div class="text-white text-opacity-75 fw-bold">2023</div>
+      </div>
+    </div>
+  </div>
+</a>
+<div class="fs-12px fw-bold text-body pt-2px">Memory 2023</div>
+<div class="fs-10px fw-bold text-body text-opacity-50 mb-15px">1,239</div>
+<!-- end widget-card-square -->

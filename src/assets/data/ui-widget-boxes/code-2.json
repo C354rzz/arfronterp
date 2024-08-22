@@ -1,0 +1,13 @@
+<panel>
+  <ng-container header>
+    <h4 class="panel-title">Panel Header with Dropdown</h4>
+    <div class="btn-group my-n1">
+      <button type="button" class="btn btn-success btn-xs">Action</button>
+      <button type="button" class="btn btn-success btn-xs dropdown-toggle" data-bs-toggle="dropdown"><b class="caret"></b></button>
+      <div class="dropdown-menu dropdown-menu-end">
+        ...
+      </div>
+    </div>
+  </ng-container>
+  ...
+</panel>

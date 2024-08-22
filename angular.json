@@ -4,15 +4,23 @@
   "newProjectRoot": "projects",
   "projects": {
     "arfronterp": {
+      "root": "",
+      "sourceRoot": "src",
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "scss"
+          "prefix": "app",
+          "style": "scss",
+          "skipTests": false,
+          "inlineStyle": false
+        },
+        "@schematics/angular:directive": {
+          "prefix": "app"
+        },
+        "@schematics/angular:service": {
+          "skipTests": false
         }
       },
-      "root": "",
-      "sourceRoot": "src",
-      "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",

@@ -1,0 +1,32 @@
+<!-- begin widget-icon -->
+<div class="widget-icon rounded bg-success text-white">
+  <i class="fab fa-android"></i>
+</div>
+<!-- end widget-icon -->
+
+<!-- begin user widget-icon -->
+<div class="widget-icon rounded bg-gray-500 text-white user">
+  <i class="fa fa-user"></i>
+</div>
+<!-- end user widget-icon -->
+
+<!-- begin widget-icon-sizes -->
+<div class="widget-icon widget-icon-xl"></div>
+<div class="widget-icon widget-icon-lg"></div>
+<div class="widget-icon"></div>
+<div class="widget-icon widget-icon-sm"></div>
+<div class="widget-icon widget-icon-xs"></div>
+<!-- end widget-icon-sizes -->
+
+<!-- begin widget-img -->
+<div class="widget-img rounded bg-dark" style="background-image: url(/assets/img/gallery/gallery-11-thumb.jpg)">
+</div>
+<!-- end widget-img -->
+
+<!-- begin widget-img-sizes -->
+<div class="widget-img widget-img-xl"></div>
+<div class="widget-img widget-img-lg"></div>
+<div class="widget-img"></div>
+<div class="widget-img widget-img-sm"></div>
+<div class="widget-img widget-img-xs"></div>
+<!-- end widget-img-sizes -->

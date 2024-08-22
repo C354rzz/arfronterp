@@ -1,0 +1,113 @@
+<!-- main.ts -->
+import { Component } from '@angular/core';
+import { AppVariablesService } from '../../../service/app-variables.service';
+
+@Component({
+  selector: 'chart-apex',
+  templateUrl: './chart-apex.html'
+})
+
+export class ChartApexPage {
+  appVariables = this.appVariablesService.getAppVariables();
+  
+  chartOptions: any;
+
+  constructor(private appVariablesService: AppVariablesService) {
+    this.appVariablesService.variablesReload.subscribe(() => {
+      this.appVariables = this.appVariablesService.getAppVariables();
+      this.chartOptions = this.getChartOptions();
+    });
+  }
+  
+  getChartOptions() {
+    return {
+      chart: {
+        height: 365,
+        type: 'pie',
+      },
+      dataLabels: {
+        dropShadow: {
+          enabled: false,
+          top: 1,
+          left: 1,
+          blur: 1,
+          opacity: 1
+        }
+      },
+      stroke: { show: false },
+      colors: [ 'rgba('+ this.appVariables.color.pinkRgb +', .75)',  'rgba('+ this.appVariables.color.warningRgb +', .75)',  'rgba('+this.appVariables.color.themeRgb +', .75)', 'rgba('+ this.appVariables.color.bodyColorRgb + ', .5)',  'rgba('+this.appVariables.color.indigoRgb +', .75)'],
+      labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E'],
+      series: [44, 55, 13, 43, 22],
+      title: { 
+        text: 'HeatMap Chart (Single color)',
+        style: {
+          fontSize: '14px',
+          fontWeight: '600',
+          fontFamily: this.appVariables.font.bodyFontFamily,
+          color: this.appVariables.color.bodyColor
+        }
+      },
+      xaxis: {
+        axisBorder: {
+          show: true,
+          color: this.appVariables.color.borderColor,
+          height: 1,
+          width: '100%',
+          offsetX: 0,
+          offsetY: -1
+        },
+        axisTicks: {
+          show: true,
+          borderType: 'solid',
+          color: this.appVariables.color.borderColor,
+          height: 6,
+          offsetX: 0,
+          offsetY: 0
+        },
+        labels: {
+          style: {
+            colors: this.appVariables.color.bodyColor,
+            fontSize: '12px',
+            fontFamily: this.appVariables.font.bodyFontFamily,
+            fontWeight: this.appVariables.font.bodyFontWeight,
+            cssClass: 'apexcharts-xaxis-label',
+          }
+        }
+      },
+      yaxis: {
+        labels: {
+          style: {
+            colors: this.appVariables.color.bodyColor,
+            fontSize: '12px',
+            fontFamily: this.appVariables.font.bodyFontFamily,
+            fontWeight: this.appVariables.font.bodyFontWeight,
+            cssClass: 'apexcharts-xaxis-label',
+          }
+        }
+      },
+      legend: {
+        fontFamily: this.appVariables.font.bodyFontFamily,
+        labels: { colors: this.appVariables.color.bodyColor }
+      }
+    };
+  }
+  
+  ngOnInit() {
+    this.chartOptions = this.getChartOptions();
+  }
+}
+
+
+<!-- html -->
+<apx-chart
+  [chart]="chart10Options.chart"
+  [dataLabels]="chart10Options.dataLabels"
+  [stroke]="chart10Options.stroke"
+  [colors]="chart10Options.colors"
+  [labels]="chart10Options.labels"
+  [series]="chart10Options.series"
+  [title]="chart10Options.title"
+  [xaxis]="chart10Options.xaxis"
+  [yaxis]="chart10Options.yaxis"
+  [legend]="chart10Options.legend"
+></apx-chart>

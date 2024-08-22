@@ -10,7 +10,13 @@ export class AppMenuService {
 			'icon': 'fa fa-sitemap',
 			'title': 'Home',
 			'url': '/'
-		},{
+		},
+		{
+			'icon': 'fa fa-users',
+			'title': 'Clientes',
+			'url': '/clientes'
+		},
+		{
 			'icon': 'fa fa-align-left',
 			'title': 'Menu Level',
 			'url': '/menu',

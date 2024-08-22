@@ -1,0 +1,16 @@
+<!-- default -->
+<div class="note alert-primary">
+  <div class="note-icon"><i class="fab fa-facebook-f"></i></div>
+  <div class="note-content">
+    <h4><b>Note with icon!</b></h4>
+    <p> ... </p>
+  </div>
+</div>
+
+<!-- with end icon -->
+<div class="note alert-warning note-with-end-icon">
+  <div class="note-icon">...</div>
+  <div class="note-content text-end">
+    ...
+  </div>
+</div>

@@ -1,0 +1,70 @@
+<!-- main.ts -->
+import { Component } from '@angular/core';
+import { Chart, ChartConfiguration, ChartOptions, ChartType } from 'chart.js';
+import { AppVariablesService } from '../../../service/app-variables.service';
+
+@Component({
+  selector: 'chart-js',
+  templateUrl: './chart-js.html'
+})
+
+export class ChartJsPage {
+  appVariables = this.appVariablesService.getAppVariables();
+  
+  public polarAreaChartData: ChartConfiguration<'polarArea'>['data'] = { labels: [], datasets: [] };
+  public polarAreaChartOptions: ChartOptions<'polarArea'> = { };
+  public polarAreaChartLegend = true;
+  
+  public pieChartData: ChartConfiguration<'pie'>['data'] = { labels: [], datasets: [] };
+  public pieChartOptions: ChartOptions<'pie'> = { };
+  public pieChartLegend = true;
+  
+  public doughnutChartData: ChartConfiguration<'doughnut'>['data'] = { labels: [], datasets: [] };
+  public doughnutChartOptions: ChartOptions<'doughnut'> = { };
+  public doughnutChartLegend = true;
+  
+  constructor(private appVariablesService: AppVariablesService) {
+    this.appVariablesService.variablesReload.subscribe(() => {
+      this.appVariables = this.appVariablesService.getAppVariables();
+      this.setChartOptions();
+      this.renderPolarAreaChart();
+    });
+  }
+  
+  setChartOptions() {
+    Chart.defaults.font.family = this.appVariables.font.bodyFontFamily;
+    Chart.defaults.font.size = 12;
+    Chart.defaults.color = this.appVariables.color.bodyColor;
+    Chart.defaults.borderColor = this.appVariables.color.borderColor;
+    Chart.defaults.plugins.legend.display = false;
+    Chart.defaults.plugins.tooltip.padding = { left: 8, right: 12, top: 8, bottom: 8 };
+    Chart.defaults.plugins.tooltip.cornerRadius = 8;
+    Chart.defaults.plugins.tooltip.titleMarginBottom = 6;
+    Chart.defaults.plugins.tooltip.displayColors = true;
+    Chart.defaults.plugins.tooltip.boxPadding = 6;
+  }
+  
+  renderPolarAreaChart() {
+    this.polarAreaChartData = {
+      labels: ['IE', 'Safari', 'Chrome', 'Firefox', 'Opera'],
+      datasets: [{
+        data: [11, 16, 7, 3, 14],
+        backgroundColor: ['rgba('+ this.appVariables.color.themeRgb +', .5)', 'rgba('+ this.appVariables.color.secondaryRgb +', .5)', 'rgba('+ this.appVariables.color.themeRgb +', .25)', 'rgba('+ this.appVariables.color.themeRgb +', .75)', 'rgba('+ this.appVariables.color.secondaryRgb +', .75)'],
+        borderWidth: 0
+      }]
+    };
+    this.polarAreaChartOptions = {
+      color: this.appVariables.color.bodyColor,
+      scales: { }
+    }
+  }
+  
+  ngOnInit() {
+    this.setChartOptions();
+    this.renderPolarAreaChart();
+  }
+}
+
+
+<!-- html -->
+<canvas baseChart [type]="'polarArea'" [data]="polarAreaChartData" [options]="polarAreaChartOptions" [legend]="polarAreaChartLegend"></canvas>

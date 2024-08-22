@@ -19,9 +19,11 @@ import { ThemePanelComponent }                  from './components/theme-panel/t
 
 //Component Module
 // import { NgScrollbarModule, NG_SCROLLBAR_OPTIONS } from 'ngx-scrollbar';
+import { NgxDatatableModule } from '@swimlane/ngx-datatable'
 
 //Pages
 import { HomePage } from './pages/home/home';
+import { ClientesComponent } from './pages/clientes/clientes.component';
 
 @NgModule({
   declarations: [
@@ -33,8 +35,8 @@ import { HomePage } from './pages/home/home';
     PanelComponent,
     FloatSubMenuComponent,
     ThemePanelComponent,
-
     HomePage,
+    ClientesComponent,
   ],
   imports: [
     AppRoutingModule,
@@ -43,6 +45,13 @@ import { HomePage } from './pages/home/home';
     HttpClientModule,
     ReactiveFormsModule,
     FormsModule,
+    NgxDatatableModule.forRoot({
+      messages: {
+        emptyMessage: 'No data to display', // Message to show when array is presented, but contains no values
+        totalMessage: 'total', // Footer total message
+        selectedMessage: 'selected' // Footer selected message
+      }
+    })
   ],
   providers: [Title],
   bootstrap: [AppComponent]

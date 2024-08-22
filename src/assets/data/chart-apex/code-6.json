@@ -1,0 +1,113 @@
+<!-- main.ts -->
+import { Component } from '@angular/core';
+import { AppVariablesService } from '../../../service/app-variables.service';
+
+@Component({
+  selector: 'chart-apex',
+  templateUrl: './chart-apex.html'
+})
+
+export class ChartApexPage {
+  appVariables = this.appVariablesService.getAppVariables();
+  
+  chartOptions: any;
+
+  constructor(private appVariablesService: AppVariablesService) {
+    this.appVariablesService.variablesReload.subscribe(() => {
+      this.appVariables = this.appVariablesService.getAppVariables();
+      this.chartOptions = this.getChartOptions();
+    });
+  }
+  
+  getChartOptions() {
+    return {
+      chart: {
+        height: 350,
+        type: 'candlestick'
+      },
+      series: [{
+        data: [
+          { x: new Date(1538778600000), y: [6629.81, 6650.5, 6623.04, 6633.33] },
+          { x: new Date(1538780400000), y: [6632.01, 6643.59, 6620, 6630.11] },
+          { x: new Date(1538782200000), y: [6630.71, 6648.95, 6623.34, 6635.65] },
+        ]
+      }],
+      title: {
+        text: 'CandleStick Chart',
+        align: 'left',
+        style: {
+          fontSize: '14px',
+          fontWeight: '600',
+          fontFamily: this.appVariables.font.bodyFontFamily,
+          color: this.appVariables.color.bodyColor
+        }
+      },
+      xaxis: {
+        type: 'datetime',
+        axisBorder: {
+          show: true,
+          color: this.appVariables.color.borderColor,
+          height: 1,
+          width: '100%',
+          offsetX: 0,
+          offsetY: -1
+        },
+        axisTicks: {
+          show: true,
+          borderType: 'solid',
+          color: this.appVariables.color.borderColor,
+          height: 6,
+          offsetX: 0,
+          offsetY: 0
+        },
+        labels: {
+          style: {
+            colors: this.appVariables.color.bodyColor,
+            fontSize: '12px',
+            fontFamily: this.appVariables.font.bodyFontFamily,
+            fontWeight: this.appVariables.font.bodyFontWeight,
+            cssClass: 'apexcharts-xaxis-label',
+          }
+        }
+      },
+      yaxis: { 
+        tooltip: { enabled: true },
+        labels: {
+          style: {
+            colors: this.appVariables.color.bodyColor,
+            fontSize: '12px',
+            fontFamily: this.appVariables.font.bodyFontFamily,
+            fontWeight: this.appVariables.font.bodyFontWeight,
+            cssClass: 'apexcharts-xaxis-label',
+          }
+        }
+      },
+      plotOptions: {
+        candlestick: {
+          colors: {
+            upward: this.appVariables.color.success,
+            downward: this.appVariables.color.danger
+          },
+          wick: { useFillColor: true }
+        }
+      },
+      grid: { borderColor: this.appVariables.color.borderColor },
+    };
+  }
+  
+  ngOnInit() {
+    this.chartOptions = this.getChartOptions();
+  }
+}
+
+
+<!-- html -->
+<apx-chart
+  [chart]="chart6Options.chart"
+  [series]="chart6Options.series"
+  [title]="chart6Options.title"
+  [xaxis]="chart6Options.xaxis"
+  [yaxis]="chart6Options.yaxis"
+  [plotOptions]="chart6Options.plotOptions"
+  [grid]="chart6Options.grid"
+></apx-chart>

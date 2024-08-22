@@ -1,0 +1,112 @@
+<!-- main.ts -->
+import { Component } from '@angular/core';
+import { AppVariablesService } from '../../../service/app-variables.service';
+
+@Component({
+  selector: 'chart-apex',
+  templateUrl: './chart-apex.html'
+})
+
+export class ChartApexPage {
+  appVariables = this.appVariablesService.getAppVariables();
+  
+  chartOptions: any;
+
+  constructor(private appVariablesService: AppVariablesService) {
+    this.appVariablesService.variablesReload.subscribe(() => {
+      this.appVariables = this.appVariablesService.getAppVariables();
+      this.chartOptions = this.getChartOptions();
+    });
+  }
+  
+  generateBubbleChartData(baseval: any, count: any, yrange: any) {
+    var i = 0;
+    var series = [];
+    while (i < count) {
+      var x = Math.floor(Math.random() * (750 - 1 + 1)) + 1;;
+      var y = Math.floor(Math.random() * (yrange.max - yrange.min + 1)) + yrange.min;
+      var z = Math.floor(Math.random() * (75 - 15 + 1)) + 15;
+
+      series.push([x, y, z]);
+      baseval += 86400000;
+      i++;
+    }
+    return series;
+  }
+  
+  getChartOptions() {
+    return {
+      series: [
+        { name: 'Bubble1', data: this.generateBubbleChartData(new Date('11 Feb 2023 GMT').getTime(), 20, { min: 10, max: 60 }) },
+        { name: 'Bubble2', data: this.generateBubbleChartData(new Date('11 Feb 2023 GMT').getTime(), 20, { min: 10, max: 60 }) },
+        { name: 'Bubble3', data: this.generateBubbleChartData(new Date('11 Feb 2023 GMT').getTime(), 20, { min: 10, max: 60 }) },
+        { name: 'Bubble4', data: this.generateBubbleChartData(new Date('11 Feb 2023 GMT').getTime(), 20, { min: 10, max: 60 }) }
+      ],
+      chart: {
+        height: 350,
+        type: 'bubble',
+      },
+      title: { 
+        text: 'Simple Bubble Chart',
+        style: {
+          fontSize: '14px',
+          fontWeight: '600',
+          fontFamily: this.appVariables.font.bodyFontFamily,
+          color: this.appVariables.color.bodyColor
+        }
+      },
+      xaxis: { 
+        tickAmount: 12, 
+        type: 'category',
+        labels: {
+          style: {
+            colors: this.appVariables.color.bodyColor,
+            fontSize: '12px',
+            fontFamily: this.appVariables.font.bodyFontFamily,
+            fontWeight: this.appVariables.font.bodyFontWeight,
+            cssClass: 'apexcharts-xaxis-label',
+          }
+        }
+      },
+      yaxis: { 
+        max: 70,
+        labels: {
+          style: {
+            colors: this.appVariables.color.bodyColor,
+            fontSize: '12px',
+            fontFamily: this.appVariables.font.bodyFontFamily,
+            fontWeight: this.appVariables.font.bodyFontWeight,
+            cssClass: 'apexcharts-xaxis-label',
+          }
+        }
+      },
+      grid: { borderColor: this.appVariables.color.borderColor },
+      dataLabels: { enabled: false },
+      colors: [this.appVariables.color.theme, this.appVariables.color.teal, 'rgba('+ this.appVariables.color.bodyColorRgb + ', .5)', this.appVariables.color.pink],
+      fill: { opacity: 0.8 },
+      legend: {
+        fontFamily: this.appVariables.font.bodyFontFamily,
+        labels: { colors: this.appVariables.color.bodyColor }
+      }
+    };
+  }
+  
+  ngOnInit() {
+    this.chartOptions = this.getChartOptions();
+  }
+}
+
+
+<!-- html -->
+<apx-chart
+  [series]="chart7Options.series"
+  [chart]="chart7Options.chart"
+  [title]="chart7Options.title"
+  [xaxis]="chart7Options.xaxis"
+  [yaxis]="chart7Options.yaxis"
+  [grid]="chart7Options.grid"
+  [dataLabels]="chart7Options.dataLabels"
+  [colors]="chart7Options.colors"
+  [fill]="chart7Options.fill"
+  [legend]="chart7Options.legend"
+></apx-chart>

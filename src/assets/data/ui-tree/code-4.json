@@ -1,0 +1,31 @@
+<!-- required files -->
+<link href="/assets/plugins/jstree/dist/themes/default/style.min.css" rel="stylesheet" />
+<script src="/assets/plugins/jstree/dist/jstree.min.js"></script>
+
+<!-- html -->
+<div id="jstree-ajax"></div>
+
+<script>
+  $("#jstree-ajax").jstree({
+    "plugins": ["dnd", "state", "types"],
+    "core": {
+      "themes": { "responsive": false },
+      "check_callback": true,
+      "data": {
+        "url": function(node) {
+          return node.id === "#" ? "/assets/js/demo/json/data_root.json" : "/assets/js/demo/json/" + node.original.file;
+        },
+        "data": function(node) {
+          return {
+            "id": node.id
+          };
+        },
+        "dataType": "json"
+      }
+    },
+    "types": {
+      "default": { "icon": "fa fa-folder text-warning fa-lg" },
+      "file": { "icon": "fa fa-file text-warning fa-lg" }
+    }
+  });
+</script>

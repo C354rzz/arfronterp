@@ -1,0 +1,4 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+<!-- icon -->
+<i class="bi bi-person"></i>

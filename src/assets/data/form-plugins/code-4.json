@@ -1,0 +1,22 @@
+<!-- page.ts -->
+import Tagify from '@yaireo/tagify';
+
+@Component({
+  selector: 'page',
+  templateUrl: './page.html',
+  encapsulation: ViewEncapsulation.None,
+  styleUrls: [ './page.css' ]
+})
+
+export class YourPage {
+  ngAfterViewInit() {
+    var inputElement = document.querySelector('[data-render="tags"]');
+    new Tagify(inputElement);
+  }
+}
+
+<!-- page.css -->
+@import "~@yaireo/tagify/dist/tagify.css";
+
+<!-- page.html -->
+<input data-render="tags" value='[{"value":"tag1"}, {"value":"tag2"}]' />
