@@ -24,10 +24,16 @@ export class ClientesComponent implements OnInit {
     { name: 'salary' }
   ];
 
+  loadingIndicator = true;
+
   constructor(private clienteService: ClienteService, private http: HttpClient) { 
     this.fetch((data:any) =>{
       this.clientestemp =[...data]
       this.clientes = data;
+      
+      setTimeout(() => {
+        this.loadingIndicator = false;
+      }, 1500);
     })
   }
   
