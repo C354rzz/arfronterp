@@ -1,9 +1,10 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, ViewChild, OnInit} from '@angular/core';
+import { Component, ViewChild, OnInit } from '@angular/core';
 import { TableData } from './data';
 import { ColumnMode, DatatableComponent } from '@swimlane/ngx-datatable';
 import { ClienteService } from 'src/app/service/app-cliente.service';
 import { Cliente } from 'src/app/models/cliente';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-clientes',
@@ -12,23 +13,27 @@ import { Cliente } from 'src/app/models/cliente';
 })
 
 export class ClientesComponent implements OnInit {
+
   clientestemp: Cliente[] = [];
   clientes: any;
   code1: any;
   columns = [
-    { prop: 'name' }, 
-    { name: 'position' }, 
-    { name: 'office' },
-    { name: 'ext' },
-    { name: 'startDate' }, 
-    { name: 'salary' }
+    { prop: 'idCliente' },
+    { prop: 'name' },
+    { name: 'balance' },
+    { name: 'age' },
+    { name: 'tags' },
+    { name: 'company' },
+    { name: 'email' },
+    { name: 'phone' }
+
   ];
-
+  
   loadingIndicator = true;
-
-  constructor(private clienteService: ClienteService, private http: HttpClient) { 
-    this.fetch((data:any) =>{
-      this.clientestemp =[...data]
+  
+  constructor(private clienteService: ClienteService, private http: HttpClient, private router: Router,) {
+    this.fetch((data: any) => {
+      this.clientestemp = [...data]
       this.clientes = data;
       
       setTimeout(() => {
@@ -38,21 +43,25 @@ export class ClientesComponent implements OnInit {
   }
   
   ngOnInit(): void {
-	}	
-  	
-
+  }
+  
+  viewDetailcliente(arg0: any) {
+    this.router.navigate(['/clientes/cientedetalle'+ arg0])
+    console.log(arg0);
+  }
+  
   @ViewChild(DatatableComponent) table!: DatatableComponent;
-
+  
   ColumnMode = ColumnMode;
-
+  
   fetch(cb: any) {
     const req = new XMLHttpRequest();
-    req.open('GET', `assets/data/clientes.json`);
-
+    req.open('GET', `assets/data/clientes01.json`);
+    
     req.onload = () => {
       cb(JSON.parse(req.response));
     };
-
+    
     req.send();
   }
 
@@ -70,4 +79,6 @@ export class ClientesComponent implements OnInit {
     // siempre que el filtro cambie regresa a la pagina 0
     this.table.offset = 0;
   }
+
+
 }

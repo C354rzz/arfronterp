@@ -1,5 +1,6 @@
 [
     {
+      "idCliente": 1,
       "name": "Victoria Cantrell",
       "position": "Integer Corporation",
       "office": "Croatia",
@@ -7,6 +8,7 @@
       "startDate": "2015/08/19",
       "salary": 208.178
     }, {
+      "idCliente": 2,
       "name": "Pearl Crosby",
       "position": "In PC",
       "office": "Cambodia",
@@ -14,6 +16,7 @@
       "startDate": "2014/10/08",
       "salary": 114.367
     }, {
+      "idCliente": 3,
       "name": "Colette Foley",
       "position": "Lorem Inc.",
       "office": "Korea, North",
@@ -21,6 +24,7 @@
       "startDate": "2015/07/19",
       "salary": 721.473
     }, {
+      "idCliente": 4,
       "name": "Anastasia Shaffer",
       "position": "Dolor Nulla Semper LLC",
       "office": "Suriname",
@@ -28,6 +32,7 @@
       "startDate": "2015/04/20",
       "salary": 264.620
     }, {
+      "idCliente": 5,
       "name": "Gabriel Castro",
       "position": "Sed Limited",
       "office": "Bahrain",
@@ -35,6 +40,7 @@
       "startDate": "2015/03/04",
       "salary": 651.350
     }, {
+      "idCliente": 6,
       "name": "Cherokee Ware",
       "position": "Tincidunt LLC",
       "office": "United Kingdom (Great Britain)",
@@ -42,6 +48,7 @@
       "startDate": "2015/06/17",
       "salary": 666.259
     }, {
+      "idCliente": 7,
       "name": "Barry Moss",
       "position": "Sociis Industries",
       "office": "Western Sahara",
@@ -49,6 +56,7 @@
       "startDate": "2015/08/13",
       "salary": 541.631
     }, {
+      "idCliente": 1,
       "name": "Maryam Tucker",
       "position": "Elit Pede Malesuada Inc.",
       "office": "Brazil",
@@ -56,6 +64,7 @@
       "startDate": "2014/10/02",
       "salary": 182.294
     }, {
+      "idCliente": 1,
       "name": "Constance Clayton",
       "position": "Auctor Velit Aliquam LLP",
       "office": "United Arab Emirates",
@@ -63,6 +72,7 @@
       "startDate": "2015/08/01",
       "salary": 218.597
     }, {
+      "idCliente": 1,
       "name": "Rogan Tucker",
       "position": "Arcu Vestibulum Ante Associates",
       "office": "Jersey",
@@ -70,6 +80,7 @@
       "startDate": "2015/01/04",
       "salary": 861.632
     }, {
+      "idCliente": 1,
       "name": "Emery Mcdowell",
       "position": "Gravida Company",
       "office": "New Zealand",
@@ -77,6 +88,7 @@
       "startDate": "2015/06/02",
       "salary": 413.568
     }, {
+      "idCliente": 1,
       "name": "Yael Greer",
       "position": "Orci Limited",
       "office": "Madagascar",
@@ -84,6 +96,7 @@
       "startDate": "2014/12/04",
       "salary": 121.831
     }, {
+      "idCliente": 1,
       "name": "Jared Burgess",
       "position": "Auctor Incorporated",
       "office": "Burundi",
@@ -91,6 +104,7 @@
       "startDate": "2015/01/12",
       "salary": 62.243
     }, {
+      "idCliente": 1,
       "name": "Sharon Campbell",
       "position": "Elit Curabitur Sed Consulting",
       "office": "Comoros",
@@ -98,6 +112,7 @@
       "startDate": "2014/09/14",
       "salary": 200.854
     }, {
+      "idCliente": 1,
       "name": "Yeo Church",
       "position": "Donec Vitae Erat PC",
       "office": "Saudi Arabia",
@@ -105,6 +120,7 @@
       "startDate": "2015/06/07",
       "salary": 581.193
     }, {
+      "idCliente": 1,
       "name": "Kylie Barlow",
       "position": "Fermentum Risus Corporation",
       "office": "Papua New Guinea",
@@ -112,6 +128,7 @@
       "startDate": "2014/12/03",
       "salary": 418.115
     }, {
+      "idCliente": 1,
       "name": "Nell Leonard",
       "position": "Vestibulum Consulting",
       "office": "Saudi Arabia",
@@ -119,6 +136,7 @@
       "startDate": "2015/05/29",
       "salary": 466.201
     }, {
+      "idCliente": 1,
       "name": "Brandon Fleming",
       "position": "Donec Egestas Associates",
       "office": "Poland",
@@ -126,6 +144,7 @@
       "startDate": "2015/01/22",
       "salary": 800.011
     }, {
+      "idCliente": 1,
       "name": "Inga Pena",
       "position": "Et Magnis Dis Limited",
       "office": "Belgium",
@@ -133,6 +152,7 @@
       "startDate": "2015/05/18",
       "salary": 564.245
     }, {
+      "idCliente": 1,
       "name": "Arden Russo",
       "position": "Est Tempor Bibendum Corp.",
       "office": "Dominican Republic",
@@ -140,6 +160,7 @@
       "startDate": "2015/07/23",
       "salary": 357.222
     }, {
+      "idCliente": 1,
       "name": "Liberty Gallegos",
       "position": "Nec Diam LLC",
       "office": "Ghana",
@@ -147,6 +168,7 @@
       "startDate": "2015/06/18",
       "salary": 554.375
     }, {
+      "idCliente": 1,
       "name": "Dennis York",
       "position": "Nullam Suscipit Foundation",
       "office": "Namibia",
@@ -154,6 +176,7 @@
       "startDate": "2015/03/20",
       "salary": 90.417
     }, {
+      "idCliente": 1,
       "name": "Petra Chandler",
       "position": "Pede Nonummy Inc.",
       "office": "Namibia",
@@ -161,6 +184,7 @@
       "startDate": "2015/03/26",
       "salary": 598.915
     }, {
+      "idCliente": 1,
       "name": "Aurelia Marshall",
       "position": "Donec Consulting",
       "office": "Nicaragua",
@@ -168,6 +192,7 @@
       "startDate": "2015/08/18",
       "salary": 201.680
     }, {
+      "idCliente": 1,
       "name": "Rose Carter",
       "position": "Enim Consequat Purus Industries",
       "office": "Morocco",
@@ -175,6 +200,7 @@
       "startDate": "2015/03/06",
       "salary": 220.187
     }, {
+      "idCliente": 1,
       "name": "Denton Atkins",
       "position": "Non Vestibulum PC",
       "office": "Mali",
@@ -182,6 +208,7 @@
       "startDate": "2015/04/19",
       "salary": 324.588
     }, {
+      "idCliente": 1,
       "name": "Germaine Osborn",
       "position": "Tristique Aliquet PC",
       "office": "Lesotho",
@@ -189,6 +216,7 @@
       "startDate": "2015/01/19",
       "salary": 351.108
     }, {
+      "idCliente": 1,
       "name": "Nell Butler",
       "position": "Sit Amet Dapibus Industries",
       "office": "Cuba",
@@ -196,6 +224,7 @@
       "startDate": "2015/01/06",
       "salary": 230.072
     }, {
+      "idCliente": 1,
       "name": "Brent Stein",
       "position": "Eu Augue Porttitor LLP",
       "office": "Cyprus",
@@ -203,6 +232,7 @@
       "startDate": "2014/11/02",
       "salary": 853.413
     }, {
+      "idCliente": 1,
       "name": "Alexandra Shaw",
       "position": "Aenean Gravida Limited",
       "office": "Uruguay",
@@ -210,6 +240,7 @@
       "startDate": "2015/05/16",
       "salary": 401.970
     }, {
+      "idCliente": 1,
       "name": "Veronica Allison",
       "position": "Aliquet Diam Sed Institute",
       "office": "Samoa",
@@ -217,6 +248,7 @@
       "startDate": "2015/05/17",
       "salary": 79.193
     }, {
+      "idCliente": 1,
       "name": "Katelyn Gamble",
       "position": "Sed Associates",
       "office": "Mauritius",
@@ -224,6 +256,7 @@
       "startDate": "2015/03/20",
       "salary": 484.299
     }, {
+      "idCliente": 1,
       "name": "James Greer",
       "position": "A Dui Incorporated",
       "office": "Norway",
@@ -231,6 +264,7 @@
       "startDate": "2015/02/21",
       "salary": 333.518
     }, {
+      "idCliente": 1,
       "name": "Cain Vasquez",
       "position": "Nulla Facilisis Suspendisse Institute",
       "office": "China",
@@ -238,6 +272,7 @@
       "startDate": "2015/05/27",
       "salary": 651.761
     }, {
+      "idCliente": 1,
       "name": "Shaeleigh Barr",
       "position": "Eleifend Cras Institute",
       "office": "Ghana",
@@ -245,6 +280,7 @@
       "startDate": "2015/04/01",
       "salary": 627.095
     }, {
+      "idCliente": 1,
       "name": "Baker Mckay",
       "position": "Ut Sagittis Associates",
       "office": "Isle of Man",
@@ -252,6 +288,7 @@
       "startDate": "2015/01/12",
       "salary": 742.247
     }, {
+      "idCliente": 1,
       "name": "Jayme Pace",
       "position": "Cras Eu Tellus Associates",
       "office": "Bouvet Island",
@@ -259,6 +296,7 @@
       "startDate": "2015/08/12",
       "salary": 591.588
     }, {
+      "idCliente": 1,
       "name": "Reuben Albert",
       "position": "Lobortis Institute",
       "office": "Zambia",
@@ -266,6 +304,7 @@
       "startDate": "2015/04/04",
       "salary": 791.408
     }, {
+      "idCliente": 1,
       "name": "Idola Burns",
       "position": "Non Industries",
       "office": "Myanmar",
@@ -273,6 +312,7 @@
       "startDate": "2015/06/24",
       "salary": 142.906
     }, {
+      "idCliente": 1,
       "name": "Laura Macias",
       "position": "Phasellus Inc.",
       "office": "Mauritania",
@@ -280,6 +320,7 @@
       "startDate": "2014/11/21",
       "salary": 226.591
     }, {
+      "idCliente": 1,
       "name": "Nichole Salas",
       "position": "Duis PC",
       "office": "Madagascar",
@@ -287,6 +328,7 @@
       "startDate": "2015/01/18",
       "salary": 234.196
     }, {
+      "idCliente": 1,
       "name": "Hunter Walter",
       "position": "Ullamcorper Duis Cursus Foundation",
       "office": "Brazil",
@@ -294,6 +336,7 @@
       "startDate": "2015/02/28",
       "salary": 655.052
     }, {
+      "idCliente": 1,
       "name": "Asher Rich",
       "position": "Mauris Ipsum LLP",
       "office": "Paraguay",
@@ -301,6 +344,7 @@
       "startDate": "2015/08/08",
       "salary": 222.946
     }, {
+      "idCliente": 1,
       "name": "Angela Carlson",
       "position": "Donec Tempor Institute",
       "office": "Papua New Guinea",
@@ -308,6 +352,7 @@
       "startDate": "2015/02/12",
       "salary": 562.194
     }, {
+      "idCliente": 1,
       "name": "James Dorsey",
       "position": "Ipsum Leo Associates",
       "office": "Congo (Brazzaville)",
@@ -315,6 +360,7 @@
       "startDate": "2015/01/10",
       "salary": 629.925
     }, {
+      "idCliente": 1,
       "name": "Wesley Cobb",
       "position": "Nunc Est Incorporated",
       "office": "Australia",
@@ -322,6 +368,7 @@
       "startDate": "2015/01/30",
       "salary": 343.476
     }, {
+      "idCliente": 1,
       "name": "Meghan Stephens",
       "position": "Interdum PC",
       "office": "Turkey",
@@ -329,6 +376,7 @@
       "startDate": "2014/10/11",
       "salary": 469.305
     }, {
+      "idCliente": 1,
       "name": "Bertha Herrera",
       "position": "Amet Limited",
       "office": "Kenya",
@@ -336,6 +384,7 @@
       "startDate": "2014/11/22",
       "salary": 56.606
     }, {
+      "idCliente": 1,
       "name": "Karina Key",
       "position": "Quisque Varius Nam Company",
       "office": "France",
@@ -343,6 +392,7 @@
       "startDate": "2015/03/26",
       "salary": 314.260
     }, {
+      "idCliente": 1,
       "name": "Uriel Carson",
       "position": "Penatibus PC",
       "office": "Venezuela",
@@ -350,6 +400,7 @@
       "startDate": "2015/01/07",
       "salary": 106.335
     }, {
+      "idCliente": 1,
       "name": "Mira Baird",
       "position": "Felis Orci PC",
       "office": "Niue",
@@ -357,6 +408,7 @@
       "startDate": "2015/08/25",
       "salary": 515.671
     }, {
+      "idCliente": 1,
       "name": "Ursula Parrish",
       "position": "Ac Corporation",
       "office": "Macao",
@@ -364,6 +416,7 @@
       "startDate": "2015/06/30",
       "salary": 72.295
     }, {
+      "idCliente": 1,
       "name": "Josephine Sykes",
       "position": "Blandit Congue Limited",
       "office": "Holy See (Vatican City State)",
@@ -371,6 +424,7 @@
       "startDate": "2014/12/22",
       "salary": 694.656
     }, {
+      "idCliente": 1,
       "name": "Maggie Sims",
       "position": "Vulputate Posuere Industries",
       "office": "Sudan",
@@ -378,6 +432,7 @@
       "startDate": "2014/11/22",
       "salary": 363.743
     }, {
+      "idCliente": 1,
       "name": "Rogan Fuentes",
       "position": "Vestibulum Accumsan Neque Company",
       "office": "Jersey",
@@ -385,6 +440,7 @@
       "startDate": "2015/07/29",
       "salary": 606.004
     }, {
+      "idCliente": 1,
       "name": "Maya Haney",
       "position": "Ac Foundation",
       "office": "Falkland Islands",
@@ -392,6 +448,7 @@
       "startDate": "2015/09/03",
       "salary": 745.500
     }, {
+      "idCliente": 1,
       "name": "Aquila Battle",
       "position": "Sociis Natoque Penatibus Foundation",
       "office": "Azerbaijan",
@@ -399,6 +456,7 @@
       "startDate": "2015/03/06",
       "salary": 582.265
     }, {
+      "idCliente": 1,
       "name": "Connor Coleman",
       "position": "Orci Lacus Vestibulum Foundation",
       "office": "Croatia",
@@ -406,6 +464,7 @@
       "startDate": "2014/10/21",
       "salary": 416.958
     }, {
+      "idCliente": 1,
       "name": "Charity Thomas",
       "position": "Convallis Ligula Donec Inc.",
       "office": "Benin",
@@ -413,6 +472,7 @@
       "startDate": "2015/07/12",
       "salary": 540.999
     }, {
+      "idCliente": 1,
       "name": "Blythe Powers",
       "position": "Amet Orci Limited",
       "office": "Falkland Islands",
@@ -420,6 +480,7 @@
       "startDate": "2015/01/23",
       "salary": 480.067
     }, {
+      "idCliente": 1,
       "name": "Adria Battle",
       "position": "Ornare Lectus Incorporated",
       "office": "British Indian Ocean Territory",
@@ -427,6 +488,7 @@
       "startDate": "2015/05/28",
       "salary": 257.937
     }, {
+      "idCliente": 1,
       "name": "Melanie Mcintyre",
       "position": "Nunc Corp.",
       "office": "Mongolia",
@@ -434,6 +496,7 @@
       "startDate": "2015/01/06",
       "salary": 359.737
     }, {
+      "idCliente": 1,
       "name": "Keely Bauer",
       "position": "Nec Tempus Institute",
       "office": "Somalia",
@@ -441,6 +504,7 @@
       "startDate": "2015/03/09",
       "salary": 99.718
     }, {
+      "idCliente": 1,
       "name": "Noelani Strong",
       "position": "Nec LLP",
       "office": "Iran",
@@ -448,6 +512,7 @@
       "startDate": "2015/08/24",
       "salary": 480.718
     }, {
+      "idCliente": 1,
       "name": "Jeanette Henderson",
       "position": "Eu Elit Nulla Corporation",
       "office": "Italy",
@@ -455,6 +520,7 @@
       "startDate": "2015/06/19",
       "salary": 253.772
     }, {
+      "idCliente": 1,
       "name": "Candace Huber",
       "position": "Sed Institute",
       "office": "Uganda",
@@ -462,6 +528,7 @@
       "startDate": "2015/06/16",
       "salary": 388.879
     }, {
+      "idCliente": 1,
       "name": "Bethany Potter",
       "position": "Vivamus Nibh Dolor Incorporated",
       "office": "Puerto Rico",
@@ -469,6 +536,7 @@
       "startDate": "2014/11/12",
       "salary": 747.310
     }, {
+      "idCliente": 1,
       "name": "Whoopi Burks",
       "position": "Justo Inc.",
       "office": "Fiji",
@@ -476,6 +544,7 @@
       "startDate": "2014/09/24",
       "salary": 803.037
     }, {
+      "idCliente": 1,
       "name": "Sheila Long",
       "position": "Diam Associates",
       "office": "Sao Tome and Principe",
@@ -483,6 +552,7 @@
       "startDate": "2014/12/21",
       "salary": 674.379
     }, {
+      "idCliente": 1,
       "name": "Sonya Church",
       "position": "Laoreet Institute",
       "office": "Grenada",
@@ -490,6 +560,7 @@
       "startDate": "2015/06/03",
       "salary": 625.147
     }, {
+      "idCliente": 1,
       "name": "Shaine Forbes",
       "position": "Eu Arcu LLP",
       "office": "Cyprus",
@@ -497,6 +568,7 @@
       "startDate": "2015/01/18",
       "salary": 208.100
     }, {
+      "idCliente": 1,
       "name": "Alexandra Patrick",
       "position": "Ligula Donec Inc.",
       "office": "Viet Nam",
@@ -504,6 +576,7 @@
       "startDate": "2015/04/09",
       "salary": 104.063
     }, {
+      "idCliente": 1,
       "name": "Patience Vincent",
       "position": "Sem Molestie Associates",
       "office": "Philippines",
@@ -511,6 +584,7 @@
       "startDate": "2015/07/04",
       "salary": 673.556
     }, {
+      "idCliente": 1,
       "name": "Evelyn Smith",
       "position": "Fusce Industries",
       "office": "Togo",
@@ -518,6 +592,7 @@
       "startDate": "2015/08/15",
       "salary": 737.284
     }, {
+      "idCliente": 1,
       "name": "Kieran Gonzalez",
       "position": "Non Corp.",
       "office": "Equatorial Guinea",
@@ -525,6 +600,7 @@
       "startDate": "2015/08/24",
       "salary": 90.195
     }, {
+      "idCliente": 1,
       "name": "Molly Oneil",
       "position": "Non Dui Consulting",
       "office": "Belize",
@@ -532,6 +608,7 @@
       "startDate": "2014/10/28",
       "salary": 140.767
     }, {
+      "idCliente": 1,
       "name": "Nigel Davenport",
       "position": "Ullamcorper Velit In Industries",
       "office": "Vanuatu",
@@ -539,6 +616,7 @@
       "startDate": "2015/03/16",
       "salary": 70.536
     }, {
+      "idCliente": 1,
       "name": "Thor Young",
       "position": "Malesuada Consulting",
       "office": "French Southern Territories",
@@ -546,6 +624,7 @@
       "startDate": "2015/01/28",
       "salary": 75.501
     }, {
+      "idCliente": 1,
       "name": "Finn Delacruz",
       "position": "Lorem Industries",
       "office": "Cocos (Keeling) Islands",
@@ -553,6 +632,7 @@
       "startDate": "2014/12/11",
       "salary": 754.967
     }, {
+      "idCliente": 1,
       "name": "Lane Henderson",
       "position": "Pede Foundation",
       "office": "Kazakhstan",
@@ -560,6 +640,7 @@
       "startDate": "2015/07/02",
       "salary": 842.050
     }, {
+      "idCliente": 1,
       "name": "Shea Potter",
       "position": "Curabitur Limited",
       "office": "Timor-Leste",
@@ -567,6 +648,7 @@
       "startDate": "2015/05/07",
       "salary": 263.629
     }, {
+      "idCliente": 1,
       "name": "Brynn Yang",
       "position": "Ut Limited",
       "office": "Mayotte",
@@ -574,6 +656,7 @@
       "startDate": "2015/01/17",
       "salary": 74.292
     }, {
+      "idCliente": 1,
       "name": "Kylan Fuentes",
       "position": "Sapien Aenean Associates",
       "office": "Brazil",
@@ -581,6 +664,7 @@
       "startDate": "2014/12/28",
       "salary": 108.632
     }, {
+      "idCliente": 1,
       "name": "Lionel Mcbride",
       "position": "Ipsum PC",
       "office": "Portugal",
@@ -588,6 +672,7 @@
       "startDate": "2015/07/11",
       "salary": 34.244
     }, {
+      "idCliente": 1,
       "name": "Paul Lucas",
       "position": "Eget LLP",
       "office": "Nicaragua",
@@ -595,6 +680,7 @@
       "startDate": "2014/09/30",
       "salary": 690.834
     }, {
+      "idCliente": 1,
       "name": "Lareina Williamson",
       "position": "Imperdiet Ullamcorper Ltd",
       "office": "Cocos (Keeling) Islands",
@@ -602,6 +688,7 @@
       "startDate": "2014/12/01",
       "salary": 603.498
     }, {
+      "idCliente": 1,
       "name": "Amy Acevedo",
       "position": "Id Institute",
       "office": "Cook Islands",
@@ -609,6 +696,7 @@
       "startDate": "2015/02/04",
       "salary": 125.165
     }, {
+      "idCliente": 1,
       "name": "Nomlanga Silva",
       "position": "Eget LLC",
       "office": "Belize",
@@ -616,6 +704,7 @@
       "startDate": "2015/01/31",
       "salary": 268.509
     }, {
+      "idCliente": 1,
       "name": "Amena Stone",
       "position": "Enim Incorporated",
       "office": "Guinea",
@@ -623,6 +712,7 @@
       "startDate": "2014/09/23",
       "salary": 214.381
     }, {
+      "idCliente": 1,
       "name": "Danielle Coffey",
       "position": "Feugiat Placerat Corp.",
       "office": "Sao Tome and Principe",
@@ -630,6 +720,7 @@
       "startDate": "2015/06/17",
       "salary": 137.423
     }, {
+      "idCliente": 1,
       "name": "Buffy Russell",
       "position": "Lacus Quisque Ltd",
       "office": "Ecuador",
@@ -637,6 +728,7 @@
       "startDate": "2014/10/17",
       "salary": 612.184
     }, {
+      "idCliente": 1,
       "name": "Kaitlin Lamb",
       "position": "Malesuada Fringilla Est Associates",
       "office": "Algeria",
@@ -644,6 +736,7 @@
       "startDate": "2014/10/18",
       "salary": 327.367
     }, {
+      "idCliente": 1,
       "name": "Leilani Yates",
       "position": "Mus Proin LLC",
       "office": "South Sudan",
@@ -651,6 +744,7 @@
       "startDate": "2015/05/27",
       "salary": 743.493
     }, {
+      "idCliente": 1,
       "name": "Jemima Moon",
       "position": "Phasellus Corp.",
       "office": "South Georgia and The South Sandwich Islands",
@@ -658,6 +752,7 @@
       "startDate": "2015/05/21",
       "salary": 496.067
     }, {
+      "idCliente": 1,
       "name": "Hiroko Schwartz",
       "position": "Neque Institute",
       "office": "Saint Vincent and The Grenadines",
@@ -665,6 +760,7 @@
       "startDate": "2015/03/13",
       "salary": 178.782
     }, {
+      "idCliente": 1,
       "name": "Nathaniel Jensen",
       "position": "Mi Tempor Limited",
       "office": "Dominica",
@@ -672,6 +768,7 @@
       "startDate": "2014/12/05",
       "salary": 37.441
     }, {
+      "idCliente": 1,
       "name": "Silas Sweeney",
       "position": "Ultrices Institute",
       "office": "Turkmenistan",
@@ -679,6 +776,7 @@
       "startDate": "2014/11/13",
       "salary": 152.980
     }, {
+      "idCliente": 1,
       "name": "Jermaine Barry",
       "position": "Dapibus Corporation",
       "office": "Uzbekistan",
@@ -686,6 +784,7 @@
       "startDate": "2015/03/06",
       "salary": 409.463
     }, {
+      "idCliente": 1,
       "name": "Tatiana Nichols",
       "position": "Nec Diam Industries",
       "office": "Cook Islands",
@@ -693,6 +792,7 @@
       "startDate": "2015/05/22",
       "salary": 51.155
     }, {
+      "idCliente": 1,
       "name": "Rama Waller",
       "position": "Sem Pellentesque LLC",
       "office": "Andorra",

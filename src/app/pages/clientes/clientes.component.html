@@ -8,10 +8,7 @@
         </ul>
         <h1 class="page-header mb-0">Clientes</h1>
     </div>
-    <div class="ms-auto">
-        <a href="#" class="btn btn-success btn-rounded px-4 rounded-pill"><i
-                class="fa fa-plus fa-lg me-2 ms-n2 text-success-900"></i> Nuevo Cliente</a>
-    </div>
+
 </div>
 <!-- END breadcrumb -->
 <!-- BEGIN row -->
@@ -38,6 +35,10 @@
                         <div role="separator" class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Separated link</a>
                     </div>
+                </div>
+                <div class="ms-auto">
+                    <a href="#" class="btn btn-success btn-rounded px-4 rounded-pill"><i
+                            class="fa fa-plus fa-lg me-2 ms-n2 text-success-900"></i> Nuevo Cliente</a>
                 </div>
             </div>
             <ul class="nav nav-tabs nav-tabs-v2 px-3">
@@ -81,15 +82,34 @@
                         </div>
                     </div>
                     <!-- END input-group -->
-                    
+
                     <!-- BEGIN table -->
                     <ng-container outsideBody>
                         <hr class="m-0 bg-gray-600" />
                         <div class="table-responsive text-nowrap">
-                            <ngx-datatable #table class="bootstrap" 
-                            [loadingIndicator]="loadingIndicator" [columns]="columns" [columnMode]="ColumnMode.force"
-                                [headerHeight]="50" [footerHeight]="50" rowHeight="auto" [limit]="10"
-                                [rows]="clientes"></ngx-datatable>
+                            <ngx-datatable #table class="bootstrap" [loadingIndicator]="loadingIndicator"
+                                [columnMode]="ColumnMode.force" [headerHeight]="50" [footerHeight]="50" rowHeight="auto"
+                                [limit]="10" [rows]="clientes">
+
+                                <ngx-datatable-column name="NumCliente" prop="idCliente">
+                                    <ng-template ngx-datatable-cell-template let-row="row">
+                                        <a [routerLink]="['/clienteDetalle',row.idCliente]">{{row.name}}</a>
+                                    </ng-template>
+                                </ngx-datatable-column>
+
+                                <ngx-datatable-column name="Activo" prop="isActive">
+                                    <ng-template #active let-row="row" let-value="value" ngx-datatable-cell-template>
+                                        <span *ngIf="value === true" class="badge me-1 bg-green">Activo</span>
+                                        <span *ngIf="value === false" class="badge me-1 bg-danger">noActivo</span>
+                                    </ng-template>
+                                </ngx-datatable-column>
+
+                                <ngx-datatable-column name="Saldo" prop="balance"></ngx-datatable-column>
+                                <ngx-datatable-column name="Empresa" prop="company"></ngx-datatable-column>
+                                <ngx-datatable-column name="Correo" prop="email"></ngx-datatable-column>
+                                <ngx-datatable-column name="Telefono" prop="phone"></ngx-datatable-column>
+
+                            </ngx-datatable>
                             <!-- BEGIN hljs-wrapper -->
                             <div class="hljs-wrapper">
                                 <!-- <pre><code class="xml" [highlight]="code1"></code></pre> -->
@@ -98,7 +118,7 @@
                         </div>
                     </ng-container>
                     <!-- END table-responsive -->
-                
+
                 </div>
             </div>
 

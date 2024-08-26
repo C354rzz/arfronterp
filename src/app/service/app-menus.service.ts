@@ -9,7 +9,7 @@ export class AppMenuService {
 		return [{
 			'icon': 'fa fa-sitemap',
 			'title': 'Home',
-			'url': '/'
+			'url': '/home'
 		},
 		{
 			'icon': 'fa fa-users',
