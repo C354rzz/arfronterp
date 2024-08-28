@@ -1,0 +1,74 @@
+[
+    {
+        "idCotizacion": "27351",
+        "Fecha": "2018-01-02 10:05:16.027",
+        "idCliente": "22868",
+        "idEmpleado": "cmora",
+        "idMarcaDM": "1",
+        "Referencia": "CM-27351"
+    },
+    {
+        "idCotizacion": "27352",
+        "Fecha": "2018-01-02 10:17:00.010",
+        "idCliente": "7108",
+        "idEmpleado": "cmora",
+        "idMarcaDM": "1",
+        "Referencia": "CM-27352"
+    },
+    {
+        "idCotizacion": "27353",
+        "Fecha": "2018-01-02 10:24:23.057",
+        "idCliente": "22869",
+        "idEmpleado": "mrdz",
+        "idMarcaDM": "2",
+        "Referencia": "MR-27353"
+    },
+    {
+        "idCotizacion": "27354",
+        "Fecha": "2018-01-02 10:05:27.733",
+        "idCliente": "22870",
+        "idEmpleado": "eochoa",
+        "idMarcaDM": "3",
+        "Referencia": "EO-27354"
+    },
+    {
+        "idCotizacion": "27355",
+        "Fecha": "2018-01-02 10:34:33.573",
+        "idCliente": "22115",
+        "idEmpleado": "mrdz",
+        "idMarcaDM": "2",
+        "Referencia": "MR-27355"
+    },
+    {
+        "idCotizacion": "27356",
+        "Fecha": "2018-01-02 10:38:31.107",
+        "idCliente": "6913",
+        "idEmpleado": "cmora",
+        "idMarcaDM": "1",
+        "Referencia": "CM-27356"
+    },
+    {
+        "idCotizacion": "27357",
+        "Fecha": "2018-01-02 11:04:44.813",
+        "idCliente": "22115",
+        "idEmpleado": "mrdz",
+        "idMarcaDM": "2",
+        "Referencia": "MR-27357"
+    },
+    {
+        "idCotizacion": "27358",
+        "Fecha": "2018-01-02 11:14:51.790",
+        "idCliente": "22871",
+        "idEmpleado": "mrdz",
+        "idMarcaDM": "2",
+        "Referencia": "MR-27358"
+    },
+    {
+        "idCotizacion": "27359",
+        "Fecha": "2018-01-02 11:16:15.693",
+        "idCliente": "22872",
+        "idEmpleado": "cmora",
+        "idMarcaDM": "1",
+        "Referencia": "CM-27359"
+    }
+]

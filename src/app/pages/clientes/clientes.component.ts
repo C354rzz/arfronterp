@@ -1,8 +1,5 @@
-import { HttpClient } from '@angular/common/http';
 import { Component, ViewChild, OnInit } from '@angular/core';
-import { TableData } from './data';
 import { ColumnMode, DatatableComponent } from '@swimlane/ngx-datatable';
-import { ClienteService } from 'src/app/service/app-cliente.service';
 import { Cliente } from 'src/app/models/cliente';
 import { Router } from '@angular/router';
 
@@ -17,21 +14,10 @@ export class ClientesComponent implements OnInit {
   clientestemp: Cliente[] = [];
   clientes: any;
   code1: any;
-  columns = [
-    { prop: 'idCliente' },
-    { prop: 'name' },
-    { name: 'balance' },
-    { name: 'age' },
-    { name: 'tags' },
-    { name: 'company' },
-    { name: 'email' },
-    { name: 'phone' }
-
-  ];
   
   loadingIndicator = true;
   
-  constructor(private clienteService: ClienteService, private http: HttpClient, private router: Router,) {
+  constructor(private router: Router,) {
     this.fetch((data: any) => {
       this.clientestemp = [...data]
       this.clientes = data;

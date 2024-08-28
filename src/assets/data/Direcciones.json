@@ -1,0 +1,112 @@
+[
+    {
+        "idDireccion": "1001",
+        "idCliente": "1001",
+        "Contacto": "RICARDO ANTONIO ROCHA / TST NIKKEI METALES S. DE R.L. DE C.V. ",
+        "Domicilio": "Carretera los Arellanos P4 Los Arellano",
+        "Municipio": "Aguascalientes",
+        "Estado": "AGUASCALIENTES",
+        "CodigoPostal": "20392",
+        "Telefono": "444498075505",
+        "Notas ": "  "
+    },
+    {
+        "idDireccion": "1002",
+        "idCliente": "1002",
+        "Contacto": "ANGEL LUIS ESTRADA HERNANDEZ",
+        "Domicilio": "SALVADOR DIAZ MIRON N° exterior 26 CENTRO",
+        "Municipio": "Xalapa",
+        "Estado": "VERACRUZ",
+        "CodigoPostal": "91000",
+        "Telefono": "452281331497",
+        "Notas ": "  "
+    },
+    {
+        "idDireccion": "1003",
+        "idCliente": "1003",
+        "Contacto": "JORGE ALDECO PALACIOS",
+        "Domicilio": "6 N° exterior 3 FRACC. EL TRIGAL",
+        "Municipio": "San Juan Bautista Tuxtepec",
+        "Estado": "OAXACA",
+        "CodigoPostal": "68310",
+        "Telefono": "442871273110",
+        "Notas ": "Tel: 045(287 ) 1139671 Entre: 1 Y 7  "
+    },
+    {
+        "idDireccion": "1004",
+        "idCliente": "1004",
+        "Contacto": "JESSICA LIZETTE CORDOVA GOMEZ",
+        "Domicilio": "Av.  Prados de Ixtepete 26 Jardines de Ixtepete",
+        "Municipio": "Zapopan",
+        "Estado": "JALISCO",
+        "CodigoPostal": "45236",
+        "Telefono": "453315369702",
+        "Notas ": "Tel: 21529300 Entre Tlaloc y Caxcanes  "
+    },
+    {
+        "idDireccion": "1005",
+        "idCliente": "1005",
+        "Contacto": "MIGUEL ALEX ESCAMILLA NAVARRETE",
+        "Domicilio": "AVENIDA DE LOS VALLES 5 ATLANTA",
+        "Municipio": "CUAUTITLAN IZCALLI",
+        "Estado": "ESTADO DE MEXICO",
+        "CodigoPostal": "54740",
+        "Telefono": "455540082535",
+        "Notas ": "Tel: 5523 40 47 ENTRE CALLE ANTARTICO y AUSTRAL.  "
+    },
+    {
+        "idDireccion": "1006",
+        "idCliente": "1006",
+        "Contacto": "RUTILO MORALES GARCÍA",
+        "Domicilio": "Cerrada Olin 3 Los Padres",
+        "Municipio": "La Magdalena Contreras",
+        "Estado": "DISTRITO FEDERAL",
+        "CodigoPostal": "10340",
+        "Telefono": "445569368279",
+        "Notas ": "Entre: Alegre y Ozoloapan  "
+    },
+    {
+        "idDireccion": "1007",
+        "idCliente": "1007",
+        "Contacto": "BERENICE VANESSA CRUZ RAMÍREZ",
+        "Domicilio": "Norte 78A 4746  Int. PB espaldas de la Av. Eduardo Molina Nueva Tenochtitlan",
+        "Municipio": "Gustavo A. Madero",
+        "Estado": "CIUDAD DE MEXICO",
+        "CodigoPostal": "7890",
+        "Telefono": "455540804749",
+        "Notas ": "Entre calles: Oriente 91 y Oriente 95.  "
+    },
+    {
+        "idDireccion": "1008",
+        "idCliente": "1008",
+        "Contacto": "ARTURO REBOLLEDO ",
+        "Domicilio": "Calle 49b 738 Real montejo",
+        "Municipio": "Mérida",
+        "Estado": "YUCATÁN",
+        "CodigoPostal": "97302",
+        "Telefono": "459991803985",
+        "Notas ": "  "
+    },
+    {
+        "idDireccion": "1009",
+        "idCliente": "1009",
+        "Contacto": "PEDRO ANTONIO MATEOS OROPEZA",
+        "Domicilio": "Rio Cotaxtla N° exterior 782 B Las Vegas 2",
+        "Municipio": "Boca Del Río",
+        "Estado": "VERACRUZ",
+        "CodigoPostal": "94297",
+        "Telefono": "442291279655",
+        "Notas ": "Tel: 1208809 Entre: Rio Ospamapa y Rio Soto la marina  "
+    },
+    {
+        "idDireccion": "1010",
+        "idCliente": "1010",
+        "Contacto": "ABEL MISRAIM CRUZ FIGUEROA",
+        "Domicilio": "av de los virreyes N° exterior 311 las estancias",
+        "Municipio": "Salamanca",
+        "Estado": "GUANAJUATO",
+        "CodigoPostal": "36765",
+        "Telefono": "444641231323",
+        "Notas ": "Entre: Diego De Beltran y antonio de mendoza "
+    }
+]
