@@ -1,0 +1,6 @@
+<div class="alert alert-success alert-dismissible fade show">
+  <strong>Success!</strong>
+  This is a success alert with 
+  <a href="#" class="alert-link">an example link</a>. 
+  <button type="button" class="btn-close" data-bs-dismiss="alert"></span>
+</div>

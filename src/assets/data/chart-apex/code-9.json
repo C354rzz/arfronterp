@@ -1,0 +1,119 @@
+<!-- main.ts -->
+import { Component } from '@angular/core';
+import { AppVariablesService } from '../../../service/app-variables.service';
+
+@Component({
+  selector: 'chart-apex',
+  templateUrl: './chart-apex.html'
+})
+
+export class ChartApexPage {
+  appVariables = this.appVariablesService.getAppVariables();
+  
+  chartOptions: any;
+
+  constructor(private appVariablesService: AppVariablesService) {
+    this.appVariablesService.variablesReload.subscribe(() => {
+      this.appVariables = this.appVariablesService.getAppVariables();
+      this.chartOptions = this.getChartOptions();
+    });
+  }
+  
+  generateHeatmapData(count: any, yrange: any) {
+    var i = 0;
+    var series = [];
+    while (i < count) {
+      var x = 'w' + (i + 1).toString();
+      var y = Math.floor(Math.random() * (yrange.max - yrange.min + 1)) + yrange.min;
+
+      series.push({ x: x, y: y });
+      i++;
+    }
+    return series;
+  }
+  
+  getChartOptions() {
+    return {
+      chart: {
+        height: 350,
+        type: 'heatmap',
+      },
+      dataLabels: { enabled: false },
+      colors: [this.appVariables.color.theme],
+      series: [
+        { name: 'Metric1', data: this.generateHeatmapData(18, {  min: 0, max: 90 }) }, 
+        { name: 'Metric2', data: this.generateHeatmapData(18, {  min: 0, max: 90 }) }, 
+        { name: 'Metric3', data: this.generateHeatmapData(18, {  min: 0, max: 90 }) }, 
+        { name: 'Metric4', data: this.generateHeatmapData(18, {  min: 0, max: 90 }) }, 
+        { name: 'Metric5', data: this.generateHeatmapData(18, {  min: 0, max: 90 }) }, 
+        { name: 'Metric6', data: this.generateHeatmapData(18, {  min: 0, max: 90 }) },
+        { name: 'Metric7', data: this.generateHeatmapData(18, {  min: 0, max: 90 }) }, 
+        { name: 'Metric8', data: this.generateHeatmapData(18, {  min: 0, max: 90 }) }, 
+        { name: 'Metric9', data: this.generateHeatmapData(18, {  min: 0, max: 90 }) }
+      ],
+      title: { 
+        text: 'HeatMap Chart (Single color)',
+        style: {
+          fontSize: '14px',
+          fontWeight: '600',
+          fontFamily: this.appVariables.font.bodyFontFamily,
+          color: this.appVariables.color.bodyColor
+        }
+      },
+      xaxis: {
+        axisBorder: {
+          show: true,
+          color: this.appVariables.color.borderColor,
+          height: 1,
+          width: '100%',
+          offsetX: 0,
+          offsetY: -1
+        },
+        axisTicks: {
+          show: true,
+          borderType: 'solid',
+          color: this.appVariables.color.borderColor,
+          height: 6,
+          offsetX: 0,
+          offsetY: 0
+        },
+        labels: {
+          style: {
+            colors: this.appVariables.color.bodyColor,
+            fontSize: '12px',
+            fontFamily: this.appVariables.font.bodyFontFamily,
+            fontWeight: this.appVariables.font.bodyFontWeight,
+            cssClass: 'apexcharts-xaxis-label',
+          }
+        }
+      },
+      yaxis: {
+        labels: {
+          style: {
+            colors: this.appVariables.color.bodyColor,
+            fontSize: '12px',
+            fontFamily: this.appVariables.font.bodyFontFamily,
+            fontWeight: this.appVariables.font.bodyFontWeight,
+            cssClass: 'apexcharts-xaxis-label',
+          }
+        }
+      }
+    };
+  }
+  
+  ngOnInit() {
+    this.chartOptions = this.getChartOptions();
+  }
+}
+
+
+<!-- html -->
+<apx-chart
+  [chart]="chart9Options.chart"
+  [dataLabels]="chart9Options.dataLabels"
+  [colors]="chart9Options.colors"
+  [series]="chart9Options.series"
+  [title]="chart9Options.title"
+  [xaxis]="chart9Options.xaxis"
+  [yaxis]="chart9Options.yaxis"
+></apx-chart>

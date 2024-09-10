@@ -1,0 +1,9 @@
+<!-- button -->
+<button type="button" class="btn btn-primary">
+  Primary
+</button>
+
+<!-- outline button -->
+<button type="button" class="btn btn-outline-primary">
+  Outline Primary
+</button>

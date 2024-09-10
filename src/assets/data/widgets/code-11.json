@@ -1,0 +1,38 @@
+<!-- begin widget-table -->
+<table class="table table-bordered widget-table widget-table-rounded">
+  <thead>
+    <tr>
+      <th width="1%">Image</th>
+      <th>Product Info</th>
+      <th>Price</th>
+      <th>Qty</th>
+      <th>Total</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/assets/img/product/product-6.png" width="100" />
+      </td>
+      <td>
+        <h5>Mavic Pro Combo</h5>
+        <p class="fs-11px text-gray-600 fw-bold mb-3">Portable yet powerful, the Mavic Pro is your personal drone, ready to go with you everywhere.</p>
+        <div class="progress h-10px rounded-pill mb-5px">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-orange fs-10px fw-bold" style="width: 30%;">30%</div>
+        </div>
+        <div class="clearfix fs-10px">
+          status: <b class="text-body">Shipped</b>
+        </div>
+      </td>
+      <td class="text-nowrap">
+        <b class="text-body">$999</b><br />
+        <small class="text-body"><del>$1,202</del></small>
+      </td>
+      <td>1</td>
+      <td>999.00</td>
+      <td><a href="#" class="btn btn-default btn-sm w-80px rounded-pill">Edit</a></td>
+    </tr>
+  </tbody>
+</table>
+<!-- end widget-table -->

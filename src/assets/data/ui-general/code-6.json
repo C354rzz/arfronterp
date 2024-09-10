@@ -1,0 +1,23 @@
+<!-- default -->
+<div class="progress">
+  <div class="progress-bar fs-10px fw-bold" style="width: 80%">Basic</div>
+</div>
+
+<!-- striped -->
+<div class="progress progress-striped">
+  <div class="progress-bar bg-warning" style="width: 80%">
+    Striped
+  </div>
+</div>
+
+<!-- animated -->
+<div class="progress progress-striped active">
+  ...
+</div>
+
+<!-- stacked -->
+<div class="progress">
+  <div class="progress-bar bg-dark" style="width: 25%">...</div>
+  <div class="progress-bar bg-grey" style="width: 25%">...</div>
+  <div class="progress-bar bg-lime" style="width: 25%">...</div>
+</div>

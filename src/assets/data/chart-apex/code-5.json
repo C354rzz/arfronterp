@@ -1,0 +1,143 @@
+<!-- main.ts -->
+import { Component } from '@angular/core';
+import { AppVariablesService } from '../../../service/app-variables.service';
+
+@Component({
+  selector: 'chart-apex',
+  templateUrl: './chart-apex.html'
+})
+
+export class ChartApexPage {
+  appVariables = this.appVariablesService.getAppVariables();
+  
+  chartOptions: any;
+
+  constructor(private appVariablesService: AppVariablesService) {
+    this.appVariablesService.variablesReload.subscribe(() => {
+      this.appVariables = this.appVariablesService.getAppVariables();
+      this.chartOptions = this.getChartOptions();
+    });
+  }
+  
+  getChartOptions() {
+    return {
+      chart: {
+        height: 350,
+        type: 'line',
+        stacked: false
+      },
+      series: [
+        { name: 'Income', type: 'column', data: [1.4, 2, 2.5, 1.5, 2.5, 2.8, 3.8, 4.6] },
+        { name: 'Cashflow', type: 'column', data: [1.1, 3, 3.1, 4, 4.1, 4.9, 6.5, 8.5] }, 
+        { name: 'Revenue', type: 'line', data: [20, 29, 37, 36, 44, 45, 50, 58] }
+      ],
+      dataLabels: { enabled: false },
+      stroke: { width: [0, 0, 3] },
+      colors: [this.appVariables.color.theme, 'rgba('+ this.appVariables.color.bodyColorRgb + ', .5)', this.appVariables.color.warning],
+      title: {
+        text: 'XYZ - Stock Analysis (2012 - 2021)',
+        align: 'left',
+        offsetX: 110,
+        style: {
+          fontSize: '14px',
+          fontWeight: '600',
+          fontFamily: this.appVariables.font.bodyFontFamily,
+          color: this.appVariables.color.bodyColor
+        }
+      },
+      xaxis: {
+        categories: [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2021],
+        axisBorder: {
+          show: true,
+          color: this.appVariables.color.borderColor,
+          height: 1,
+          width: '100%',
+          offsetX: 0,
+          offsetY: -1
+        },
+        axisTicks: {
+          show: true,
+          borderType: 'solid',
+          color: this.appVariables.color.borderColor,
+          height: 6,
+          offsetX: 0,
+          offsetY: 0
+        },
+        labels: {
+          style: {
+            colors: this.appVariables.color.bodyColor,
+            fontSize: '12px',
+            fontFamily: this.appVariables.font.bodyFontFamily,
+            fontWeight: this.appVariables.font.bodyFontWeight,
+            cssClass: 'apexcharts-xaxis-label',
+          }
+        }
+      },
+      yaxis: [{
+        axisTicks: { show: true, color: this.appVariables.color.borderColor },
+        axisBorder: { show: true, color: this.appVariables.color.theme },
+        labels: { style: { colors: [this.appVariables.color.bodyColor] } },
+        title: {
+          text: "Income (thousand crores)",
+          style: { color: this.appVariables.color.theme }
+        },
+        tooltip: { enabled: true }
+      },{
+        seriesName: 'Income',
+        opposite: true,
+        axisTicks: { show: true, color: this.appVariables.color.borderColor },
+        axisBorder: { show: true, color: this.appVariables.color.borderColor },
+        labels: { style: { colors: [this.appVariables.color.bodyColor] } },
+        title: {
+          text: "Operating Cashflow (thousand crores)",
+          style: { color: this.appVariables.color.bodyColor }
+        },
+      }, {
+        seriesName: 'Revenue',
+        opposite: true,
+        axisTicks: { show: true, color: this.appVariables.color.borderColor },
+        axisBorder: { show: true, color: this.appVariables.color.warning },
+        labels: { style: { colors: [this.appVariables.color.bodyColor] } },
+        title: {
+          text: "Revenue (thousand crores)",
+          style: { color: this.appVariables.color.warning }
+        }
+      }],
+      grid: { borderColor: this.appVariables.color.borderColor },
+      legend: { 
+        horizontalAlign: 'left', 
+        offsetX: 40,
+        fontFamily: this.appVariables.font.bodyFontFamily,
+        labels: { colors: this.appVariables.color.bodyColor }
+      },
+      tooltip: {
+        fixed: {
+          enabled: true,
+          position: 'topLeft',
+          offsetY: 30,
+          offsetX: 60
+        },
+      }
+    };
+  }
+  
+  ngOnInit() {
+    this.chartOptions = this.getChartOptions();
+  }
+}
+
+
+<!-- html -->
+<apx-chart
+  [chart]="chart5Options.chart"
+  [series]="chart5Options.series"
+  [dataLabels]="chart5Options.dataLabels"
+  [stroke]="chart5Options.stroke"
+  [colors]="chart5Options.colors"
+  [title]="chart5Options.title"
+  [xaxis]="chart5Options.xaxis"
+  [yaxis]="chart5Options.yaxis"
+  [grid]="chart5Options.grid"
+  [legend]="chart5Options.legend"
+  [tooltip]="chart5Options.tooltip"
+></apx-chart>

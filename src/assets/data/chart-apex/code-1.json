@@ -1,0 +1,157 @@
+<!-- main.ts -->
+import { Component } from '@angular/core';
+import { AppVariablesService } from '../../../service/app-variables.service';
+
+@Component({
+  selector: 'chart-apex',
+  templateUrl: './chart-apex.html'
+})
+
+export class ChartApexPage {
+  appVariables = this.appVariablesService.getAppVariables();
+  
+  chartOptions: any;
+
+  constructor(private appVariablesService: AppVariablesService) {
+    this.appVariablesService.variablesReload.subscribe(() => {
+      this.appVariables = this.appVariablesService.getAppVariables();
+      this.chartOptions = this.getChartOptions();
+    });
+  }
+  
+  getChartOptions() {
+    return {
+      series: [
+        { name: 'High - 2021', data: [28, 29, 33, 36, 32, 32, 33] }, 
+        { name: 'Low - 2021', data: [12, 11, 14, 18, 17, 13, 13] }
+      ],
+      chart: {
+        type: 'line',
+        shadow: {
+          enabled: true,
+          color: 'rgba('+ this.appVariables.color.inverseRgb + ', .5)',
+          top: 18,
+          left: 7,
+          blur: 10,
+          opacity: 1
+        },
+        toolbar: { show: false }
+      },
+      title: {
+        text: 'Average High & Low Temperature',
+        align: 'center',
+        style: {
+          fontSize: '14px',
+          fontWeight: '600',
+          fontFamily: this.appVariables.font.bodyFontFamily,
+          color: this.appVariables.color.bodyColor
+        }
+      },
+      colors: [this.appVariables.color.theme, this.appVariables.color.gray500],
+      dataLabels: {
+        enabled: true,
+        style: {
+          fontSize: '12px',
+          fontFamily: this.appVariables.font.bodyFontFamily,
+          fontWeight: '600',
+          colors: undefined
+        },
+        background: {
+          enabled: true,
+          foreColor: this.appVariables.color.inverse,
+          padding: 4,
+          borderRadius: 2,
+          borderWidth: 0,
+          borderColor: this.appVariables.color.inverse,
+          opacity: 0.9,
+          dropShadow: {
+            enabled: false,
+            top: 1,
+            left: 1,
+            blur: 1,
+            color: this.appVariables.color.black,
+            opacity: 0.45
+          }
+        },
+      },
+      stroke: { curve: 'smooth', width: 3 },
+      grid: {
+        borderColor: this.appVariables.color.borderColor,
+        row: {
+          colors: [this.appVariables.color.bodyBg, 'transparent'],
+          opacity: 0.5
+        }
+      },
+      markers: { size: 4 },
+      xaxis: { 
+        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
+        axisBorder: {
+          show: true,
+          color: this.appVariables.color.borderColor,
+          height: 1,
+          width: '100%',
+          offsetX: 0,
+          offsetY: -1
+        },
+        axisTicks: {
+          show: true,
+          borderType: 'solid',
+          color: this.appVariables.color.borderColor,
+          height: 6,
+          offsetX: 0,
+          offsetY: 0
+        },
+        labels: {
+          style: {
+            colors: this.appVariables.color.bodyColor,
+            fontSize: '12px',
+            fontFamily: this.appVariables.font.bodyFontFamily,
+            fontWeight: this.appVariables.font.bodyFontWeight,
+            cssClass: 'apexcharts-xaxis-label',
+          }
+        }
+      },
+      yaxis: { 
+        min: 5, 
+        max: 40,
+        labels: {
+          style: {
+            colors: this.appVariables.color.bodyColor,
+            fontSize: '12px',
+            fontFamily: this.appVariables.font.bodyFontFamily,
+            fontWeight: this.appVariables.font.bodyFontWeight,
+            cssClass: 'apexcharts-xaxis-label',
+          }
+        }
+      },
+      legend: {
+        show: true,
+        position: 'top',
+        offsetY: -10,
+        horizontalAlign: 'right',
+        floating: true,
+        fontFamily: this.appVariables.font.bodyFontFamily,
+        labels: { colors: this.appVariables.color.bodyColor }
+      }
+    };
+  }
+  
+  ngOnInit() {
+    this.chartOptions = this.getChartOptions();
+  }
+}
+
+
+<!-- html -->
+<apx-chart
+  [series]="chart1Options.series"
+  [chart]="chart1Options.chart"
+  [colors]="chart1Options.colors"
+  [legend]="chart1Options.legend"
+  [xaxis]="chart1Options.xaxis"
+  [yaxis]="chart1Options.yaxis"
+  [dataLabels]="chart1Options.dataLabels"
+  [grid]="chart1Options.grid"
+  [stroke]="chart1Options.stroke"
+  [title]="chart1Options.title"
+></apx-chart>

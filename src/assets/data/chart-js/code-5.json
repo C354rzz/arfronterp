@@ -1,0 +1,63 @@
+<!-- main.ts -->
+import { Component } from '@angular/core';
+import { Chart, ChartConfiguration, ChartOptions, ChartType } from 'chart.js';
+import { AppVariablesService } from '../../../service/app-variables.service';
+
+@Component({
+  selector: 'chart-js',
+  templateUrl: './chart-js.html'
+})
+
+export class ChartJsPage {
+  appVariables = this.appVariablesService.getAppVariables();
+  
+  public pieChartData: ChartConfiguration<'pie'>['data'] = { labels: [], datasets: [] };
+  public pieChartOptions: ChartOptions<'pie'> = { };
+  public pieChartLegend = true;
+  
+  constructor(private appVariablesService: AppVariablesService) {
+    this.appVariablesService.variablesReload.subscribe(() => {
+      this.appVariables = this.appVariablesService.getAppVariables();
+      this.setChartOptions();
+      this.renderPieChart();
+    });
+  }
+  
+  setChartOptions() {
+    Chart.defaults.font.family = this.appVariables.font.bodyFontFamily;
+    Chart.defaults.font.size = 12;
+    Chart.defaults.color = this.appVariables.color.bodyColor;
+    Chart.defaults.borderColor = this.appVariables.color.borderColor;
+    Chart.defaults.plugins.legend.display = false;
+    Chart.defaults.plugins.tooltip.padding = { left: 8, right: 12, top: 8, bottom: 8 };
+    Chart.defaults.plugins.tooltip.cornerRadius = 8;
+    Chart.defaults.plugins.tooltip.titleMarginBottom = 6;
+    Chart.defaults.plugins.tooltip.displayColors = true;
+    Chart.defaults.plugins.tooltip.boxPadding = 6;
+  }
+  
+  renderPieChart() {
+    this.pieChartData = {
+      labels: ['Total Visitor', 'New Visitor', 'Returning Visitor'],
+      datasets: [{
+        data: [300, 50, 100],
+        backgroundColor: ['rgba('+ this.appVariables.color.themeRgb +', .75)', 'rgba('+ this.appVariables.color.warningRgb +', .75)', 'rgba('+ this.appVariables.color.successRgb +', .75)'],
+        hoverBackgroundColor: ['rgba('+ this.appVariables.color.themeRgb +', .5)', 'rgba('+ this.appVariables.color.warningRgb +', .5)', 'rgba('+ this.appVariables.color.successRgb +', .5)'],
+        borderWidth: 0
+      }]
+    };
+    this.pieChartOptions = {
+      color: this.appVariables.color.bodyColor,
+      scales: { }
+    }
+  }
+  
+  ngOnInit() {
+    this.setChartOptions();
+    this.renderDoughnutChart();
+  }
+}
+
+
+<!-- html -->
+<canvas baseChart [type]="'pie'" [data]="pieChartData" [options]="pieChartOptions" [legend]="pieChartLegend"></canvas>

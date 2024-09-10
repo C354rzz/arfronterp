@@ -1,0 +1,10 @@
+<panel title="Panel with Toolbar & Footer" bodyClass="p-0">
+  <div class="panel-toolbar">
+    <div class="btn-group me-5px">
+      ...
+    </div>
+    <div class="btn-group">
+      ...
+    </div>
+  </div>
+</panel>

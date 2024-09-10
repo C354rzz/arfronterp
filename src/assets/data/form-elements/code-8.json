@@ -1,0 +1,20 @@
+<!-- default -->
+<div class="form-check">
+  <input class="form-check-input" type="radio" id="radio1" checked />
+  <label class="form-check-label" for="radio1">Radio</label>
+</div>
+
+<!-- inline -->
+<div class="form-check form-check-inline">
+  ...
+</div>
+
+<!-- valid -->
+<div class="form-check">
+  <input class="form-check-input is-valid" />
+</div>
+
+<!-- invalid -->
+<div class="form-check">
+  <input class="form-check-input is-invalid" />
+</div>

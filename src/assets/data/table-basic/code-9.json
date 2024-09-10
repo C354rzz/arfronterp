@@ -1,0 +1,9 @@
+<table class="table">
+  <tbody>
+    <tr class="table-active">...</tr>
+    <tr class="table-info">...</tr>
+    <tr class="table-success">...</tr>
+    <tr class="table-warning">...</tr>
+    <tr class="table-danger">...</tr>
+  </tbody>
+</table>

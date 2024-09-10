@@ -1,0 +1,29 @@
+<!-- required files -->
+<link href="/assets/plugins/jstree/dist/themes/default/style.min.css" rel="stylesheet" />
+<script src="/assets/plugins/jstree/dist/jstree.min.js"></script>
+
+<!-- html -->
+<div id="jstree-checkable"></div>
+
+<script>
+  $("#jstree-checkable").jstree({
+    "plugins": ["wholerow", "checkbox", "types"],
+    "core": {
+      "themes": { "responsive": false },    
+      "data": [{
+        "text": "Same but with checkboxes",
+        "children": [{
+          "text": "initially selected",
+          "state": { "selected": true }
+        }, {
+          "text": "Folder 1"
+        }]
+      ]},
+      "Root node 2"
+    ]},
+    "types": {
+      "default": { "icon": "fa fa-folder text-primary fa-lg" },
+      "file": { "icon": "fa fa-file text-success fa-lg" }
+    }
+  });
+</script>

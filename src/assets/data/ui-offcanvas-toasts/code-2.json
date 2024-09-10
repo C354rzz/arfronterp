@@ -1,0 +1,27 @@
+<!-- toggler -->
+<button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+
+<!-- html -->
+<div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    <div class="bg-blue rounded w-25px h-25px d-flex align-items-center justify-content-center text-white">
+      <i class="fa fa-bell"></i>
+    </div>
+    <strong class="me-auto ms-2">Bootstrap</strong>
+    <small>11 mins ago</small>
+    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+  </div>
+  <div class="toast-body">
+    Hello, world! This is a toast message.
+  </div>
+</div>
+
+<script>
+  $(document).on('click','#liveToastBtn', function(e) {
+    e.preventDefault();
+    
+    $('#liveToast').toast('show');
+    
+    $(this).blur();
+  });
+</script>

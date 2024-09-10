@@ -1,0 +1,25 @@
+<!-- toggler -->
+<a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample">
+  Toggle
+</a>
+
+<!-- html -->
+<div class="offcanvas offcanvas-start" id="offcanvasExample" data-bs-backdrop="false" data-bs-scroll="true">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasLabel">Offcanvas</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    ...
+  </div>
+</div>
+
+<!-- placement end -->
+<div class="offcanvas offcanvas-end">
+  ...
+</div>
+
+<!-- placement bottom -->
+<div class="offcanvas offcanvas-bottom">
+  ...
+</div>

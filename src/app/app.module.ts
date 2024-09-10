@@ -18,10 +18,15 @@ import { TopMenuComponent }                     from './components/top-menu/top-
 import { ThemePanelComponent }                  from './components/theme-panel/theme-panel.component';
 
 //Component Module
-// import { NgScrollbarModule, NG_SCROLLBAR_OPTIONS } from 'ngx-scrollbar';
+import { NgScrollbarModule, NG_SCROLLBAR_OPTIONS } from 'ngx-scrollbar';
+import { HighlightModule, HIGHLIGHT_OPTIONS } from 'ngx-highlightjs';
+import { NgxDatatableModule } from '@swimlane/ngx-datatable'
 
 //Pages
 import { HomePage } from './pages/home/home';
+import { ClientesComponent } from './pages/clientes/clientes.component';
+import { ClienteDetalleComponent } from './pages/clientes/cliente-detalle/cliente-detalle.component'; 
+import { DireccionesComponent } from './pages/clientes/direcciones/direcciones.component'; 
 
 @NgModule({
   declarations: [
@@ -33,8 +38,10 @@ import { HomePage } from './pages/home/home';
     PanelComponent,
     FloatSubMenuComponent,
     ThemePanelComponent,
-
     HomePage,
+    ClientesComponent,
+    ClienteDetalleComponent,
+    DireccionesComponent
   ],
   imports: [
     AppRoutingModule,
@@ -43,8 +50,34 @@ import { HomePage } from './pages/home/home';
     HttpClientModule,
     ReactiveFormsModule,
     FormsModule,
+    NgScrollbarModule,
+
+    // plugins
+    HighlightModule,
+    NgxDatatableModule.forRoot({
+      messages: {
+        emptyMessage: 'No data to display', // Message to show when array is presented, but contains no values
+        totalMessage: 'total', // Footer total message
+        selectedMessage: 'selected' // Footer selected message
+      }
+    })
   ],
-  providers: [Title],
+  providers: [ Title, {
+		provide: NG_SCROLLBAR_OPTIONS,
+		useValue: {
+			visibility: 'hover'
+		}
+  }, {
+		provide: HIGHLIGHT_OPTIONS,
+		useValue: {
+			coreLibraryLoader: () => import('highlight.js/lib/core'),
+			languages: {
+				typescript: () => import('highlight.js/lib/languages/typescript'),
+				css: () => import('highlight.js/lib/languages/css'),
+				xml: () => import('highlight.js/lib/languages/xml')
+			}
+		}
+	}],
   bootstrap: [AppComponent]
 })
 export class AppModule {

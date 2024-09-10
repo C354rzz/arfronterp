@@ -1,0 +1,26 @@
+<!-- page.ts -->
+import { ColorEvent } from 'ngx-color';
+
+export class YourPage implements OnInit {
+  color;
+	
+  handleChange($event: ColorEvent) {
+    this.color = $event.color.hex;
+  }
+  
+  ngOnInit() {
+    this.color = '#0074ff';
+  }
+}
+  
+<!-- page.html -->
+<div class="input-group" ngbDropdown placement="bottom-right">
+  <div class="input-group-text px-2">
+    <div class="w-20px h-20px rounded" [ngStyle]="{'background-color': this.color}"></div>
+  </div>
+  <input type="text" class="form-control" value="#00acac" [(ngModel)]="this.color" />
+  <button class="btn btn-outline-inverse" ngbDropdownToggle><i class="fa fa-tint"></i></button>
+  <div class="dropdown-menu dropdown-toggle w-250px" ngbDropdownMenu>
+    <color-sketch color="#00acac" (onChange)="handleChange($event)"></color-sketch>
+  </div>
+</div>

@@ -1,0 +1,5 @@
+<panel>
+  <ng-container header>
+    <h4 class="panel-title">Panel Header with Badge <span class="badge bg-success ms-1">NEW</span> </h4>
+  </ng-container>
+</panel>

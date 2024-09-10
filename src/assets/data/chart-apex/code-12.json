@@ -1,0 +1,94 @@
+<!-- main.ts -->
+import { Component } from '@angular/core';
+import { AppVariablesService } from '../../../service/app-variables.service';
+
+@Component({
+  selector: 'chart-apex',
+  templateUrl: './chart-apex.html'
+})
+
+export class ChartApexPage {
+  appVariables = this.appVariablesService.getAppVariables();
+  
+  chartOptions: any;
+
+  constructor(private appVariablesService: AppVariablesService) {
+    this.appVariablesService.variablesReload.subscribe(() => {
+      this.appVariables = this.appVariablesService.getAppVariables();
+      this.chartOptions = this.getChartOptions();
+    });
+  }
+  
+  getChartOptions() {
+    return {
+      chart: {
+        height: 320,
+        type: 'radar',
+      },
+      series: [
+        { name: 'Series 1', data: [20, 100, 40, 30, 50, 80, 33] }
+      ],
+      labels: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+      plotOptions: {
+        radar: {
+          size: 140,
+          polygons: {
+            strokeColors: this.appVariables.color.borderColor,
+            strokeWidth: 1,
+            connectorColors: this.appVariables.color.borderColor,
+            fill: {
+              colors: ['rgba('+this.appVariables.color.bodyColorRgb +', .05)', 'rgba('+ this.appVariables.color.bodyColorRgb + ', .05)']
+            }
+          }
+        }
+      },
+      title: { 
+        text: 'Radar with Polygon Fill',
+        style: {
+          fontSize: '14px',
+          fontWeight: '600',
+          fontFamily: this.appVariables.font.bodyFontFamily,
+          color: this.appVariables.color.bodyColor
+        }
+      },
+      colors: [this.appVariables.color.theme],
+      markers: {
+        size: 4,
+        colors: [this.appVariables.color.theme],
+        strokeColor: this.appVariables.color.theme,
+        strokeWidth: 2,
+      },
+      yaxis: {
+        tickAmount: 7,
+        labels: {
+          style: {
+            colors: this.appVariables.color.bodyColor,
+            fontSize: '12px',
+            fontFamily: this.appVariables.font.bodyFontFamily,
+            fontWeight: this.appVariables.font.bodyFontWeight,
+            cssClass: 'apexcharts-xaxis-label',
+          }
+        }
+      },
+      grid: { borderColor: this.appVariables.color.borderColor }
+    };
+  }
+  
+  ngOnInit() {
+    this.chartOptions = this.getChartOptions();
+  }
+}
+
+
+<!-- html -->
+<apx-chart
+  [chart]="chart12Options.chart"
+  [series]="chart12Options.series"
+  [labels]="chart12Options.labels"
+  [plotOptions]="chart12Options.plotOptions"
+  [title]="chart12Options.title"
+  [colors]="chart12Options.colors"
+  [markers]="chart12Options.markers"
+  [yaxis]="chart12Options.yaxis"
+  [grid]="chart12Options.grid"
+></apx-chart>

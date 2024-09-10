@@ -1,0 +1,8 @@
+<!-- page.ts -->
+export class YourPage {
+  time = {hour: 13, minute: 30};
+  meridian = true;
+}
+
+<!-- page.html -->
+<ngb-timepicker [(ngModel)]="time" [meridian]="meridian"></ngb-timepicker>

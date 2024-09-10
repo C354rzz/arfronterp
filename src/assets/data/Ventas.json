@@ -1,0 +1,92 @@
+[
+    {
+        "idVenta": "25728",
+        "Fecha": "2018-01-02 10:08:59.073",
+        "idCliente": "22868",
+        "idCotizacion": "27351",
+        "CostoEnvio": "150.00",
+        "CostoDescuento": "0.00",
+        "Notas ": "pago 1150 en qty  "
+    },
+    {
+        "idVenta": "25729",
+        "Fecha": "2018-01-02 10:27:16.240",
+        "idCliente": "22869",
+        "idCotizacion": "27353",
+        "CostoEnvio": "50.00",
+        "CostoDescuento": "0.00",
+        "Notas ": "MP Qlitty  "
+    },
+    {
+        "idVenta": "25731",
+        "Fecha": "2018-01-02 10:58:39.357",
+        "idCliente": "22115",
+        "idCotizacion": "27355",
+        "CostoEnvio": "10.00",
+        "CostoDescuento": "0.00",
+        "Notas ": "MP Qlity FEDEX "
+    },
+    {
+        "idVenta": "25732",
+        "Fecha": "2018-01-02 11:06:42.837",
+        "idCliente": "22115",
+        "idCotizacion": "27357",
+        "CostoEnvio": "10.00",
+        "CostoDescuento": "0.00",
+        "Notas ": "MP Qlity FEDEX "
+    },
+    {
+        "idVenta": "25733",
+        "Fecha": "2018-01-02 11:16:23.223",
+        "idCliente": "22871",
+        "idCotizacion": "27358",
+        "CostoEnvio": "0.00",
+        "CostoDescuento": "0.00",
+        "Notas ": "MP Hernandez FEDEX "
+    },
+    {
+        "idVenta": "25735",
+        "Fecha": "2018-01-02 11:19:49.483",
+        "idCliente": "22873",
+        "idCotizacion": "27360",
+        "CostoEnvio": "0.00",
+        "CostoDescuento": "0.00",
+        "Notas ": "MP Hernandez FEDEX "
+    },
+    {
+        "idVenta": "25736",
+        "Fecha": "2018-01-02 11:36:24.300",
+        "idCliente": "22874",
+        "idCotizacion": "27363",
+        "CostoEnvio": "0.00",
+        "CostoDescuento": "190.00",
+        "Notas ": "Mp Qlity  "
+    },
+    {
+        "idVenta": "25737",
+        "Fecha": "2018-01-02 12:31:44.493",
+        "idCliente": "22876",
+        "idCotizacion": "27366",
+        "CostoEnvio": "0.00",
+        "CostoDescuento": "0.00",
+        "Notas ": " "
+    },
+    {
+        "idVenta": "25738",
+        "Fecha": "2018-01-02 12:34:33.937",
+        "idCliente": "22877",
+        "idCotizacion": "27367",
+        "CostoEnvio": "50.00",
+        "CostoDescuento": "0.00",
+        "Notas ": " "
+    },
+    {
+        "idVenta": "25739",
+        "Fecha": "2018-01-02 12:38:33.763",
+        "idCliente": "22878",
+        "idCotizacion": "27368",
+        "CostoEnvio": "60.00",
+        "CostoDescuento": "0.00",
+        "Notas ": null
+    }
+]

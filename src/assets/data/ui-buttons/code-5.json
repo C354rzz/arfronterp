@@ -1,0 +1,9 @@
+<a href="#" class="btn btn-lg btn-primary">
+  <span class="d-flex align-items-center text-left">
+    <i class="fab fa-twitter fa-3x me-3 text-black"></i>
+    <span>
+      <span class="d-block"><b>Twitter Bootstrap</b></span>
+      <span class="d-block fs-12px opacity-7">Version 4.0</span>
+    </span>
+  </span>
+</a>

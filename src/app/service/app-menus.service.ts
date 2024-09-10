@@ -9,8 +9,22 @@ export class AppMenuService {
 		return [{
 			'icon': 'fa fa-sitemap',
 			'title': 'Home',
-			'url': '/'
-		},{
+			'url': '/home'
+		},
+		{
+			'icon': 'fa fa-users',
+			'title': 'Clientes',
+			'url': '/clientes',
+			'caret': 'true',
+			'submenu': [{
+				'url': '/clientes',
+				'title': 'Lista de Clientes',
+			},{
+				'url': '/clientesDirecciones',
+				'title': 'Direcciones'
+			}]
+		},
+		{
 			'icon': 'fa fa-align-left',
 			'title': 'Menu Level',
 			'url': '/menu',

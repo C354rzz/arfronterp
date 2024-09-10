@@ -1,0 +1,9 @@
+<panel>
+  <ng-container header>
+    <h4 class="panel-title">Panel Header with Radio Button</h4>
+    <div class="btn-group btn-group-toggle my-n1">
+      ...
+    </div>
+  </ng-container>
+  ...
+</panel>

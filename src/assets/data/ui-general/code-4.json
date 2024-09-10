@@ -1,0 +1,8 @@
+<!-- badge -->
+<span class="badge bg-primary">badge</span>
+
+<!-- badge-pill -->
+<span class="badge bg-danger rounded-pill">badge-pill</span>
+
+<!-- badge-square -->
+<span class="badge bg-dark rounded-0">badge-square</span>

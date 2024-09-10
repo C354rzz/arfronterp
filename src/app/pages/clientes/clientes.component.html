@@ -1,0 +1,137 @@
+<!-- BEGIN breadcrumb -->
+<div class="d-flex align-items-center mb-3">
+    <div>
+        <ul class="breadcrumb mb-2">
+            <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+            <li class="breadcrumb-item"><a href="#">Extra</a></li>
+            <li class="breadcrumb-item active">Clientes</li>
+        </ul>
+        <h1 class="page-header mb-0">Clientes</h1>
+    </div>
+
+</div>
+<!-- END breadcrumb -->
+<!-- BEGIN row -->
+<div class="row">
+    <!-- BEGIN col-12 -->
+    <div class="col-xl-12">
+        <!-- BEGIN panel -->
+        <panel>
+            <ng-container header>
+                <h4 class="panel-title">Administración de Clientes <span
+                        class="badge bg-success ms-5px my-n1">NEW</span></h4>
+            </ng-container>
+
+            <div class="mb-3 d-md-flex fw-bold">
+                <div class="mt-md-0 mt-2"><a href="clientes" class="text-dark text-decoration-none"><i
+                            class="fa fa-download fa-fw me-1 text-dark text-opacity-50"></i> Exportar</a></div>
+                <div class="ms-md-4 mt-md-0 mt-2 dropdown-toggle">
+                    <a href="#" data-bs-toggle="dropdown" class="text-dark text-decoration-none">More Actions <b
+                            class="caret"></b></a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <div role="separator" class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                </div>
+                <div class="ms-auto">
+                    <a href="#" class="btn btn-success btn-rounded px-4 rounded-pill"><i
+                            class="fa fa-plus fa-lg me-2 ms-n2 text-success-900"></i> Nuevo Cliente</a>
+                </div>
+            </div>
+            <ul class="nav nav-tabs nav-tabs-v2 px-3">
+                <li class="nav-item me-2"><a href="#todos" class="nav-link px-2 active" data-bs-toggle="tab">Todos</a>
+                </li>
+                <li class="nav-item me-2"><a href="#publishedTab" class="nav-link px-2"
+                        data-bs-toggle="tab">Unfulfilled</a></li>
+                <li class="nav-item me-2"><a href="#expiredTab" class="nav-link px-2" data-bs-toggle="tab">Unpaid</a>
+                </li>
+                <li class="nav-item me-2"><a href="#deletedTab" class="nav-link px-2" data-bs-toggle="tab">Open</a></li>
+                <li class="nav-item me-2"><a href="#deletedTab" class="nav-link px-2" data-bs-toggle="tab">Closed</a>
+                </li>
+                <li class="nav-item me-2"><a href="#deletedTab" class="nav-link px-2" data-bs-toggle="tab">Local
+                        delivery</a></li>
+            </ul>
+
+            <div class="tab-content p-3">
+                <div class="tab-pane fade show active" id="todos">
+                    <!-- BEGIN input-group -->
+                    <div class="input-group mb-3">
+                        <!-- <button class="btn btn-white dropdown-toggle" type="button" data-bs-toggle="dropdown"><span
+                                class="d-none d-md-inline">Filtro Clientes</span><span class="d-inline d-md-none"><i
+                                    class="fa fa-credit-card"></i></span> <b class="caret"></b></button> -->
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div role="separator" class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                        <div class="flex-fill position-relative">
+                            <div class="input-group">
+                                <div class="input-group-text position-absolute top-0 bottom-0 bg-none border-0 start-0"
+                                    style="z-index: 1;">
+                                    <i class="fa fa-search opacity-5"></i>
+                                </div>
+                                <!-- <input type="text" class="form-control px-35px bg-light" placeholder="Buscar Clientes..." /> -->
+                                <input class="form-control px-35px bg-light" placeholder="Buscar Cliente..."
+                                    (keyup)="updateFilter($event)" />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END input-group -->
+
+                    <!-- BEGIN table -->
+                    <ng-container outsideBody>
+                        <hr class="m-0 bg-gray-600" />
+                        <div class="table-responsive text-nowrap">
+                            <ngx-datatable #table class="bootstrap" [loadingIndicator]="loadingIndicator"
+                                [columnMode]="ColumnMode.force" [headerHeight]="50" [footerHeight]="50" rowHeight="auto"
+                                [limit]="10" [rows]="clientes">
+
+                                <ngx-datatable-column name="NumCliente" prop="idCliente">
+                                    <ng-template ngx-datatable-cell-template let-row="row">
+                                        <a [routerLink]="['/clienteDetalle',row.idCliente]">{{row.name}}</a>
+                                    </ng-template>
+                                </ngx-datatable-column>
+
+                                <ngx-datatable-column name="Activo" prop="isActive">
+                                    <ng-template #active let-row="row" let-value="value" ngx-datatable-cell-template>
+                                        <span *ngIf="value === true" class="badge me-1 bg-green">Activo</span>
+                                        <span *ngIf="value === false" class="badge me-1 bg-danger">noActivo</span>
+                                    </ng-template>
+                                </ngx-datatable-column>
+
+                                <ngx-datatable-column name="Saldo" prop="balance"></ngx-datatable-column>
+                                <ngx-datatable-column name="Empresa" prop="company"></ngx-datatable-column>
+                                <ngx-datatable-column name="Correo" prop="email"></ngx-datatable-column>
+                                <ngx-datatable-column name="Telefono" prop="phone"></ngx-datatable-column>
+
+                            </ngx-datatable>
+                            <!-- BEGIN hljs-wrapper -->
+                            <div class="hljs-wrapper">
+                                <!-- <pre><code class="xml" [highlight]="code1"></code></pre> -->
+                            </div>
+                            <!-- END hljs-wrapper -->
+                        </div>
+                    </ng-container>
+                    <!-- END table-responsive -->
+
+                </div>
+            </div>
+
+            <ng-container outsideBody>
+                <!-- BEGIN hljs-wrapper -->
+                <div class="hljs-wrapper">
+                    <!-- <pre><code class="xml" [highlight]="code7"></code></pre> -->
+                </div>
+                <!-- END hljs-wrapper -->
+            </ng-container>
+        </panel>
+        <!-- END panel -->
+    </div>
+    <!-- END col-12 -->
+</div>
+<!-- END row -->

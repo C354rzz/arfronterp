@@ -1,0 +1,14 @@
+<!-- email -->
+<input type="email" class="form-control" placeholder="Enter email" />
+
+<!-- select -->
+<select class="form-select">...</select>
+
+<!-- multiple select -->
+<select multiple class="form-select">...</select>
+
+<!-- textarea -->
+<textarea class="form-control" rows="3"></textarea>
+
+<!-- file -->
+<input type="file" class="form-control" />

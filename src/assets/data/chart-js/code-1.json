@@ -1,0 +1,71 @@
+<!-- main.ts -->
+import { Component } from '@angular/core';
+import { Chart, ChartConfiguration, ChartOptions, ChartType } from 'chart.js';
+import { AppVariablesService } from '../../../service/app-variables.service';
+
+@Component({
+  selector: 'chart-js',
+  templateUrl: './chart-js.html'
+})
+
+export class ChartJsPage {
+  appVariables = this.appVariablesService.getAppVariables();
+  
+  public lineChartData: ChartConfiguration<'line'>['data'] = { labels: [], datasets: [] };
+  public lineChartOptions: ChartOptions<'line'> = { };
+  public lineChartLegend = true;
+  
+  constructor(private appVariablesService: AppVariablesService) {
+    this.appVariablesService.variablesReload.subscribe(() => {
+      this.appVariables = this.appVariablesService.getAppVariables();
+      this.setChartOptions();
+      this.renderLineChart();
+    });
+  }
+  
+  setChartOptions() {
+    Chart.defaults.font.family = this.appVariables.font.bodyFontFamily;
+    Chart.defaults.font.size = 12;
+    Chart.defaults.color = this.appVariables.color.bodyColor;
+    Chart.defaults.borderColor = this.appVariables.color.borderColor;
+    Chart.defaults.plugins.legend.display = false;
+    Chart.defaults.plugins.tooltip.padding = { left: 8, right: 12, top: 8, bottom: 8 };
+    Chart.defaults.plugins.tooltip.cornerRadius = 8;
+    Chart.defaults.plugins.tooltip.titleMarginBottom = 6;
+    Chart.defaults.plugins.tooltip.displayColors = true;
+    Chart.defaults.plugins.tooltip.boxPadding = 6;
+  }
+  
+  renderLineChart() {
+    this.lineChartData = {
+      labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+      datasets: [{
+        backgroundColor: 'transparent',
+        borderColor: this.appVariables.color.theme,
+        borderWidth: 1.5,
+        pointBorderColor: this.appVariables.color.theme,
+        pointBackgroundColor: this.appVariables.color.bodyBg,
+        pointBorderWidth: 1.5,
+        pointRadius: 4,
+        pointHoverBorderColor: this.appVariables.color.theme,
+        pointHoverBackgroundColor: this.appVariables.color.bodyBg,
+        pointHoverRadius: 7,
+        label: 'Total Sales',
+        data: [12, 19, 4, 5, 2, 3]
+      }]
+    };
+    this.lineChartOptions = {
+      color: this.appVariables.color.bodyColor,
+      scales: { }
+    };
+  }
+  
+  ngOnInit() {
+    this.setChartOptions();
+    this.renderLineChart();
+  }
+}
+
+
+<!-- html -->
+<canvas baseChart [type]="'line'" [data]="lineChartData" [options]="lineChartOptions" [legend]="lineChartLegend"></canvas>

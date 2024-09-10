@@ -1,0 +1,46 @@
+<!-- begin widget-todolist -->
+<div class="widget-todolist rounded">
+  <!-- begin widget-todolist-header -->
+  <div class="widget-todolist-header">
+    <h4 class="widget-todolist-header-title">Todolist</h4>
+    <div class="widget-todolist-header-total">
+      <span class="text-body">0</span>
+      <small>Done</small>
+    </div>
+  </div>
+  <!-- end widget-todolist-header -->
+  
+  <!-- begin widget-todolist-body -->
+  <div class="widget-todolist-body">
+    <!-- begin widget-todolist-item -->
+    <div class="widget-todolist-item">
+      <div class="widget-todolist-input">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="widget_todolist_1" />
+          <label class="form-check-label" for="widget_todolist_1" class="ps-15px">&nbsp;</label>
+        </div>
+      </div>
+      <div class="widget-todolist-content">
+        <h6 class="mb-0">Borrow Tony's travel guide</h4>
+        <div class="text-body text-opacity-50">Vacation in Rome</p>
+      </div>
+      <div class="widget-todolist-icon">
+        <a href="#"><i class="fa fa-question-circle"></i></a>
+      </div>
+    </div>
+    <!-- end widget-todolist-item -->
+    ...
+    <!-- begin widget-todolist-item -->
+    <div class="widget-todolist-item">
+      <div class="widget-todolist-input">
+        <i class="fa fa-plus text-body text-opacity-30"></i>
+      </div>
+      <div class="widget-todolist-content">
+        <input type="text" class="form-control" placeholder="Write your task here..." />
+      </div>
+    </div>
+    <!-- end widget-todolist-item -->
+  </div>
+  <!-- end widget-todolist-body -->
+</div>
+<!-- end widget-todolist -->

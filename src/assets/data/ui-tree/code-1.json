@@ -1,0 +1,29 @@
+<!-- required files -->
+<link href="/assets/plugins/jstree/dist/themes/default/style.min.css" rel="stylesheet" />
+<script src="/assets/plugins/jstree/dist/jstree.min.js"></script>
+
+<!-- html -->
+<div id="jstree-default">
+  <ul>
+    <li data-jstree='{"opened":true}' >
+      Root node 1
+      <ul>
+        <li data-jstree='{"opened":true, "selected":true }'>Initially Selected</li>
+        <li>Folder 1</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<script>
+  $("#jstree-default").jstree({
+    "plugins": ["types"],
+    "core": {
+      "themes": { "responsive": false  }            
+      },
+    "types": {
+      "default": { "icon": "fa fa-folder text-warning fa-lg" },
+      "file": { "icon": "fa fa-file text-dark fa-lg" }
+    }
+  });
+</script>

@@ -1,0 +1,9 @@
+<blockquote class="blockquote">
+  <p>...</p>
+  <footer class="blockquote-footer">
+    Someone famous <cite title="Source Title">Source Title</cite>
+  </footer>
+</blockquote>
+<blockquote class="blockquote text-end">
+  ...
+</blockquote>
