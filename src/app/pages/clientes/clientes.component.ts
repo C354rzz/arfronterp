@@ -32,7 +32,7 @@ export class ClientesComponent implements OnInit {
   }
   
   viewDetailcliente(arg0: any) {
-    this.router.navigate(['/clientes/cientedetalle'+ arg0])
+    this.router.navigate(['/clientes/clientedetalle'+ arg0])
     console.log(arg0);
   }
   
@@ -53,16 +53,10 @@ export class ClientesComponent implements OnInit {
 
   updateFilter(event: any) {
     const val = event.target.value.toLowerCase();
-
-    // filtro de clientes
     const temp = this.clientestemp.filter(function (d: any) {
       return d.name.toLowerCase().indexOf(val) !== -1 || !val;
     });
-
-    // actualiza clientes
     this.clientes = temp;
-
-    // siempre que el filtro cambie regresa a la pagina 0
     this.table.offset = 0;
   }
 
