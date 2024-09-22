@@ -14,7 +14,7 @@ export class AppMenuService {
 		{
 			'icon': 'fa fa-users',
 			'title': 'Clientes',
-			'url': '/clientes',
+			'url': '/',
 			'caret': 'true',
 			'submenu': [{
 				'url': '/clientes',
@@ -22,6 +22,22 @@ export class AppMenuService {
 			},{
 				'url': '/clientesDirecciones',
 				'title': 'Direcciones'
+			}]
+		},
+		{
+			'icon': 'fa fa-gears',
+			'title': 'Administración',
+			'url': '/',
+			'caret': 'true',
+			'submenu': [{
+				'url': '/adminstracion',
+				'title': 'Sistema',
+			},{
+				'url': '/empleados',
+				'title': 'Empleados'
+			},{
+				'url': '/roles',
+				'title': 'Permisos'
 			}]
 		},
 		{

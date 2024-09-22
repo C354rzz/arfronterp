@@ -7,6 +7,7 @@ import { HomePage } from './pages/home/home';
 import { ClientesComponent } from './pages/clientes/clientes.component';
 import { ClienteDetalleComponent } from './pages/clientes/cliente-detalle/cliente-detalle.component';
 import { DireccionesComponent } from './pages/clientes/direcciones/direcciones.component';
+import { EmpleadosComponent } from './pages/empleados/empleados.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -14,6 +15,8 @@ const routes: Routes = [
   { path: 'clientes', component: ClientesComponent, data: { title: 'Clientes'} },
   { path: 'clienteDetalle/:uidCliente',  component: ClienteDetalleComponent, data: { title: 'ClienteDetalle'} },
   { path: 'clientesDirecciones', component: DireccionesComponent, data: { title: 'Direcciones'} },
+  { path: 'empleados', component: EmpleadosComponent, data: { title: 'Empleados'} },
+
   
 	// { path: '**', component: ErrorPage }
 ];

@@ -27,6 +27,8 @@ import { HomePage } from './pages/home/home';
 import { ClientesComponent } from './pages/clientes/clientes.component';
 import { ClienteDetalleComponent } from './pages/clientes/cliente-detalle/cliente-detalle.component'; 
 import { DireccionesComponent } from './pages/clientes/direcciones/direcciones.component'; 
+import { EmpleadosComponent } from './pages/empleados/empleados.component'; 
+
 
 @NgModule({
   declarations: [
@@ -41,7 +43,8 @@ import { DireccionesComponent } from './pages/clientes/direcciones/direcciones.c
     HomePage,
     ClientesComponent,
     ClienteDetalleComponent,
-    DireccionesComponent
+    DireccionesComponent,
+    EmpleadosComponent
   ],
   imports: [
     AppRoutingModule,
