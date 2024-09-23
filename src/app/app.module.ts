@@ -28,6 +28,10 @@ import { ClientesComponent } from './pages/clientes/clientes.component';
 import { ClienteDetalleComponent } from './pages/clientes/cliente-detalle/cliente-detalle.component'; 
 import { DireccionesComponent } from './pages/clientes/direcciones/direcciones.component'; 
 import { EmpleadosComponent } from './pages/empleados/empleados.component'; 
+import { VentasComponent } from './pages/ventas/ventas/ventas.component'; 
+import { VentaDetalleComponent } from './pages/ventas/ventas/venta-detalle/venta-detalle.component';
+import { CotizacionesComponent } from './pages/ventas/cotizaciones/cotizaciones.component';
+import { CotizacionDetalleComponent } from './pages/ventas/cotizaciones/cotizacion-detalle/cotizacion-detalle.component';
 
 
 @NgModule({
@@ -44,7 +48,11 @@ import { EmpleadosComponent } from './pages/empleados/empleados.component';
     ClientesComponent,
     ClienteDetalleComponent,
     DireccionesComponent,
-    EmpleadosComponent
+    EmpleadosComponent,
+    VentasComponent,
+    VentaDetalleComponent,
+    CotizacionesComponent,
+    CotizacionDetalleComponent
   ],
   imports: [
     AppRoutingModule,
