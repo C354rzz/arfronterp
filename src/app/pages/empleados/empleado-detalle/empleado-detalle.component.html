@@ -1,0 +1,62 @@
+<div class="d-flex align-items-center mb-3">
+    <div>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="javascript:;">Inicio</a></li>
+            <li class="breadcrumb-item"><a href="javascript:;">Empleados</a></li>
+            <li class="breadcrumb-item active"><i class="fa fa-arrow-back"></i> Detalle Empleados</li>
+        </ol>
+        <h1 class="page-header mb-0">Detalle Empleado: {{this.uidEmpleado}}</h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-8">
+        <!-- Informacion general del cliente -->
+        <div class="card border-0 mb-4">
+            <div class="card-header h6 mb-0 bg-none p-3 d-flex">
+                <div class="flex-1">
+                    <i class="fa fa-dolly fa-lg fa-fw text-dark text-opacity-50 me-1"></i> Información General
+                </div>
+                <div><a href="#" class="text-decoration-none text-gray-600"><i
+                            class="fa fa-edit fa-lg fa-fw text-dark text-opacity-50 me-1"></i></a></div>
+            </div>
+            <div class="card-body">
+                <div class=" row mb-3">
+                    <div class="col-6">
+                        <label class="form-label">Nombres Comercial</label>
+                        <input type="text" class="form-control" name="title" placeholder="Nombre Negocio">
+                    </div>
+                    <div class="col-6">
+                        <label class="form-label">Contacto</label>
+                        <input type="text" class="form-control" name="title" placeholder="Nombre Contacto">
+                    </div>
+                </div>
+                <div class=" row mb-3">
+                    <div class="col-6">
+                        <label class="form-label">Telefono</label>
+                        <input type="text" class="form-control" name="title" placeholder="Telefono">
+                    </div>
+                    <div class="col-6">
+                        <label class="form-label">Correo electronico</label>
+                        <input type="text" class="form-control" name="title" placeholder="Correo">
+                    </div>
+                </div>
+                <div class=" row mb-3">
+                    <div class="col-6">
+                        <label class="form-label">RFC</label>
+                        <input type="text" class="form-control" name="title" placeholder="RFC">
+                    </div>
+                    <div class="col-6">
+                        <label class="form-label">Direcciones</label>
+                        <select class="form-select" name="slcDireccionCli">
+                            <option value="1">Direccion Matriz</option>
+                            <option value="2">Sucursal 1</option>
+                            <option value="3">Sucursal 2</option>
+                            <option value="4">Local 1</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

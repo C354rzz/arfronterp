@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { DatatableComponent, ColumnMode } from '@swimlane/ngx-datatable';
 
 @Component({
@@ -8,13 +8,14 @@ import { DatatableComponent, ColumnMode } from '@swimlane/ngx-datatable';
   styleUrl: './empleados.component.scss'
 })
 export class EmpleadosComponent implements OnInit {
+  [x: string]: any;
   idEmpleado: string | null | undefined;
   empleados: any = [];
   empleadosfilter: any = [];
   
   loadingIndicator = true;
   
-  constructor(private route: ActivatedRoute){
+  constructor(private router: Router){
     fetch('assets/data/Empleados.json')
     .then(response => response.json())
     .then(data => {
@@ -25,8 +26,7 @@ export class EmpleadosComponent implements OnInit {
   }
   
   ngOnInit(): void {
-  }
-  
+  }  
   
   @ViewChild(DatatableComponent) table!: DatatableComponent;
   

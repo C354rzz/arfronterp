@@ -12,6 +12,38 @@ export class AppMenuService {
 			'url': '/home'
 		},
 		{
+			'icon': 'fa fa-basket-shopping',
+			'title': 'Ventas',
+			'url': '/',
+			'caret': 'true',
+			'submenu': [{
+				'url': '/cotizaciones',
+				'title': 'Cotizaciones'
+			},{
+				'url': '/ventas',
+				'title': 'Ventas',
+			}]
+		},
+		{
+			'icon': 'fa fa-chart-line',
+			'title': 'Reportes',
+			'url': '/',
+			'caret': 'true',
+			'submenu': [{
+				'url': '/reporteVentas',
+				'title': 'Reporte Ventas',
+			},{
+				'url': '/reporteProductos',
+				'title': 'Reporte Productos'
+			},{
+				'url': '/reporteInventarios',
+				'title': 'Reporte Inventarios'
+			},{
+				'url': '/reporteCotizaciones',
+				'title': 'Reporte Cotizaciones'
+			}]
+		},
+		{
 			'icon': 'fa fa-users',
 			'title': 'Clientes',
 			'url': '/',
@@ -22,6 +54,32 @@ export class AppMenuService {
 			},{
 				'url': '/clientesDirecciones',
 				'title': 'Direcciones'
+			}]
+		},
+		{
+			'icon': 'fa fa-tags',
+			'title': 'Productos',
+			'url': '/',
+			'caret': 'true',
+			'submenu': [{
+				'url': '/productos',
+				'title': 'Lista de Productos',
+			},{
+				'url': '/paquetes',
+				'title': 'Listas Paquetes'
+			}]
+		},
+		{
+			'icon': 'fa fa-warehouse',
+			'title': 'Inventarios',
+			'url': '/',
+			'caret': 'true',
+			'submenu': [{
+				'url': '/bodegas',
+				'title': 'Bodegas',
+			},{
+				'url': '/historial',
+				'title': 'Historial Movimientos'
 			}]
 		},
 		{
