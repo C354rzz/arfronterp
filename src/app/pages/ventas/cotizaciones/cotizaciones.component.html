@@ -54,6 +54,73 @@
                 <li class="nav-item me-2"><a href="#deletedTab" class="nav-link px-2" data-bs-toggle="tab">Local
                         delivery</a></li>
             </ul>
+
+            <div class="tab-content p-3">
+                <div class="tab-pane fade show active" id="todos">
+                    <!-- BEGIN input-group -->
+                    <div class="input-group mb-3">
+                        <!-- <button class="btn btn-white dropdown-toggle" type="button" data-bs-toggle="dropdown"><span
+                                class="d-none d-md-inline">Filtro Clientes</span><span class="d-inline d-md-none"><i
+                                    class="fa fa-credit-card"></i></span> <b class="caret"></b></button> -->
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div role="separator" class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                        <div class="flex-fill position-relative">
+                            <div class="input-group">
+                                <div class="input-group-text position-absolute top-0 bottom-0 bg-none border-0 start-0"
+                                    style="z-index: 1;">
+                                    <i class="fa fa-search opacity-5"></i>
+                                </div>
+                                <!-- <input type="text" class="form-control px-35px bg-light" placeholder="Buscar Direcciones..." /> -->
+                                <input class="form-control px-35px bg-light" placeholder="Buscar Direccón..."
+                                    (keyup)="updateFilter($event)" />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END input-group -->
+
+                    <!-- BEGIN table -->
+                    <ng-container outsideBody>
+                        <hr class="m-0 bg-gray-600" />
+                        <div class="table-responsive text-nowrap">
+                            <ngx-datatable #table class="bootstrap" [loadingIndicator]="loadingIndicator"
+                                [columnMode]="ColumnMode.flex" [headerHeight]="50" [footerHeight]="50" rowHeight="auto"
+                                [limit]="10" [rows]="cotizaciones">
+
+                                <ngx-datatable-column name="Cotización" prop="idCotizacion" [flexGrow]="1">
+                                    <ng-template ngx-datatable-cell-template let-row="row">
+                                        <a [routerLink]="['/cotizacionDetalle',row.idCotizacion]">{{row.idCotizacion}}</a>
+                                    </ng-template>
+                                </ngx-datatable-column>
+                                <ngx-datatable-column name="Fecha" prop="Fecha" [flexGrow]="2"></ngx-datatable-column>
+                                <ngx-datatable-column name="Referencia" prop="Referencia" [flexGrow]="1"></ngx-datatable-column>
+                                <ngx-datatable-column name="idCliente" prop="idCliente" [flexGrow]="2"></ngx-datatable-column>
+                                <ngx-datatable-column name="idEmpleado" prop="idEmpleado" [flexGrow]="1"></ngx-datatable-column>
+                                <ngx-datatable-column name="idMarcaDM" prop="idMarcaDM" [flexGrow]="1"></ngx-datatable-column>
+                                <ngx-datatable-column name="CostoEnvio" prop="CostoEnvio" [flexGrow]="1"></ngx-datatable-column>
+
+                            </ngx-datatable>
+                            <!-- BEGIN hljs-wrapper -->
+                            <div class="hljs-wrapper">
+                                <!-- <pre><code class="xml" [highlight]="code1"></code></pre> -->
+                            </div>
+                            <!-- END hljs-wrapper -->
+                        </div>
+                    </ng-container>
+                    <!-- END table-responsive -->
+                </div>
+            </div>
+            <ng-container outsideBody>
+                <!-- BEGIN hljs-wrapper -->
+                <div class="hljs-wrapper">
+                    <!-- <pre><code class="xml" [highlight]="code7"></code></pre> -->
+                </div>
+                <!-- END hljs-wrapper -->
+            </ng-container>
         </panel>
     </div>
 </div>

@@ -91,9 +91,14 @@
                                 [columnMode]="ColumnMode.force" [headerHeight]="50" [footerHeight]="50" rowHeight="auto"
                                 [limit]="10" [rows]="clientes">
 
-                                <ngx-datatable-column name="NumCliente" prop="idCliente">
+                                <ngx-datatable-column name="Nombre Comercial" prop="idCliente">
                                     <ng-template ngx-datatable-cell-template let-row="row">
-                                        <a [routerLink]="['/clienteDetalle',row.idCliente]">{{row.name}}</a>
+                                        <a [routerLink]="['/clienteDetalle',row.idCliente]">{{row.NombreComercial}}</a>
+                                    </ng-template>
+                                </ngx-datatable-column>
+                                <ngx-datatable-column name="Contacto" prop="idEmpleado" [flexGrow]="2"> 
+                                    <ng-template ngx-datatable-cell-template let-row="row" let-value="value">
+                                        <span>{{row.Contacto}}</span>
                                     </ng-template>
                                 </ngx-datatable-column>
 
@@ -104,10 +109,10 @@
                                     </ng-template>
                                 </ngx-datatable-column>
 
-                                <ngx-datatable-column name="Saldo" prop="balance"></ngx-datatable-column>
-                                <ngx-datatable-column name="Empresa" prop="company"></ngx-datatable-column>
-                                <ngx-datatable-column name="Correo" prop="email"></ngx-datatable-column>
-                                <ngx-datatable-column name="Telefono" prop="phone"></ngx-datatable-column>
+                                <ngx-datatable-column name="RFC" prop="RFC"></ngx-datatable-column>
+                                <ngx-datatable-column name="FechaAlta" prop="FechaAlta"></ngx-datatable-column>
+                                <ngx-datatable-column name="Correo" prop="Correo"></ngx-datatable-column>
+                                <ngx-datatable-column name="Telefono" prop="Telefono"></ngx-datatable-column>
 
                             </ngx-datatable>
                             <!-- BEGIN hljs-wrapper -->
