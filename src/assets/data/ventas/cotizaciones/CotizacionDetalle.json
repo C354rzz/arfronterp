@@ -1,0 +1,3179 @@
+[
+	{
+		"idLineaCoti" : 113077,
+		"idCotizacion" : 27437,
+		"idProducto" : 231,
+		"Descripcion" : "BARRA Z ESTANDAR CON ROSCA",
+		"Precio" : "250.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "RB47T"
+	},
+	{
+		"idLineaCoti" : 113078,
+		"idCotizacion" : 27437,
+		"idProducto" : 230,
+		"Descripcion" : "MANGO ESTANDAR CON ROSCA",
+		"Precio" : "125.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDA14T"
+	},
+	{
+		"idLineaCoti" : 113079,
+		"idCotizacion" : 27437,
+		"idProducto" : 130,
+		"Descripcion" : "DISCO ESTANDAR CON 3 AGARRES 10LBS",
+		"Precio" : "150.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "DB6010-10"
+	},
+	{
+		"idLineaCoti" : 113080,
+		"idCotizacion" : 27437,
+		"idProducto" : 129,
+		"Descripcion" : "DISCO ESTANDAR CON 3 AGARRES 5LBS",
+		"Precio" : "75.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "DB6010-5"
+	},
+	{
+		"idLineaCoti" : 113081,
+		"idCotizacion" : 27437,
+		"idProducto" : 128,
+		"Descripcion" : "DISCO ESTANDAR CON 3 AGARRES 2.5 LIBRAS",
+		"Precio" : "37.5000",
+		"Cantidad" : 4.0,
+		"SKU" : "DB6010-2.5"
+	},
+	{
+		"idLineaCoti" : 114446,
+		"idCotizacion" : 27735,
+		"idProducto" : 231,
+		"Descripcion" : "BARRA Z ESTANDAR CON ROSCA",
+		"Precio" : "250.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "RB47T"
+	},
+	{
+		"idLineaCoti" : 114447,
+		"idCotizacion" : 27735,
+		"idProducto" : 230,
+		"Descripcion" : "MANGO ESTANDAR CON ROSCA",
+		"Precio" : "125.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDA14T"
+	},
+	{
+		"idLineaCoti" : 114448,
+		"idCotizacion" : 27735,
+		"idProducto" : 130,
+		"Descripcion" : "DISCO ESTANDAR CON 3 AGARRES 10LBS",
+		"Precio" : "150.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "DB6010-10"
+	},
+	{
+		"idLineaCoti" : 114449,
+		"idCotizacion" : 27735,
+		"idProducto" : 129,
+		"Descripcion" : "DISCO ESTANDAR CON 3 AGARRES 5LBS",
+		"Precio" : "75.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "DB6010-5"
+	},
+	{
+		"idLineaCoti" : 114450,
+		"idCotizacion" : 27735,
+		"idProducto" : 128,
+		"Descripcion" : "DISCO ESTANDAR CON 3 AGARRES 2.5 LIBRAS",
+		"Precio" : "37.5000",
+		"Cantidad" : 4.0,
+		"SKU" : "DB6010-2.5"
+	},
+	{
+		"idLineaCoti" : 115029,
+		"idCotizacion" : 27828,
+		"idProducto" : 229,
+		"Descripcion" : "BARRA ESTANDAR CON ROSCA 1.5",
+		"Precio" : "290.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "RB-60T"
+	},
+	{
+		"idLineaCoti" : 115030,
+		"idCotizacion" : 27828,
+		"idProducto" : 231,
+		"Descripcion" : "BARRA Z ESTANDAR CON ROSCA",
+		"Precio" : "250.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "RB47T"
+	},
+	{
+		"idLineaCoti" : 115031,
+		"idCotizacion" : 27828,
+		"idProducto" : 230,
+		"Descripcion" : "MANGO ESTANDAR CON ROSCA",
+		"Precio" : "125.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDA14T"
+	},
+	{
+		"idLineaCoti" : 115032,
+		"idCotizacion" : 27828,
+		"idProducto" : 130,
+		"Descripcion" : "DISCO ESTANDAR CON 3 AGARRES 10LBS",
+		"Precio" : "150.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "DB6010-10"
+	},
+	{
+		"idLineaCoti" : 115033,
+		"idCotizacion" : 27828,
+		"idProducto" : 129,
+		"Descripcion" : "DISCO ESTANDAR CON 3 AGARRES 5LBS",
+		"Precio" : "75.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "DB6010-5"
+	},
+	{
+		"idLineaCoti" : 115034,
+		"idCotizacion" : 27828,
+		"idProducto" : 128,
+		"Descripcion" : "DISCO ESTANDAR CON 3 AGARRES 2.5 LIBRAS",
+		"Precio" : "37.5000",
+		"Cantidad" : 4.0,
+		"SKU" : "DB6010-2.5"
+	},
+	{
+		"idLineaCoti" : 119329,
+		"idCotizacion" : 28431,
+		"idProducto" : 148,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 5 LBS",
+		"Precio" : "95.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "SDR05"
+	},
+	{
+		"idLineaCoti" : 119330,
+		"idCotizacion" : 28431,
+		"idProducto" : 152,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 10 LBS",
+		"Precio" : "190.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "SDR10"
+	},
+	{
+		"idLineaCoti" : 119331,
+		"idCotizacion" : 28431,
+		"idProducto" : 147,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 15 LBS",
+		"Precio" : "285.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "SDR15"
+	},
+	{
+		"idLineaCoti" : 119332,
+		"idCotizacion" : 28431,
+		"idProducto" : 153,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 20 LBS",
+		"Precio" : "380.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "SDR20"
+	},
+	{
+		"idLineaCoti" : 119333,
+		"idCotizacion" : 28431,
+		"idProducto" : 146,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 25 LBS",
+		"Precio" : "475.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "SDR25"
+	},
+	{
+		"idLineaCoti" : 119334,
+		"idCotizacion" : 28431,
+		"idProducto" : 154,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 30 LBS",
+		"Precio" : "570.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "SDR30"
+	},
+	{
+		"idLineaCoti" : 119488,
+		"idCotizacion" : 27601,
+		"idProducto" : 149,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 3 LBS",
+		"Precio" : "57.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR03"
+	},
+	{
+		"idLineaCoti" : 119489,
+		"idCotizacion" : 27601,
+		"idProducto" : 148,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 5 LBS",
+		"Precio" : "95.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR05"
+	},
+	{
+		"idLineaCoti" : 119490,
+		"idCotizacion" : 27601,
+		"idProducto" : 152,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 10 LBS",
+		"Precio" : "190.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR10"
+	},
+	{
+		"idLineaCoti" : 119491,
+		"idCotizacion" : 27601,
+		"idProducto" : 151,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 12 LBS",
+		"Precio" : "228.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR12"
+	},
+	{
+		"idLineaCoti" : 119492,
+		"idCotizacion" : 27601,
+		"idProducto" : 147,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 15 LBS",
+		"Precio" : "285.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR15"
+	},
+	{
+		"idLineaCoti" : 119493,
+		"idCotizacion" : 27601,
+		"idProducto" : 153,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 20 LBS",
+		"Precio" : "380.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR20"
+	},
+	{
+		"idLineaCoti" : 119494,
+		"idCotizacion" : 27601,
+		"idProducto" : 146,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 25 LBS",
+		"Precio" : "475.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR25"
+	},
+	{
+		"idLineaCoti" : 119495,
+		"idCotizacion" : 27601,
+		"idProducto" : 154,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 30 LBS",
+		"Precio" : "570.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR30"
+	},
+	{
+		"idLineaCoti" : 119496,
+		"idCotizacion" : 27601,
+		"idProducto" : 145,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 35 LBS",
+		"Precio" : "665.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR35"
+	},
+	{
+		"idLineaCoti" : 119497,
+		"idCotizacion" : 27601,
+		"idProducto" : 155,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 40 LBS",
+		"Precio" : "760.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR40"
+	},
+	{
+		"idLineaCoti" : 122590,
+		"idCotizacion" : 28802,
+		"idProducto" : 148,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 5 LBS",
+		"Precio" : "100.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR05"
+	},
+	{
+		"idLineaCoti" : 122591,
+		"idCotizacion" : 28802,
+		"idProducto" : 152,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 10 LBS",
+		"Precio" : "200.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR10"
+	},
+	{
+		"idLineaCoti" : 122592,
+		"idCotizacion" : 28802,
+		"idProducto" : 147,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 15 LBS",
+		"Precio" : "300.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR15"
+	},
+	{
+		"idLineaCoti" : 122593,
+		"idCotizacion" : 28802,
+		"idProducto" : 153,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 20 LBS",
+		"Precio" : "400.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR20"
+	},
+	{
+		"idLineaCoti" : 122594,
+		"idCotizacion" : 28802,
+		"idProducto" : 146,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 25 LBS",
+		"Precio" : "500.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR25"
+	},
+	{
+		"idLineaCoti" : 122595,
+		"idCotizacion" : 28802,
+		"idProducto" : 154,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 30 LBS",
+		"Precio" : "600.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR30"
+	},
+	{
+		"idLineaCoti" : 122596,
+		"idCotizacion" : 28802,
+		"idProducto" : 145,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 35 LBS",
+		"Precio" : "700.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR35"
+	},
+	{
+		"idLineaCoti" : 122597,
+		"idCotizacion" : 28802,
+		"idProducto" : 155,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 40 LBS",
+		"Precio" : "800.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR40"
+	},
+	{
+		"idLineaCoti" : 122598,
+		"idCotizacion" : 28802,
+		"idProducto" : 2606,
+		"Descripcion" : "RACK PARA MANCUERNAS HEXAGONALES",
+		"Precio" : "1600.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "RK22"
+	},
+	{
+		"idLineaCoti" : 122599,
+		"idCotizacion" : 28802,
+		"idProducto" : 389,
+		"Descripcion" : "BARRA Z OLIMPICA",
+		"Precio" : "490.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "OB47"
+	},
+	{
+		"idLineaCoti" : 128030,
+		"idCotizacion" : 30757,
+		"idProducto" : 228,
+		"Descripcion" : "BARRA OLIMPICA POWER CAPACIDAD 700LBS",
+		"Precio" : "1290.0000",
+		"Cantidad" : 12.0,
+		"SKU" : "OBPW85"
+	},
+	{
+		"idLineaCoti" : 128031,
+		"idCotizacion" : 30757,
+		"idProducto" : 2636,
+		"Descripcion" : "BARRA OLIMPICA 2.2 MTS 40 LBS",
+		"Precio" : "990.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "BC103-18"
+	},
+	{
+		"idLineaCoti" : 128032,
+		"idCotizacion" : 30757,
+		"idProducto" : 139,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-10LBS",
+		"Precio" : "200.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "DB6072-10"
+	},
+	{
+		"idLineaCoti" : 128033,
+		"idCotizacion" : 30757,
+		"idProducto" : 140,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-25LBS",
+		"Precio" : "500.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "DB6072-25"
+	},
+	{
+		"idLineaCoti" : 128034,
+		"idCotizacion" : 30757,
+		"idProducto" : 142,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-45LBS",
+		"Precio" : "900.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "DB6072-45"
+	},
+	{
+		"idLineaCoti" : 129939,
+		"idCotizacion" : 31030,
+		"idProducto" : 231,
+		"Descripcion" : "BARRA Z ESTANDAR CON ROSCA",
+		"Precio" : "250.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "RB47T"
+	},
+	{
+		"idLineaCoti" : 129940,
+		"idCotizacion" : 31030,
+		"idProducto" : 389,
+		"Descripcion" : "BARRA Z OLIMPICA",
+		"Precio" : "490.0000",
+		"Cantidad" : 5.0,
+		"SKU" : "OB47"
+	},
+	{
+		"idLineaCoti" : 129941,
+		"idCotizacion" : 31030,
+		"idProducto" : 233,
+		"Descripcion" : "BARRA Z OLIMPICA QUALITY FITNESS",
+		"Precio" : "890.0000",
+		"Cantidad" : 5.0,
+		"SKU" : "QOB47"
+	},
+	{
+		"idLineaCoti" : 129942,
+		"idCotizacion" : 31030,
+		"idProducto" : 328,
+		"Descripcion" : "G8 LYING LEG CURL",
+		"Precio" : "17900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "1008"
+	},
+	{
+		"idLineaCoti" : 129943,
+		"idCotizacion" : 31030,
+		"idProducto" : 2659,
+		"Descripcion" : "G8 LEG EXTENSION",
+		"Precio" : "17900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "1009"
+	},
+	{
+		"idLineaCoti" : 129944,
+		"idCotizacion" : 31030,
+		"idProducto" : 327,
+		"Descripcion" : "G8 WIDE LAT PULLDOWN\/HORIZONTAL ROWING",
+		"Precio" : "18900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "1020"
+	},
+	{
+		"idLineaCoti" : 129945,
+		"idCotizacion" : 31030,
+		"idProducto" : 3663,
+		"Descripcion" : "BANCA PARA PECHO GOLDS GYM",
+		"Precio" : "4990.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "XRS20"
+	},
+	{
+		"idLineaCoti" : 132387,
+		"idCotizacion" : 31407,
+		"idProducto" : 148,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 5 LBS",
+		"Precio" : "105.0000",
+		"Cantidad" : 8.0,
+		"SKU" : "SDR05"
+	},
+	{
+		"idLineaCoti" : 132388,
+		"idCotizacion" : 31407,
+		"idProducto" : 152,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 10 LBS",
+		"Precio" : "210.0000",
+		"Cantidad" : 8.0,
+		"SKU" : "SDR10"
+	},
+	{
+		"idLineaCoti" : 132389,
+		"idCotizacion" : 31407,
+		"idProducto" : 147,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 15 LBS",
+		"Precio" : "315.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "SDR15"
+	},
+	{
+		"idLineaCoti" : 132390,
+		"idCotizacion" : 31407,
+		"idProducto" : 153,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 20 LBS",
+		"Precio" : "420.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "SDR20"
+	},
+	{
+		"idLineaCoti" : 132391,
+		"idCotizacion" : 31407,
+		"idProducto" : 146,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 25 LBS",
+		"Precio" : "525.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "SDR25"
+	},
+	{
+		"idLineaCoti" : 133447,
+		"idCotizacion" : 31522,
+		"idProducto" : 150,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 8 LBS",
+		"Precio" : "168.0000",
+		"Cantidad" : 20.0,
+		"SKU" : "SDR08"
+	},
+	{
+		"idLineaCoti" : 133448,
+		"idCotizacion" : 31522,
+		"idProducto" : 299,
+		"Descripcion" : "COMMERCIAL TREADMILL",
+		"Precio" : "33500.0000",
+		"Cantidad" : 5.0,
+		"SKU" : "GV-50518"
+	},
+	{
+		"idLineaCoti" : 133449,
+		"idCotizacion" : 31522,
+		"idProducto" : 420,
+		"Descripcion" : "TRAMPOLIN  NEGRO QUALITY DE 40\"",
+		"Precio" : "850.0000",
+		"Cantidad" : 23.0,
+		"SKU" : "TR003"
+	},
+	{
+		"idLineaCoti" : 133450,
+		"idCotizacion" : 31522,
+		"idProducto" : 388,
+		"Descripcion" : "BARRA ROMANA OLIMPICA",
+		"Precio" : "990.0000",
+		"Cantidad" : 20.0,
+		"SKU" : "OB34S"
+	},
+	{
+		"idLineaCoti" : 133451,
+		"idCotizacion" : 31522,
+		"idProducto" : 151,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 12 LBS",
+		"Precio" : "252.0000",
+		"Cantidad" : 20.0,
+		"SKU" : "SDR12"
+	},
+	{
+		"idLineaCoti" : 133452,
+		"idCotizacion" : 31522,
+		"idProducto" : 149,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 3 LBS",
+		"Precio" : "63.0000",
+		"Cantidad" : 20.0,
+		"SKU" : "SDR03"
+	},
+	{
+		"idLineaCoti" : 133453,
+		"idCotizacion" : 31522,
+		"idProducto" : 159,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 80 LBS",
+		"Precio" : "1680.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR80"
+	},
+	{
+		"idLineaCoti" : 133762,
+		"idCotizacion" : 31536,
+		"idProducto" : 107,
+		"Descripcion" : "AGARRADERA TIPO DOBLE D PARA REMO",
+		"Precio" : "390.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "MB502"
+	},
+	{
+		"idLineaCoti" : 133763,
+		"idCotizacion" : 31536,
+		"idProducto" : 118,
+		"Descripcion" : "AGARRADERA PARA ESPALDA LAT BAR",
+		"Precio" : "730.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "MB148R"
+	},
+	{
+		"idLineaCoti" : 133764,
+		"idCotizacion" : 31536,
+		"idProducto" : 109,
+		"Descripcion" : "AGARRADERA PARA BICEP RECTO CORTO",
+		"Precio" : "450.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "MB020R"
+	},
+	{
+		"idLineaCoti" : 133765,
+		"idCotizacion" : 31536,
+		"idProducto" : 148,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 5 LBS",
+		"Precio" : "105.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR05"
+	},
+	{
+		"idLineaCoti" : 133766,
+		"idCotizacion" : 31536,
+		"idProducto" : 152,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 10 LBS",
+		"Precio" : "210.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR10"
+	},
+	{
+		"idLineaCoti" : 133767,
+		"idCotizacion" : 31536,
+		"idProducto" : 147,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 15 LBS",
+		"Precio" : "315.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR15"
+	},
+	{
+		"idLineaCoti" : 133768,
+		"idCotizacion" : 31536,
+		"idProducto" : 153,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 20 LBS",
+		"Precio" : "420.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR20"
+	},
+	{
+		"idLineaCoti" : 133769,
+		"idCotizacion" : 31536,
+		"idProducto" : 146,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 25 LBS",
+		"Precio" : "525.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR25"
+	},
+	{
+		"idLineaCoti" : 134918,
+		"idCotizacion" : 31748,
+		"idProducto" : 147,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 15 LBS",
+		"Precio" : "315.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "SDR15"
+	},
+	{
+		"idLineaCoti" : 134919,
+		"idCotizacion" : 31748,
+		"idProducto" : 107,
+		"Descripcion" : "AGARRADERA TIPO DOBLE D PARA REMO",
+		"Precio" : "390.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "MB502"
+	},
+	{
+		"idLineaCoti" : 134920,
+		"idCotizacion" : 31748,
+		"idProducto" : 115,
+		"Descripcion" : "AGARRADERA TIPO V",
+		"Precio" : "350.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "MB504"
+	},
+	{
+		"idLineaCoti" : 134921,
+		"idCotizacion" : 31748,
+		"idProducto" : 231,
+		"Descripcion" : "BARRA Z ESTANDAR CON ROSCA",
+		"Precio" : "250.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "RB47T"
+	},
+	{
+		"idLineaCoti" : 134922,
+		"idCotizacion" : 31748,
+		"idProducto" : 234,
+		"Descripcion" : "CUERDA PARA TRICEP",
+		"Precio" : "320.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "MB-ROPE"
+	},
+	{
+		"idLineaCoti" : 135517,
+		"idCotizacion" : 31815,
+		"idProducto" : 360,
+		"Descripcion" : "SET OLIMPICO CON AGARRADERAS GRIS 290 LBS",
+		"Precio" : "4400.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "PAQ-106"
+	},
+	{
+		"idLineaCoti" : 139313,
+		"idCotizacion" : 32237,
+		"idProducto" : 127,
+		"Descripcion" : "DISCO ESTANDAR CON 3 AGARRES  25LBS",
+		"Precio" : "375.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "DB6010-25"
+	},
+	{
+		"idLineaCoti" : 139314,
+		"idCotizacion" : 32237,
+		"idProducto" : 130,
+		"Descripcion" : "DISCO ESTANDAR CON 3 AGARRES 10LBS",
+		"Precio" : "150.0000",
+		"Cantidad" : 8.0,
+		"SKU" : "DB6010-10"
+	},
+	{
+		"idLineaCoti" : 139315,
+		"idCotizacion" : 32237,
+		"idProducto" : 129,
+		"Descripcion" : "DISCO ESTANDAR CON 3 AGARRES 5LBS",
+		"Precio" : "75.0000",
+		"Cantidad" : 12.0,
+		"SKU" : "DB6010-5"
+	},
+	{
+		"idLineaCoti" : 139316,
+		"idCotizacion" : 32237,
+		"idProducto" : 128,
+		"Descripcion" : "DISCO ESTANDAR CON 3 AGARRES 2.5 LIBRAS",
+		"Precio" : "37.5000",
+		"Cantidad" : 6.0,
+		"SKU" : "DB6010-2.5"
+	},
+	{
+		"idLineaCoti" : 139317,
+		"idCotizacion" : 32237,
+		"idProducto" : 229,
+		"Descripcion" : "BARRA ESTANDAR CON ROSCA 1.5",
+		"Precio" : "290.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "RB-60T"
+	},
+	{
+		"idLineaCoti" : 139318,
+		"idCotizacion" : 32237,
+		"idProducto" : 231,
+		"Descripcion" : "BARRA Z ESTANDAR CON ROSCA",
+		"Precio" : "250.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "RB47T"
+	},
+	{
+		"idLineaCoti" : 139319,
+		"idCotizacion" : 32237,
+		"idProducto" : 230,
+		"Descripcion" : "MANGO ESTANDAR CON ROSCA",
+		"Precio" : "125.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDA14T"
+	},
+	{
+		"idLineaCoti" : 139320,
+		"idCotizacion" : 32237,
+		"idProducto" : 446,
+		"Descripcion" : "BAR PAD",
+		"Precio" : "300.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "MA105"
+	},
+	{
+		"idLineaCoti" : 139321,
+		"idCotizacion" : 32237,
+		"idProducto" : 506,
+		"Descripcion" : "soporte para hacer sentadilla (mantarray)",
+		"Precio" : "1250.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "MR136"
+	},
+	{
+		"idLineaCoti" : 151830,
+		"idCotizacion" : 36579,
+		"idProducto" : 148,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 5 LBS",
+		"Precio" : "105.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "SDR05"
+	},
+	{
+		"idLineaCoti" : 151831,
+		"idCotizacion" : 36579,
+		"idProducto" : 152,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 10 LBS",
+		"Precio" : "210.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "SDR10"
+	},
+	{
+		"idLineaCoti" : 151832,
+		"idCotizacion" : 36579,
+		"idProducto" : 153,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 20 LBS",
+		"Precio" : "420.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR20"
+	},
+	{
+		"idLineaCoti" : 151833,
+		"idCotizacion" : 36579,
+		"idProducto" : 146,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 25 LBS",
+		"Precio" : "525.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR25"
+	},
+	{
+		"idLineaCoti" : 151834,
+		"idCotizacion" : 36579,
+		"idProducto" : 154,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 30 LBS",
+		"Precio" : "630.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR30"
+	},
+	{
+		"idLineaCoti" : 151835,
+		"idCotizacion" : 36579,
+		"idProducto" : 145,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 35 LBS",
+		"Precio" : "735.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR35"
+	},
+	{
+		"idLineaCoti" : 151836,
+		"idCotizacion" : 36579,
+		"idProducto" : 155,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 40 LBS",
+		"Precio" : "840.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR40"
+	},
+	{
+		"idLineaCoti" : 151837,
+		"idCotizacion" : 36579,
+		"idProducto" : 161,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 90 LBS",
+		"Precio" : "1890.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR90"
+	},
+	{
+		"idLineaCoti" : 151838,
+		"idCotizacion" : 36579,
+		"idProducto" : 157,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 100 LBS",
+		"Precio" : "2100.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR100"
+	},
+	{
+		"idLineaCoti" : 153726,
+		"idCotizacion" : 36843,
+		"idProducto" : 231,
+		"Descripcion" : "BARRA Z ESTANDAR CON ROSCA",
+		"Precio" : "250.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "RB47T"
+	},
+	{
+		"idLineaCoti" : 153727,
+		"idCotizacion" : 36843,
+		"idProducto" : 229,
+		"Descripcion" : "BARRA ESTANDAR CON ROSCA 1.5",
+		"Precio" : "290.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "RB-60T"
+	},
+	{
+		"idLineaCoti" : 153728,
+		"idCotizacion" : 36843,
+		"idProducto" : 230,
+		"Descripcion" : "MANGO ESTANDAR CON ROSCA",
+		"Precio" : "125.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDA14T"
+	},
+	{
+		"idLineaCoti" : 153729,
+		"idCotizacion" : 36843,
+		"idProducto" : 130,
+		"Descripcion" : "DISCO ESTANDAR CON 3 AGARRES 10LBS",
+		"Precio" : "150.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "DB6010-10"
+	},
+	{
+		"idLineaCoti" : 153730,
+		"idCotizacion" : 36843,
+		"idProducto" : 129,
+		"Descripcion" : "DISCO ESTANDAR CON 3 AGARRES 5LBS",
+		"Precio" : "75.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "DB6010-5"
+	},
+	{
+		"idLineaCoti" : 153731,
+		"idCotizacion" : 36843,
+		"idProducto" : 128,
+		"Descripcion" : "DISCO ESTANDAR CON 3 AGARRES 2.5 LIBRAS",
+		"Precio" : "37.5000",
+		"Cantidad" : 4.0,
+		"SKU" : "DB6010-2.5"
+	},
+	{
+		"idLineaCoti" : 157118,
+		"idCotizacion" : 38206,
+		"idProducto" : 146,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 25 LBS",
+		"Precio" : "525.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR25"
+	},
+	{
+		"idLineaCoti" : 157119,
+		"idCotizacion" : 38206,
+		"idProducto" : 142,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-45LBS",
+		"Precio" : "1035.0000",
+		"Cantidad" : 16.0,
+		"SKU" : "DB6072-45"
+	},
+	{
+		"idLineaCoti" : 157120,
+		"idCotizacion" : 38206,
+		"idProducto" : 141,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-35LBS",
+		"Precio" : "805.0000",
+		"Cantidad" : 16.0,
+		"SKU" : "DB6072-35"
+	},
+	{
+		"idLineaCoti" : 157121,
+		"idCotizacion" : 38206,
+		"idProducto" : 140,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-25LBS",
+		"Precio" : "575.0000",
+		"Cantidad" : 16.0,
+		"SKU" : "DB6072-25"
+	},
+	{
+		"idLineaCoti" : 157122,
+		"idCotizacion" : 38206,
+		"idProducto" : 139,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-10LBS",
+		"Precio" : "230.0000",
+		"Cantidad" : 12.0,
+		"SKU" : "DB6072-10"
+	},
+	{
+		"idLineaCoti" : 157123,
+		"idCotizacion" : 38206,
+		"idProducto" : 137,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-5LBS",
+		"Precio" : "115.0000",
+		"Cantidad" : 12.0,
+		"SKU" : "DB6072-5"
+	},
+	{
+		"idLineaCoti" : 157124,
+		"idCotizacion" : 38206,
+		"idProducto" : 138,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-2.5LBS",
+		"Precio" : "57.5000",
+		"Cantidad" : 12.0,
+		"SKU" : "DB6072-2.5"
+	},
+	{
+		"idLineaCoti" : 157125,
+		"idCotizacion" : 38206,
+		"idProducto" : 3691,
+		"Descripcion" : "BARRA OLIMPICA PROFESIONAL CAPACIDAD 600 LBS",
+		"Precio" : "1290.0000",
+		"Cantidad" : 5.0,
+		"SKU" : "OBPW86"
+	},
+	{
+		"idLineaCoti" : 157126,
+		"idCotizacion" : 38206,
+		"idProducto" : 389,
+		"Descripcion" : "BARRA Z OLIMPICA",
+		"Precio" : "490.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "OB47"
+	},
+	{
+		"idLineaCoti" : 157885,
+		"idCotizacion" : 38319,
+		"idProducto" : 3663,
+		"Descripcion" : "BANCA PARA PECHO GOLDS GYM",
+		"Precio" : "4990.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "XRS20"
+	},
+	{
+		"idLineaCoti" : 157886,
+		"idCotizacion" : 38319,
+		"idProducto" : 232,
+		"Descripcion" : "BARRA OLIMPICA POWER NEGRA",
+		"Precio" : "1290.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "OBPW85B"
+	},
+	{
+		"idLineaCoti" : 157887,
+		"idCotizacion" : 38319,
+		"idProducto" : 132,
+		"Descripcion" : "DISCO OLIMPICO DE AGARRADERA GRIS Q 35 LBS",
+		"Precio" : "665.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "QOPT35"
+	},
+	{
+		"idLineaCoti" : 157888,
+		"idCotizacion" : 38319,
+		"idProducto" : 120,
+		"Descripcion" : "DISCO OLIMPICO DE AGARRADERA GRIS Q 10 LBS",
+		"Precio" : "190.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "QOPT10"
+	},
+	{
+		"idLineaCoti" : 157889,
+		"idCotizacion" : 38319,
+		"idProducto" : 121,
+		"Descripcion" : "DISCO OLIMPICO DE AGARRADERA GRIS Q 5 LBS",
+		"Precio" : "95.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "QOPT5"
+	},
+	{
+		"idLineaCoti" : 157890,
+		"idCotizacion" : 38319,
+		"idProducto" : 122,
+		"Descripcion" : "DISCO OLIMPICO DE AGARRADERA GRIS Q 2.5 LBS",
+		"Precio" : "47.5000",
+		"Cantidad" : 4.0,
+		"SKU" : "QOPT2.5"
+	},
+	{
+		"idLineaCoti" : 157891,
+		"idCotizacion" : 38319,
+		"idProducto" : 119,
+		"Descripcion" : "DISCO OLIMPICO DE AGARRADERA GRIS Q 45 LBS",
+		"Precio" : "855.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "QOPT45"
+	},
+	{
+		"idLineaCoti" : 162508,
+		"idCotizacion" : 38757,
+		"idProducto" : 152,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 10 LBS",
+		"Precio" : "210.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "SDR10"
+	},
+	{
+		"idLineaCoti" : 162509,
+		"idCotizacion" : 38757,
+		"idProducto" : 147,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 15 LBS",
+		"Precio" : "315.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR15"
+	},
+	{
+		"idLineaCoti" : 162510,
+		"idCotizacion" : 38757,
+		"idProducto" : 153,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 20 LBS",
+		"Precio" : "420.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "SDR20"
+	},
+	{
+		"idLineaCoti" : 162511,
+		"idCotizacion" : 38757,
+		"idProducto" : 146,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 25 LBS",
+		"Precio" : "525.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR25"
+	},
+	{
+		"idLineaCoti" : 162512,
+		"idCotizacion" : 38757,
+		"idProducto" : 154,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 30 LBS",
+		"Precio" : "630.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "SDR30"
+	},
+	{
+		"idLineaCoti" : 162513,
+		"idCotizacion" : 38757,
+		"idProducto" : 145,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 35 LBS",
+		"Precio" : "735.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR35"
+	},
+	{
+		"idLineaCoti" : 162514,
+		"idCotizacion" : 38757,
+		"idProducto" : 155,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 40 LBS",
+		"Precio" : "840.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR40"
+	},
+	{
+		"idLineaCoti" : 162515,
+		"idCotizacion" : 38757,
+		"idProducto" : 228,
+		"Descripcion" : "BARRA OLIMPICA POWER CAPACIDAD 700LBS",
+		"Precio" : "1390.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "OBPW85"
+	},
+	{
+		"idLineaCoti" : 162516,
+		"idCotizacion" : 38757,
+		"idProducto" : 2634,
+		"Descripcion" : "DISCO BUMPER HI TEMP QUALITY 15 LBS",
+		"Precio" : "480.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "WP084-15"
+	},
+	{
+		"idLineaCoti" : 167133,
+		"idCotizacion" : 39507,
+		"idProducto" : 389,
+		"Descripcion" : "BARRA Z OLIMPICA",
+		"Precio" : "490.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "OB47"
+	},
+	{
+		"idLineaCoti" : 167134,
+		"idCotizacion" : 39507,
+		"idProducto" : 271,
+		"Descripcion" : "RACK PARA 5 PELOTAS MEDICINALES",
+		"Precio" : "1050.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "MBR101"
+	},
+	{
+		"idLineaCoti" : 167135,
+		"idCotizacion" : 39507,
+		"idProducto" : 232,
+		"Descripcion" : "BARRA OLIMPICA POWER NEGRA",
+		"Precio" : "1290.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "OBPW85B"
+	},
+	{
+		"idLineaCoti" : 167136,
+		"idCotizacion" : 39507,
+		"idProducto" : 122,
+		"Descripcion" : "DISCO OLIMPICO DE AGARRADERA GRIS Q 2.5 LBS",
+		"Precio" : "47.5000",
+		"Cantidad" : 4.0,
+		"SKU" : "QOPT2.5"
+	},
+	{
+		"idLineaCoti" : 167137,
+		"idCotizacion" : 39507,
+		"idProducto" : 121,
+		"Descripcion" : "DISCO OLIMPICO DE AGARRADERA GRIS Q 5 LBS",
+		"Precio" : "95.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "QOPT5"
+	},
+	{
+		"idLineaCoti" : 167138,
+		"idCotizacion" : 39507,
+		"idProducto" : 131,
+		"Descripcion" : "DISCO OLIMPICO DE AGARRADERA GRIS Q 25 LBS",
+		"Precio" : "475.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "QOPT25"
+	},
+	{
+		"idLineaCoti" : 167139,
+		"idCotizacion" : 39507,
+		"idProducto" : 514,
+		"Descripcion" : "CUERDA TRICEP MITAD",
+		"Precio" : "190.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "MB-MEDROPE"
+	},
+	{
+		"idLineaCoti" : 167140,
+		"idCotizacion" : 39507,
+		"idProducto" : 3776,
+		"Descripcion" : "BICEP BUMPER QUALITY",
+		"Precio" : "590.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SS111"
+	},
+	{
+		"idLineaCoti" : 169009,
+		"idCotizacion" : 40658,
+		"idProducto" : 497,
+		"Descripcion" : "GIMNACIO MULTIFUNCIONAL SMITH MACHINE DISCOS DE ACERO",
+		"Precio" : "13900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "PAQ-148"
+	},
+	{
+		"idLineaCoti" : 174064,
+		"idCotizacion" : 41842,
+		"idProducto" : 3779,
+		"Descripcion" : "PESAS RUSAS 10 ROSA",
+		"Precio" : "300.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "DB086-10"
+	},
+	{
+		"idLineaCoti" : 174065,
+		"idCotizacion" : 41842,
+		"idProducto" : 2614,
+		"Descripcion" : "CUERDA CROSSFIT DE 30 PIES",
+		"Precio" : "1100.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "BR001"
+	},
+	{
+		"idLineaCoti" : 174066,
+		"idCotizacion" : 41842,
+		"idProducto" : 151,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 12 LBS",
+		"Precio" : "252.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "SDR12"
+	},
+	{
+		"idLineaCoti" : 174067,
+		"idCotizacion" : 41842,
+		"idProducto" : 229,
+		"Descripcion" : "BARRA ESTANDAR CON ROSCA 1.5",
+		"Precio" : "290.0000",
+		"Cantidad" : 7.0,
+		"SKU" : "RB-60T"
+	},
+	{
+		"idLineaCoti" : 174068,
+		"idCotizacion" : 41842,
+		"idProducto" : 127,
+		"Descripcion" : "DISCO ESTANDAR CON 3 AGARRES  25LBS",
+		"Precio" : "375.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "DB6010-25"
+	},
+	{
+		"idLineaCoti" : 178628,
+		"idCotizacion" : 39413,
+		"idProducto" : 426,
+		"Descripcion" : "BANCA PARA PECHO HORIZONTAL",
+		"Precio" : "7900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "1036"
+	},
+	{
+		"idLineaCoti" : 178629,
+		"idCotizacion" : 39413,
+		"idProducto" : 3726,
+		"Descripcion" : "ADJUSTABLE BENCH",
+		"Precio" : "7400.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "HS023"
+	},
+	{
+		"idLineaCoti" : 178630,
+		"idCotizacion" : 39413,
+		"idProducto" : 322,
+		"Descripcion" : "G7 BANCA PLANA",
+		"Precio" : "2900.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "6041"
+	},
+	{
+		"idLineaCoti" : 178631,
+		"idCotizacion" : 39413,
+		"idProducto" : 232,
+		"Descripcion" : "BARRA OLIMPICA POWER NEGRA",
+		"Precio" : "1290.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "OBPW85B"
+	},
+	{
+		"idLineaCoti" : 178632,
+		"idCotizacion" : 39413,
+		"idProducto" : 456,
+		"Descripcion" : "BARRA SEMIOLIMPICA DE 1.8 PARA GIMNASIO.",
+		"Precio" : "1100.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "OB72"
+	},
+	{
+		"idLineaCoti" : 178633,
+		"idCotizacion" : 39413,
+		"idProducto" : 389,
+		"Descripcion" : "BARRA Z OLIMPICA",
+		"Precio" : "490.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "OB47"
+	},
+	{
+		"idLineaCoti" : 178634,
+		"idCotizacion" : 39413,
+		"idProducto" : 2637,
+		"Descripcion" : "SET 260 LBS BUMPERS HI TEMP QUALITY FITNESS",
+		"Precio" : "7000.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "PAQ-162"
+	},
+	{
+		"idLineaCoti" : 178635,
+		"idCotizacion" : 39413,
+		"idProducto" : 142,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-45LBS",
+		"Precio" : "1035.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "DB6072-45"
+	},
+	{
+		"idLineaCoti" : 178636,
+		"idCotizacion" : 39413,
+		"idProducto" : 141,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-35LBS",
+		"Precio" : "805.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "DB6072-35"
+	},
+	{
+		"idLineaCoti" : 178637,
+		"idCotizacion" : 39413,
+		"idProducto" : 140,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-25LBS",
+		"Precio" : "575.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "DB6072-25"
+	},
+	{
+		"idLineaCoti" : 178638,
+		"idCotizacion" : 39413,
+		"idProducto" : 139,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-10LBS",
+		"Precio" : "230.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "DB6072-10"
+	},
+	{
+		"idLineaCoti" : 178639,
+		"idCotizacion" : 39413,
+		"idProducto" : 137,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-5LBS",
+		"Precio" : "115.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "DB6072-5"
+	},
+	{
+		"idLineaCoti" : 178640,
+		"idCotizacion" : 39413,
+		"idProducto" : 138,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-2.5LBS",
+		"Precio" : "57.5000",
+		"Cantidad" : 4.0,
+		"SKU" : "DB6072-2.5"
+	},
+	{
+		"idLineaCoti" : 178641,
+		"idCotizacion" : 39413,
+		"idProducto" : 408,
+		"Descripcion" : "RACK CON 10 PARES DE MANCUERNAS HEXAGONALES (5-50)",
+		"Precio" : "13400.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "PAQ-118"
+	},
+	{
+		"idLineaCoti" : 178642,
+		"idCotizacion" : 39413,
+		"idProducto" : 380,
+		"Descripcion" : "RACK CON 10 BARRAS CON PESO (SET DE 400 LBS)",
+		"Precio" : "14900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "PAQ-114"
+	},
+	{
+		"idLineaCoti" : 178643,
+		"idCotizacion" : 39413,
+		"idProducto" : 3780,
+		"Descripcion" : "PESAS RUSAS 15 LBS AMARILLA",
+		"Precio" : "450.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "DB086-15"
+	},
+	{
+		"idLineaCoti" : 178644,
+		"idCotizacion" : 39413,
+		"idProducto" : 3781,
+		"Descripcion" : "PESAS RUSAS 20 LBS MORADO",
+		"Precio" : "600.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "DB086-20"
+	},
+	{
+		"idLineaCoti" : 178645,
+		"idCotizacion" : 39413,
+		"idProducto" : 3782,
+		"Descripcion" : "PESAS RUSAS 25 LBS ROJA",
+		"Precio" : "750.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "DB086-25"
+	},
+	{
+		"idLineaCoti" : 178646,
+		"idCotizacion" : 39413,
+		"idProducto" : 3783,
+		"Descripcion" : "PESAS RUSAS 30 LBS AZUL",
+		"Precio" : "900.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "DB086-30"
+	},
+	{
+		"idLineaCoti" : 178647,
+		"idCotizacion" : 39413,
+		"idProducto" : 3784,
+		"Descripcion" : "PESAS RUSAS 35 LBS NARANJA",
+		"Precio" : "1050.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "DB086-35"
+	},
+	{
+		"idLineaCoti" : 178648,
+		"idCotizacion" : 39413,
+		"idProducto" : 3785,
+		"Descripcion" : "PESAS RUSAS 40 LBS VERDE",
+		"Precio" : "1200.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "DB086-40"
+	},
+	{
+		"idLineaCoti" : 178649,
+		"idCotizacion" : 39413,
+		"idProducto" : 3786,
+		"Descripcion" : "PESAS RUSAS 45 LBS CAFE",
+		"Precio" : "1350.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "DB086-45"
+	},
+	{
+		"idLineaCoti" : 178650,
+		"idCotizacion" : 39413,
+		"idProducto" : 3787,
+		"Descripcion" : "PESAS RUSAS 50 LBS NEGRA",
+		"Precio" : "1500.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "DB086-50"
+	},
+	{
+		"idLineaCoti" : 178651,
+		"idCotizacion" : 39413,
+		"idProducto" : 412,
+		"Descripcion" : "PELOTA MEDICINAL QUALITY 8 LBS AZUL",
+		"Precio" : "750.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "QMED08"
+	},
+	{
+		"idLineaCoti" : 178652,
+		"idCotizacion" : 39413,
+		"idProducto" : 3778,
+		"Descripcion" : "SLEDGE (TRINEO )",
+		"Precio" : "3300.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "SD106"
+	},
+	{
+		"idLineaCoti" : 178653,
+		"idCotizacion" : 39413,
+		"idProducto" : 116,
+		"Descripcion" : "AGARRADERA TIPO D SENCILLA",
+		"Precio" : "190.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "MB501"
+	},
+	{
+		"idLineaCoti" : 178654,
+		"idCotizacion" : 39413,
+		"idProducto" : 109,
+		"Descripcion" : "AGARRADERA PARA BICEP RECTO CORTO",
+		"Precio" : "450.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "MB020R"
+	},
+	{
+		"idLineaCoti" : 178655,
+		"idCotizacion" : 39413,
+		"idProducto" : 234,
+		"Descripcion" : "CUERDA PARA TRICEP",
+		"Precio" : "320.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "MB-ROPE"
+	},
+	{
+		"idLineaCoti" : 178656,
+		"idCotizacion" : 39413,
+		"idProducto" : 107,
+		"Descripcion" : "AGARRADERA TIPO DOBLE D PARA REMO",
+		"Precio" : "390.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "MB502"
+	},
+	{
+		"idLineaCoti" : 178657,
+		"idCotizacion" : 39413,
+		"idProducto" : 118,
+		"Descripcion" : "AGARRADERA PARA ESPALDA LAT BAR",
+		"Precio" : "730.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "MB148R"
+	},
+	{
+		"idLineaCoti" : 179088,
+		"idCotizacion" : 45332,
+		"idProducto" : 2661,
+		"Descripcion" : "SET BUMPER CAUCHO BARRA GRATIS",
+		"Precio" : "8290.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "PAQ-165"
+	},
+	{
+		"idLineaCoti" : 182501,
+		"idCotizacion" : 38399,
+		"idProducto" : 119,
+		"Descripcion" : "DISCO OLIMPICO DE AGARRADERA GRIS Q 45 LBS",
+		"Precio" : "855.0000",
+		"Cantidad" : 30.0,
+		"SKU" : "QOPT45"
+	},
+	{
+		"idLineaCoti" : 182502,
+		"idCotizacion" : 38399,
+		"idProducto" : 132,
+		"Descripcion" : "DISCO OLIMPICO DE AGARRADERA GRIS Q 35 LBS",
+		"Precio" : "665.0000",
+		"Cantidad" : 30.0,
+		"SKU" : "QOPT35"
+	},
+	{
+		"idLineaCoti" : 182503,
+		"idCotizacion" : 38399,
+		"idProducto" : 131,
+		"Descripcion" : "DISCO OLIMPICO DE AGARRADERA GRIS Q 25 LBS",
+		"Precio" : "475.0000",
+		"Cantidad" : 30.0,
+		"SKU" : "QOPT25"
+	},
+	{
+		"idLineaCoti" : 182504,
+		"idCotizacion" : 38399,
+		"idProducto" : 120,
+		"Descripcion" : "DISCO OLIMPICO DE AGARRADERA GRIS Q 10 LBS",
+		"Precio" : "190.0000",
+		"Cantidad" : 30.0,
+		"SKU" : "QOPT10"
+	},
+	{
+		"idLineaCoti" : 182505,
+		"idCotizacion" : 38399,
+		"idProducto" : 233,
+		"Descripcion" : "BARRA Z OLIMPICA QUALITY FITNESS",
+		"Precio" : "890.0000",
+		"Cantidad" : 5.0,
+		"SKU" : "QOB47"
+	},
+	{
+		"idLineaCoti" : 182506,
+		"idCotizacion" : 38399,
+		"idProducto" : 3723,
+		"Descripcion" : "LEG PRESS\/HACK SQUAT",
+		"Precio" : "26900.0000",
+		"Cantidad" : 3.0,
+		"SKU" : "HS053"
+	},
+	{
+		"idLineaCoti" : 182507,
+		"idCotizacion" : 38399,
+		"idProducto" : 3727,
+		"Descripcion" : "FLAT PRESS BENCH",
+		"Precio" : "9900.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "HS025 "
+	},
+	{
+		"idLineaCoti" : 182508,
+		"idCotizacion" : 38399,
+		"idProducto" : 3737,
+		"Descripcion" : "SCOTT BENCH",
+		"Precio" : "6900.0000",
+		"Cantidad" : 3.0,
+		"SKU" : "HS028"
+	},
+	{
+		"idLineaCoti" : 182509,
+		"idCotizacion" : 38399,
+		"idProducto" : 3674,
+		"Descripcion" : "LEG EXTENSION",
+		"Precio" : "22900.0000",
+		"Cantidad" : 3.0,
+		"SKU" : "HS046"
+	},
+	{
+		"idLineaCoti" : 182510,
+		"idCotizacion" : 38399,
+		"idProducto" : 419,
+		"Descripcion" : "G7 PANTORRILLA SENTADO",
+		"Precio" : "9600.0000",
+		"Cantidad" : 3.0,
+		"SKU" : "6039"
+	},
+	{
+		"idLineaCoti" : 183923,
+		"idCotizacion" : 46799,
+		"idProducto" : 371,
+		"Descripcion" : "PELOTA MEDICINAL QUALITY 4 LBS AMARILLA",
+		"Precio" : "550.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "QMED04"
+	},
+	{
+		"idLineaCoti" : 183924,
+		"idCotizacion" : 46799,
+		"idProducto" : 288,
+		"Descripcion" : "PELOTA MEDICINAL QUALITY 6 LBS MORADA",
+		"Precio" : "650.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "QMED06"
+	},
+	{
+		"idLineaCoti" : 183925,
+		"idCotizacion" : 46799,
+		"idProducto" : 412,
+		"Descripcion" : "PELOTA MEDICINAL QUALITY 8 LBS AZUL",
+		"Precio" : "750.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "QMED08"
+	},
+	{
+		"idLineaCoti" : 183926,
+		"idCotizacion" : 46799,
+		"idProducto" : 414,
+		"Descripcion" : "PELOTA MEDICINAL QUALITY 10 LBS VERDE",
+		"Precio" : "800.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "QMED10"
+	},
+	{
+		"idLineaCoti" : 183927,
+		"idCotizacion" : 46799,
+		"idProducto" : 116,
+		"Descripcion" : "AGARRADERA TIPO D SENCILLA",
+		"Precio" : "190.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "MB501"
+	},
+	{
+		"idLineaCoti" : 183928,
+		"idCotizacion" : 46799,
+		"idProducto" : 109,
+		"Descripcion" : "AGARRADERA PARA BICEP RECTO CORTO",
+		"Precio" : "450.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "MB020R"
+	},
+	{
+		"idLineaCoti" : 193953,
+		"idCotizacion" : 47845,
+		"idProducto" : 2635,
+		"Descripcion" : "DISCO BUMPER HI TEMP QUALITY 10 LBS",
+		"Precio" : "320.0000",
+		"Cantidad" : 10.0,
+		"SKU" : "WP084-10"
+	},
+	{
+		"idLineaCoti" : 193954,
+		"idCotizacion" : 47845,
+		"idProducto" : 2634,
+		"Descripcion" : "DISCO BUMPER HI TEMP QUALITY 15 LBS",
+		"Precio" : "480.0000",
+		"Cantidad" : 10.0,
+		"SKU" : "WP084-15"
+	},
+	{
+		"idLineaCoti" : 193955,
+		"idCotizacion" : 47845,
+		"idProducto" : 2632,
+		"Descripcion" : "DISCO BUMPER HI TEMP QUALITY 35 LBS",
+		"Precio" : "1120.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "WP084-35"
+	},
+	{
+		"idLineaCoti" : 193956,
+		"idCotizacion" : 47845,
+		"idProducto" : 2631,
+		"Descripcion" : "DISCO BUMPER HI TEMP QUALITY 45 LBS",
+		"Precio" : "1440.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "WP084-45"
+	},
+	{
+		"idLineaCoti" : 193957,
+		"idCotizacion" : 47845,
+		"idProducto" : 261,
+		"Descripcion" : "PELOTA PILATES VALUE ANTI-BURST AZUL 65 CM",
+		"Precio" : "150.0000",
+		"Cantidad" : 3.0,
+		"SKU" : "PPV65"
+	},
+	{
+		"idLineaCoti" : 193958,
+		"idCotizacion" : 47845,
+		"idProducto" : 256,
+		"Descripcion" : "PELOTA PILATES VALUE ANTI-BURST ROJA 55 CM",
+		"Precio" : "150.0000",
+		"Cantidad" : 3.0,
+		"SKU" : "PPV55"
+	},
+	{
+		"idLineaCoti" : 193959,
+		"idCotizacion" : 47845,
+		"idProducto" : 260,
+		"Descripcion" : "PELOTA PILATES VALUE ANTI-BURST GRIS 75 CM",
+		"Precio" : "190.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "PPV75"
+	},
+	{
+		"idLineaCoti" : 205938,
+		"idCotizacion" : 49889,
+		"idProducto" : 324,
+		"Descripcion" : "G7 BANCO SCOTT PREDICADOR",
+		"Precio" : "9900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "6042"
+	},
+	{
+		"idLineaCoti" : 205939,
+		"idCotizacion" : 49889,
+		"idProducto" : 426,
+		"Descripcion" : "BANCA PARA PECHO HORIZONTAL",
+		"Precio" : "7900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "1036"
+	},
+	{
+		"idLineaCoti" : 205940,
+		"idCotizacion" : 49889,
+		"idProducto" : 427,
+		"Descripcion" : "BANCA PARA PECHO INCLINADA",
+		"Precio" : "7900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "1037"
+	},
+	{
+		"idLineaCoti" : 205941,
+		"idCotizacion" : 49889,
+		"idProducto" : 327,
+		"Descripcion" : "G8 WIDE LAT PULLDOWN\/HORIZONTAL ROWING",
+		"Precio" : "18900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "1020"
+	},
+	{
+		"idLineaCoti" : 205942,
+		"idCotizacion" : 49889,
+		"idProducto" : 478,
+		"Descripcion" : "SET DE 5 BARRAS RECTAS DE PESO FIJO",
+		"Precio" : "6900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "PAQ-143"
+	},
+	{
+		"idLineaCoti" : 205943,
+		"idCotizacion" : 49889,
+		"idProducto" : 115,
+		"Descripcion" : "AGARRADERA TIPO V",
+		"Precio" : "350.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "MB504"
+	},
+	{
+		"idLineaCoti" : 207381,
+		"idCotizacion" : 47839,
+		"idProducto" : 1531,
+		"Descripcion" : "MANCUERNAS HEXAGONALES DE 5 A 50 LBS SIN RACK",
+		"Precio" : "11550.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "PAQ-154"
+	},
+	{
+		"idLineaCoti" : 207382,
+		"idCotizacion" : 47839,
+		"idProducto" : 143,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 55 LBS",
+		"Precio" : "1155.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "SDR55"
+	},
+	{
+		"idLineaCoti" : 207383,
+		"idCotizacion" : 47839,
+		"idProducto" : 392,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 60LBS",
+		"Precio" : "1260.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "SDR60"
+	},
+	{
+		"idLineaCoti" : 207384,
+		"idCotizacion" : 47839,
+		"idProducto" : 393,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 65LBS",
+		"Precio" : "1365.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "SDR65"
+	},
+	{
+		"idLineaCoti" : 207385,
+		"idCotizacion" : 47839,
+		"idProducto" : 142,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-45LBS",
+		"Precio" : "1035.0000",
+		"Cantidad" : 8.0,
+		"SKU" : "DB6072-45"
+	},
+	{
+		"idLineaCoti" : 207386,
+		"idCotizacion" : 47839,
+		"idProducto" : 141,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-35LBS",
+		"Precio" : "805.0000",
+		"Cantidad" : 8.0,
+		"SKU" : "DB6072-35"
+	},
+	{
+		"idLineaCoti" : 207387,
+		"idCotizacion" : 47839,
+		"idProducto" : 140,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-25LBS",
+		"Precio" : "575.0000",
+		"Cantidad" : 8.0,
+		"SKU" : "DB6072-25"
+	},
+	{
+		"idLineaCoti" : 207388,
+		"idCotizacion" : 47839,
+		"idProducto" : 139,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-10LBS",
+		"Precio" : "230.0000",
+		"Cantidad" : 8.0,
+		"SKU" : "DB6072-10"
+	},
+	{
+		"idLineaCoti" : 212140,
+		"idCotizacion" : 51398,
+		"idProducto" : 1531,
+		"Descripcion" : "MANCUERNAS HEXAGONALES DE 5 A 50 LBS SIN RACK",
+		"Precio" : "11550.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "PAQ-154"
+	},
+	{
+		"idLineaCoti" : 212141,
+		"idCotizacion" : 51398,
+		"idProducto" : 148,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 5 LBS",
+		"Precio" : "105.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR05"
+	},
+	{
+		"idLineaCoti" : 212142,
+		"idCotizacion" : 51398,
+		"idProducto" : 152,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 10 LBS",
+		"Precio" : "210.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR10"
+	},
+	{
+		"idLineaCoti" : 214451,
+		"idCotizacion" : 51438,
+		"idProducto" : 148,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 5 LBS",
+		"Precio" : "105.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "SDR05"
+	},
+	{
+		"idLineaCoti" : 214452,
+		"idCotizacion" : 51438,
+		"idProducto" : 152,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 10 LBS",
+		"Precio" : "210.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "SDR10"
+	},
+	{
+		"idLineaCoti" : 214453,
+		"idCotizacion" : 51438,
+		"idProducto" : 147,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 15 LBS",
+		"Precio" : "315.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "SDR15"
+	},
+	{
+		"idLineaCoti" : 214454,
+		"idCotizacion" : 51438,
+		"idProducto" : 153,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 20 LBS",
+		"Precio" : "420.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "SDR20"
+	},
+	{
+		"idLineaCoti" : 214455,
+		"idCotizacion" : 51438,
+		"idProducto" : 146,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 25 LBS",
+		"Precio" : "525.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "SDR25"
+	},
+	{
+		"idLineaCoti" : 214456,
+		"idCotizacion" : 51438,
+		"idProducto" : 154,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 30 LBS",
+		"Precio" : "630.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "SDR30"
+	},
+	{
+		"idLineaCoti" : 214457,
+		"idCotizacion" : 51438,
+		"idProducto" : 145,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 35 LBS",
+		"Precio" : "735.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "SDR35"
+	},
+	{
+		"idLineaCoti" : 214458,
+		"idCotizacion" : 51438,
+		"idProducto" : 155,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 40 LBS",
+		"Precio" : "840.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "SDR40"
+	},
+	{
+		"idLineaCoti" : 214541,
+		"idCotizacion" : 51698,
+		"idProducto" : 2637,
+		"Descripcion" : "SET 260 LBS BUMPERS HI TEMP QUALITY FITNESS",
+		"Precio" : "7000.0000",
+		"Cantidad" : 3.0,
+		"SKU" : "PAQ-162"
+	},
+	{
+		"idLineaCoti" : 217224,
+		"idCotizacion" : 51960,
+		"idProducto" : 478,
+		"Descripcion" : "SET DE 5 BARRAS RECTAS DE PESO FIJO",
+		"Precio" : "6900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "PAQ-143"
+	},
+	{
+		"idLineaCoti" : 217225,
+		"idCotizacion" : 51960,
+		"idProducto" : 2614,
+		"Descripcion" : "CUERDA CROSSFIT DE 30 PIES",
+		"Precio" : "1100.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "BR001"
+	},
+	{
+		"idLineaCoti" : 217226,
+		"idCotizacion" : 51960,
+		"idProducto" : 228,
+		"Descripcion" : "BARRA OLIMPICA POWER CAPACIDAD 700LBS",
+		"Precio" : "1390.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "OBPW85"
+	},
+	{
+		"idLineaCoti" : 218306,
+		"idCotizacion" : 52077,
+		"idProducto" : 390,
+		"Descripcion" : "BICICLETA DE SPINNING MARCA SWIFT",
+		"Precio" : "5500.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "SW901"
+	},
+	{
+		"idLineaCoti" : 218307,
+		"idCotizacion" : 52077,
+		"idProducto" : 3663,
+		"Descripcion" : "BANCA PARA PECHO GOLDS GYM",
+		"Precio" : "5200.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "XRS20"
+	},
+	{
+		"idLineaCoti" : 218308,
+		"idCotizacion" : 52077,
+		"idProducto" : 3691,
+		"Descripcion" : "BARRA OLIMPICA PROFESIONAL CAPACIDAD 600 LBS",
+		"Precio" : "1290.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "OBPW86"
+	},
+	{
+		"idLineaCoti" : 218309,
+		"idCotizacion" : 52077,
+		"idProducto" : 138,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-2.5LBS",
+		"Precio" : "57.5000",
+		"Cantidad" : 2.0,
+		"SKU" : "DB6072-2.5"
+	},
+	{
+		"idLineaCoti" : 218310,
+		"idCotizacion" : 52077,
+		"idProducto" : 137,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-5LBS",
+		"Precio" : "115.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "DB6072-5"
+	},
+	{
+		"idLineaCoti" : 218311,
+		"idCotizacion" : 52077,
+		"idProducto" : 139,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-10LBS",
+		"Precio" : "230.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "DB6072-10"
+	},
+	{
+		"idLineaCoti" : 218312,
+		"idCotizacion" : 52077,
+		"idProducto" : 255,
+		"Descripcion" : "EVAMAT  PAQUETE PISO QUALITY EVA FOAM CUBRE 1.44 MTS",
+		"Precio" : "190.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "QMT-1206AM"
+	},
+	{
+		"idLineaCoti" : 225199,
+		"idCotizacion" : 52774,
+		"idProducto" : 109,
+		"Descripcion" : "AGARRADERA PARA BICEP RECTO CORTO",
+		"Precio" : "450.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "MB020R"
+	},
+	{
+		"idLineaCoti" : 225200,
+		"idCotizacion" : 52774,
+		"idProducto" : 115,
+		"Descripcion" : "AGARRADERA TIPO V",
+		"Precio" : "350.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "MB504"
+	},
+	{
+		"idLineaCoti" : 225201,
+		"idCotizacion" : 52774,
+		"idProducto" : 110,
+		"Descripcion" : "AGARRE CORTO CURVEADO",
+		"Precio" : "550.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "MB228R"
+	},
+	{
+		"idLineaCoti" : 225202,
+		"idCotizacion" : 52774,
+		"idProducto" : 234,
+		"Descripcion" : "CUERDA PARA TRICEP",
+		"Precio" : "320.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "MB-ROPE"
+	},
+	{
+		"idLineaCoti" : 225203,
+		"idCotizacion" : 52774,
+		"idProducto" : 3811,
+		"Descripcion" : "BARBELL BAR PAD (MATERIAL FEELS LIKE LEATHER)",
+		"Precio" : "300.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "FA134PVC"
+	},
+	{
+		"idLineaCoti" : 229055,
+		"idCotizacion" : 53036,
+		"idProducto" : 2615,
+		"Descripcion" : "RACK PARA SENTADILLA PROFESIONAL",
+		"Precio" : "6900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "WB069"
+	},
+	{
+		"idLineaCoti" : 229056,
+		"idCotizacion" : 53036,
+		"idProducto" : 228,
+		"Descripcion" : "BARRA OLIMPICA POWER CAPACIDAD 700LBS",
+		"Precio" : "1390.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "OBPW85"
+	},
+	{
+		"idLineaCoti" : 229057,
+		"idCotizacion" : 53036,
+		"idProducto" : 149,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 3 LBS",
+		"Precio" : "63.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "SDR03"
+	},
+	{
+		"idLineaCoti" : 229058,
+		"idCotizacion" : 53036,
+		"idProducto" : 148,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 5 LBS",
+		"Precio" : "105.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "SDR05"
+	},
+	{
+		"idLineaCoti" : 229059,
+		"idCotizacion" : 53036,
+		"idProducto" : 150,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 8 LBS",
+		"Precio" : "168.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "SDR08"
+	},
+	{
+		"idLineaCoti" : 229060,
+		"idCotizacion" : 53036,
+		"idProducto" : 139,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-10LBS",
+		"Precio" : "230.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "DB6072-10"
+	},
+	{
+		"idLineaCoti" : 229061,
+		"idCotizacion" : 53036,
+		"idProducto" : 140,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-25LBS",
+		"Precio" : "575.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "DB6072-25"
+	},
+	{
+		"idLineaCoti" : 229062,
+		"idCotizacion" : 53036,
+		"idProducto" : 141,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-35LBS",
+		"Precio" : "805.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "DB6072-35"
+	},
+	{
+		"idLineaCoti" : 229882,
+		"idCotizacion" : 53282,
+		"idProducto" : 153,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 20 LBS",
+		"Precio" : "420.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "SDR20"
+	},
+	{
+		"idLineaCoti" : 229883,
+		"idCotizacion" : 53282,
+		"idProducto" : 144,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 45 LBS",
+		"Precio" : "945.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR45"
+	},
+	{
+		"idLineaCoti" : 229884,
+		"idCotizacion" : 53282,
+		"idProducto" : 393,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 65LBS",
+		"Precio" : "1365.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR65"
+	},
+	{
+		"idLineaCoti" : 229885,
+		"idCotizacion" : 53282,
+		"idProducto" : 395,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 75LBS",
+		"Precio" : "1575.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR75"
+	},
+	{
+		"idLineaCoti" : 229886,
+		"idCotizacion" : 53282,
+		"idProducto" : 160,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 85 LBS",
+		"Precio" : "1785.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR85"
+	},
+	{
+		"idLineaCoti" : 229887,
+		"idCotizacion" : 53282,
+		"idProducto" : 158,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 95 LBS",
+		"Precio" : "1995.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR95"
+	},
+	{
+		"idLineaCoti" : 229888,
+		"idCotizacion" : 53282,
+		"idProducto" : 157,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 100 LBS",
+		"Precio" : "2100.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR100"
+	},
+	{
+		"idLineaCoti" : 232117,
+		"idCotizacion" : 53525,
+		"idProducto" : 148,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 5 LBS",
+		"Precio" : "105.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR05"
+	},
+	{
+		"idLineaCoti" : 232118,
+		"idCotizacion" : 53525,
+		"idProducto" : 152,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 10 LBS",
+		"Precio" : "210.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR10"
+	},
+	{
+		"idLineaCoti" : 232119,
+		"idCotizacion" : 53525,
+		"idProducto" : 147,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 15 LBS",
+		"Precio" : "315.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR15"
+	},
+	{
+		"idLineaCoti" : 232120,
+		"idCotizacion" : 53525,
+		"idProducto" : 153,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 20 LBS",
+		"Precio" : "420.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR20"
+	},
+	{
+		"idLineaCoti" : 232121,
+		"idCotizacion" : 53525,
+		"idProducto" : 146,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 25 LBS",
+		"Precio" : "525.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR25"
+	},
+	{
+		"idLineaCoti" : 232122,
+		"idCotizacion" : 53525,
+		"idProducto" : 154,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 30 LBS",
+		"Precio" : "630.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR30"
+	},
+	{
+		"idLineaCoti" : 232123,
+		"idCotizacion" : 53525,
+		"idProducto" : 145,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 35 LBS",
+		"Precio" : "735.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR35"
+	},
+	{
+		"idLineaCoti" : 232124,
+		"idCotizacion" : 53525,
+		"idProducto" : 155,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 40 LBS",
+		"Precio" : "840.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR40"
+	},
+	{
+		"idLineaCoti" : 232787,
+		"idCotizacion" : 53387,
+		"idProducto" : 149,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 3 LBS",
+		"Precio" : "63.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR03"
+	},
+	{
+		"idLineaCoti" : 232788,
+		"idCotizacion" : 53387,
+		"idProducto" : 148,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 5 LBS",
+		"Precio" : "105.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR05"
+	},
+	{
+		"idLineaCoti" : 232789,
+		"idCotizacion" : 53387,
+		"idProducto" : 150,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 8 LBS",
+		"Precio" : "168.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR08"
+	},
+	{
+		"idLineaCoti" : 232790,
+		"idCotizacion" : 53387,
+		"idProducto" : 152,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 10 LBS",
+		"Precio" : "210.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR10"
+	},
+	{
+		"idLineaCoti" : 232791,
+		"idCotizacion" : 53387,
+		"idProducto" : 151,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 12 LBS",
+		"Precio" : "252.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR12"
+	},
+	{
+		"idLineaCoti" : 232792,
+		"idCotizacion" : 53387,
+		"idProducto" : 147,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 15 LBS",
+		"Precio" : "315.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR15"
+	},
+	{
+		"idLineaCoti" : 232793,
+		"idCotizacion" : 53387,
+		"idProducto" : 153,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 20 LBS",
+		"Precio" : "420.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR20"
+	},
+	{
+		"idLineaCoti" : 232794,
+		"idCotizacion" : 53387,
+		"idProducto" : 146,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 25 LBS",
+		"Precio" : "525.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR25"
+	},
+	{
+		"idLineaCoti" : 232795,
+		"idCotizacion" : 53387,
+		"idProducto" : 154,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 30 LBS",
+		"Precio" : "630.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR30"
+	},
+	{
+		"idLineaCoti" : 232796,
+		"idCotizacion" : 53387,
+		"idProducto" : 145,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 35 LBS",
+		"Precio" : "735.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR35"
+	},
+	{
+		"idLineaCoti" : 235146,
+		"idCotizacion" : 53504,
+		"idProducto" : 467,
+		"Descripcion" : "APARATO DUAL PRENSA 45° \/ HACK  BODY SOLID",
+		"Precio" : "30350.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "GLPH1100"
+	},
+	{
+		"idLineaCoti" : 235147,
+		"idCotizacion" : 53504,
+		"idProducto" : 325,
+		"Descripcion" : "G7 FEMORAL ACOSTADO PESO INTEGRADO",
+		"Precio" : "23900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "6008"
+	},
+	{
+		"idLineaCoti" : 235148,
+		"idCotizacion" : 53504,
+		"idProducto" : 142,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-45LBS",
+		"Precio" : "1035.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "DB6072-45"
+	},
+	{
+		"idLineaCoti" : 235149,
+		"idCotizacion" : 53504,
+		"idProducto" : 141,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-35LBS",
+		"Precio" : "805.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "DB6072-35"
+	},
+	{
+		"idLineaCoti" : 235150,
+		"idCotizacion" : 53504,
+		"idProducto" : 140,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-25LBS",
+		"Precio" : "575.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "DB6072-25"
+	},
+	{
+		"idLineaCoti" : 235151,
+		"idCotizacion" : 53504,
+		"idProducto" : 139,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-10LBS",
+		"Precio" : "230.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "DB6072-10"
+	},
+	{
+		"idLineaCoti" : 235152,
+		"idCotizacion" : 53504,
+		"idProducto" : 137,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-5LBS",
+		"Precio" : "115.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "DB6072-5"
+	},
+	{
+		"idLineaCoti" : 235153,
+		"idCotizacion" : 53504,
+		"idProducto" : 138,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-2.5LBS",
+		"Precio" : "57.5000",
+		"Cantidad" : 2.0,
+		"SKU" : "DB6072-2.5"
+	},
+	{
+		"idLineaCoti" : 235154,
+		"idCotizacion" : 53504,
+		"idProducto" : 3749,
+		"Descripcion" : "BICICLETA DE SPINNING ALUMA 9000",
+		"Precio" : "6900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "SP1000"
+	},
+	{
+		"idLineaCoti" : 239306,
+		"idCotizacion" : 54309,
+		"idProducto" : 152,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 10 LBS",
+		"Precio" : "210.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR10"
+	},
+	{
+		"idLineaCoti" : 239307,
+		"idCotizacion" : 54309,
+		"idProducto" : 147,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 15 LBS",
+		"Precio" : "315.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR15"
+	},
+	{
+		"idLineaCoti" : 239308,
+		"idCotizacion" : 54309,
+		"idProducto" : 153,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 20 LBS",
+		"Precio" : "420.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR20"
+	},
+	{
+		"idLineaCoti" : 239309,
+		"idCotizacion" : 54309,
+		"idProducto" : 146,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 25 LBS",
+		"Precio" : "525.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR25"
+	},
+	{
+		"idLineaCoti" : 239310,
+		"idCotizacion" : 54309,
+		"idProducto" : 392,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 60LBS",
+		"Precio" : "1260.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR60"
+	},
+	{
+		"idLineaCoti" : 239311,
+		"idCotizacion" : 54309,
+		"idProducto" : 394,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAR NEGRAS 70LBS",
+		"Precio" : "1470.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR70"
+	},
+	{
+		"idLineaCoti" : 239312,
+		"idCotizacion" : 54309,
+		"idProducto" : 493,
+		"Descripcion" : "REFACIONES VARIAS, CONSULTA A VENDEDOR",
+		"Precio" : "0.0100",
+		"Cantidad" : 1.0,
+		"SKU" : "REFA"
+	},
+	{
+		"idLineaCoti" : 240097,
+		"idCotizacion" : 54476,
+		"idProducto" : 2659,
+		"Descripcion" : "G8 LEG EXTENSION",
+		"Precio" : "17900.0000",
+		"Cantidad" : 3.0,
+		"SKU" : "1009"
+	},
+	{
+		"idLineaCoti" : 240098,
+		"idCotizacion" : 54476,
+		"idProducto" : 328,
+		"Descripcion" : "G8 LYING LEG CURL",
+		"Precio" : "17900.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "1008"
+	},
+	{
+		"idLineaCoti" : 240099,
+		"idCotizacion" : 54476,
+		"idProducto" : 327,
+		"Descripcion" : "G8 WIDE LAT PULLDOWN\/HORIZONTAL ROWING",
+		"Precio" : "18900.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "1020"
+	},
+	{
+		"idLineaCoti" : 240100,
+		"idCotizacion" : 54476,
+		"idProducto" : 3744,
+		"Descripcion" : "G8 SHOULDER PRESS",
+		"Precio" : "17900.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "1014"
+	},
+	{
+		"idLineaCoti" : 240101,
+		"idCotizacion" : 54476,
+		"idProducto" : 3742,
+		"Descripcion" : "G8 CHEST PRESS",
+		"Precio" : "17900.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "1003"
+	},
+	{
+		"idLineaCoti" : 241079,
+		"idCotizacion" : 54566,
+		"idProducto" : 142,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-45LBS",
+		"Precio" : "1035.0000",
+		"Cantidad" : 10.0,
+		"SKU" : "DB6072-45"
+	},
+	{
+		"idLineaCoti" : 241080,
+		"idCotizacion" : 54566,
+		"idProducto" : 141,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-35LBS",
+		"Precio" : "805.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "DB6072-35"
+	},
+	{
+		"idLineaCoti" : 241081,
+		"idCotizacion" : 54566,
+		"idProducto" : 139,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-10LBS",
+		"Precio" : "230.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "DB6072-10"
+	},
+	{
+		"idLineaCoti" : 241082,
+		"idCotizacion" : 54566,
+		"idProducto" : 140,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-25LBS",
+		"Precio" : "575.0000",
+		"Cantidad" : 6.0,
+		"SKU" : "DB6072-25"
+	},
+	{
+		"idLineaCoti" : 241083,
+		"idCotizacion" : 54566,
+		"idProducto" : 137,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-5LBS",
+		"Precio" : "115.0000",
+		"Cantidad" : 4.0,
+		"SKU" : "DB6072-5"
+	},
+	{
+		"idLineaCoti" : 241084,
+		"idCotizacion" : 54566,
+		"idProducto" : 138,
+		"Descripcion" : "DISCO OLIMPICO PLASTIFICADO DE AGARRADERA-2.5LBS",
+		"Precio" : "57.5000",
+		"Cantidad" : 4.0,
+		"SKU" : "DB6072-2.5"
+	},
+	{
+		"idLineaCoti" : 241085,
+		"idCotizacion" : 54566,
+		"idProducto" : 147,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 15 LBS",
+		"Precio" : "315.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR15"
+	},
+	{
+		"idLineaCoti" : 241276,
+		"idCotizacion" : 53609,
+		"idProducto" : 2659,
+		"Descripcion" : "G8 LEG EXTENSION",
+		"Precio" : "17900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "1009"
+	},
+	{
+		"idLineaCoti" : 241277,
+		"idCotizacion" : 53609,
+		"idProducto" : 328,
+		"Descripcion" : "G8 LYING LEG CURL",
+		"Precio" : "17900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "1008"
+	},
+	{
+		"idLineaCoti" : 241278,
+		"idCotizacion" : 53609,
+		"idProducto" : 467,
+		"Descripcion" : "APARATO DUAL PRENSA 45° \/ HACK  BODY SOLID",
+		"Precio" : "30350.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "GLPH1100"
+	},
+	{
+		"idLineaCoti" : 241279,
+		"idCotizacion" : 53609,
+		"idProducto" : 3740,
+		"Descripcion" : "G8 BUTTERFLY\/ REAR DELT\/ PEC FLY ",
+		"Precio" : "17900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "1004"
+	},
+	{
+		"idLineaCoti" : 241280,
+		"idCotizacion" : 53609,
+		"idProducto" : 327,
+		"Descripcion" : "G8 WIDE LAT PULLDOWN\/HORIZONTAL ROWING",
+		"Precio" : "18900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "1020"
+	},
+	{
+		"idLineaCoti" : 241281,
+		"idCotizacion" : 53609,
+		"idProducto" : 492,
+		"Descripcion" : "G7 CROSS OVER PESO INTEGRADO",
+		"Precio" : "32900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "1013B"
+	},
+	{
+		"idLineaCoti" : 241282,
+		"idCotizacion" : 53609,
+		"idProducto" : 426,
+		"Descripcion" : "BANCA PARA PECHO HORIZONTAL",
+		"Precio" : "7900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "1036"
+	},
+	{
+		"idLineaCoti" : 241283,
+		"idCotizacion" : 53609,
+		"idProducto" : 427,
+		"Descripcion" : "BANCA PARA PECHO INCLINADA",
+		"Precio" : "7900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "1037"
+	},
+	{
+		"idLineaCoti" : 241284,
+		"idCotizacion" : 53609,
+		"idProducto" : 428,
+		"Descripcion" : "BANCA PARA PECHO DECLINADA",
+		"Precio" : "7900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "1038"
+	},
+	{
+		"idLineaCoti" : 241285,
+		"idCotizacion" : 53609,
+		"idProducto" : 3717,
+		"Descripcion" : "G8 UTILITY BENCH",
+		"Precio" : "2500.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "1045"
+	},
+	{
+		"idLineaCoti" : 241286,
+		"idCotizacion" : 53609,
+		"idProducto" : 415,
+		"Descripcion" : "B1 BANCO MULTIFUNCIONAL",
+		"Precio" : "3900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "B250"
+	},
+	{
+		"idLineaCoti" : 241287,
+		"idCotizacion" : 53609,
+		"idProducto" : 360,
+		"Descripcion" : "SET OLIMPICO CON AGARRADERAS GRIS 290 LBS",
+		"Precio" : "5950.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "PAQ-106"
+	},
+	{
+		"idLineaCoti" : 241288,
+		"idCotizacion" : 53609,
+		"idProducto" : 408,
+		"Descripcion" : "RACK CON 10 PARES DE MANCUERNAS HEXAGONALES (5-50)",
+		"Precio" : "13000.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "PAQ-118"
+	},
+	{
+		"idLineaCoti" : 241289,
+		"idCotizacion" : 53609,
+		"idProducto" : 228,
+		"Descripcion" : "BARRA OLIMPICA POWER CAPACIDAD 700LBS",
+		"Precio" : "1390.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "OBPW85"
+	},
+	{
+		"idLineaCoti" : 241290,
+		"idCotizacion" : 53609,
+		"idProducto" : 3821,
+		"Descripcion" : "MINI ABDOMINAL BENCH ROJO",
+		"Precio" : "1350.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "WB10"
+	},
+	{
+		"idLineaCoti" : 244207,
+		"idCotizacion" : 54968,
+		"idProducto" : 2612,
+		"Descripcion" : "RACK TRIANGULAR PARA 6 PARES DE MANCUERNAS",
+		"Precio" : "1490.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "R013"
+	},
+	{
+		"idLineaCoti" : 244208,
+		"idCotizacion" : 54968,
+		"idProducto" : 152,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 10 LBS",
+		"Precio" : "210.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR10"
+	},
+	{
+		"idLineaCoti" : 244209,
+		"idCotizacion" : 54968,
+		"idProducto" : 147,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 15 LBS",
+		"Precio" : "315.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR15"
+	},
+	{
+		"idLineaCoti" : 244210,
+		"idCotizacion" : 54968,
+		"idProducto" : 153,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 20 LBS",
+		"Precio" : "420.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR20"
+	},
+	{
+		"idLineaCoti" : 244211,
+		"idCotizacion" : 54968,
+		"idProducto" : 146,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 25 LBS",
+		"Precio" : "525.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR25"
+	},
+	{
+		"idLineaCoti" : 244212,
+		"idCotizacion" : 54968,
+		"idProducto" : 154,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 30 LBS",
+		"Precio" : "630.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR30"
+	},
+	{
+		"idLineaCoti" : 244213,
+		"idCotizacion" : 54968,
+		"idProducto" : 145,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 35 LBS",
+		"Precio" : "735.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR35"
+	},
+	{
+		"idLineaCoti" : 245787,
+		"idCotizacion" : 55177,
+		"idProducto" : 149,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 3 LBS",
+		"Precio" : "63.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR03"
+	},
+	{
+		"idLineaCoti" : 245788,
+		"idCotizacion" : 55177,
+		"idProducto" : 148,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 5 LBS",
+		"Precio" : "105.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR05"
+	},
+	{
+		"idLineaCoti" : 245789,
+		"idCotizacion" : 55177,
+		"idProducto" : 150,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 8 LBS",
+		"Precio" : "168.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR08"
+	},
+	{
+		"idLineaCoti" : 245790,
+		"idCotizacion" : 55177,
+		"idProducto" : 152,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 10 LBS",
+		"Precio" : "210.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR10"
+	},
+	{
+		"idLineaCoti" : 245791,
+		"idCotizacion" : 55177,
+		"idProducto" : 151,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 12 LBS",
+		"Precio" : "252.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR12"
+	},
+	{
+		"idLineaCoti" : 245792,
+		"idCotizacion" : 55177,
+		"idProducto" : 147,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 15 LBS",
+		"Precio" : "315.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR15"
+	},
+	{
+		"idLineaCoti" : 245793,
+		"idCotizacion" : 55177,
+		"idProducto" : 153,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 20 LBS",
+		"Precio" : "420.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR20"
+	},
+	{
+		"idLineaCoti" : 245794,
+		"idCotizacion" : 55177,
+		"idProducto" : 146,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 25 LBS",
+		"Precio" : "525.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR25"
+	},
+	{
+		"idLineaCoti" : 247409,
+		"idCotizacion" : 55393,
+		"idProducto" : 3663,
+		"Descripcion" : "BANCA PARA PECHO GOLDS GYM",
+		"Precio" : "5200.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "XRS20"
+	},
+	{
+		"idLineaCoti" : 247410,
+		"idCotizacion" : 55393,
+		"idProducto" : 3838,
+		"Descripcion" : "BARRA OLIMPICA OLYMPIC BAR WITHOUT BUSHING 16 KGS",
+		"Precio" : "1050.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "OB8516"
+	},
+	{
+		"idLineaCoti" : 247411,
+		"idCotizacion" : 55393,
+		"idProducto" : 122,
+		"Descripcion" : "DISCO OLIMPICO DE AGARRADERA GRIS Q 2.5 LBS",
+		"Precio" : "52.5000",
+		"Cantidad" : 2.0,
+		"SKU" : "QOPT2.5"
+	},
+	{
+		"idLineaCoti" : 247412,
+		"idCotizacion" : 55393,
+		"idProducto" : 121,
+		"Descripcion" : "DISCO OLIMPICO DE AGARRADERA GRIS Q 5 LBS",
+		"Precio" : "105.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "QOPT5"
+	},
+	{
+		"idLineaCoti" : 247413,
+		"idCotizacion" : 55393,
+		"idProducto" : 120,
+		"Descripcion" : "DISCO OLIMPICO DE AGARRADERA GRIS Q 10 LBS",
+		"Precio" : "210.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "QOPT10"
+	},
+	{
+		"idLineaCoti" : 247414,
+		"idCotizacion" : 55393,
+		"idProducto" : 131,
+		"Descripcion" : "DISCO OLIMPICO DE AGARRADERA GRIS Q 25 LBS",
+		"Precio" : "525.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "QOPT25"
+	},
+	{
+		"idLineaCoti" : 251111,
+		"idCotizacion" : 55807,
+		"idProducto" : 2612,
+		"Descripcion" : "RACK TRIANGULAR PARA 6 PARES DE MANCUERNAS",
+		"Precio" : "1490.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "R013"
+	},
+	{
+		"idLineaCoti" : 251112,
+		"idCotizacion" : 55807,
+		"idProducto" : 148,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 5 LBS",
+		"Precio" : "105.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR05"
+	},
+	{
+		"idLineaCoti" : 251113,
+		"idCotizacion" : 55807,
+		"idProducto" : 152,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 10 LBS",
+		"Precio" : "210.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR10"
+	},
+	{
+		"idLineaCoti" : 251114,
+		"idCotizacion" : 55807,
+		"idProducto" : 147,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 15 LBS",
+		"Precio" : "315.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR15"
+	},
+	{
+		"idLineaCoti" : 251115,
+		"idCotizacion" : 55807,
+		"idProducto" : 153,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 20 LBS",
+		"Precio" : "420.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR20"
+	},
+	{
+		"idLineaCoti" : 251116,
+		"idCotizacion" : 55807,
+		"idProducto" : 146,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 25 LBS",
+		"Precio" : "525.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR25"
+	},
+	{
+		"idLineaCoti" : 251117,
+		"idCotizacion" : 55807,
+		"idProducto" : 154,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 30 LBS",
+		"Precio" : "630.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR30"
+	},
+	{
+		"idLineaCoti" : 253530,
+		"idCotizacion" : 56123,
+		"idProducto" : 3789,
+		"Descripcion" : "RACK + 8 PARES DE MANCUERNAS HEXAGONALES 5 A 40 LBS",
+		"Precio" : "10860.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "PAQ-183"
+	},
+	{
+		"idLineaCoti" : 259222,
+		"idCotizacion" : 57873,
+		"idProducto" : 3777,
+		"Descripcion" : "RACK VERTICAL PARA 8 PARES DE MANCUERNAS",
+		"Precio" : "3300.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "DR105"
+	},
+	{
+		"idLineaCoti" : 259223,
+		"idCotizacion" : 57873,
+		"idProducto" : 232,
+		"Descripcion" : "BARRA OLIMPICA POWER NEGRA",
+		"Precio" : "1290.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "OBPW85B"
+	},
+	{
+		"idLineaCoti" : 259224,
+		"idCotizacion" : 57873,
+		"idProducto" : 415,
+		"Descripcion" : "B1 BANCO MULTIFUNCIONAL",
+		"Precio" : "3900.0000",
+		"Cantidad" : 1.0,
+		"SKU" : "B250"
+	},
+	{
+		"idLineaCoti" : 259225,
+		"idCotizacion" : 57873,
+		"idProducto" : 149,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 3 LBS",
+		"Precio" : "63.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR03"
+	},
+	{
+		"idLineaCoti" : 259226,
+		"idCotizacion" : 57873,
+		"idProducto" : 150,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 8 LBS",
+		"Precio" : "168.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR08"
+	},
+	{
+		"idLineaCoti" : 259227,
+		"idCotizacion" : 57873,
+		"idProducto" : 151,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 12 LBS",
+		"Precio" : "252.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR12"
+	},
+	{
+		"idLineaCoti" : 259228,
+		"idCotizacion" : 57873,
+		"idProducto" : 147,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 15 LBS",
+		"Precio" : "315.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR15"
+	},
+	{
+		"idLineaCoti" : 259229,
+		"idCotizacion" : 57873,
+		"idProducto" : 153,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 20 LBS",
+		"Precio" : "420.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR20"
+	},
+	{
+		"idLineaCoti" : 259230,
+		"idCotizacion" : 57873,
+		"idProducto" : 146,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 25 LBS",
+		"Precio" : "525.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR25"
+	},
+	{
+		"idLineaCoti" : 259231,
+		"idCotizacion" : 57873,
+		"idProducto" : 152,
+		"Descripcion" : "MANCUERNA HEXAGONAL AHULADAS NEGRAS 10 LBS",
+		"Precio" : "210.0000",
+		"Cantidad" : 2.0,
+		"SKU" : "SDR10"
+	}
+]

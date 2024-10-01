@@ -2,7 +2,7 @@
 	<div>
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="javascript:;">Inicio</a></li>
-			<li class="breadcrumb-item"><a href="javascript:;">Clientes</a></li>
+			<li class="breadcrumb-item"><a href="/clientes">Clientes</a></li>
 			<li class="breadcrumb-item active"><i class="fa fa-arrow-back"></i> Detalle Cliente</li>
 		</ol>
 		<h1 class="page-header mb-0">Detalle Cliente: {{this.uidCliente}}</h1>
@@ -501,34 +501,32 @@
 				</div>
 			</div>
 			<div class="card-body fw-bold">
-				<div class="card-body fw-bold">
-					<!-- BEGIN table -->
-					<ng-container outsideBody>
-						<hr class="m-0 bg-gray-600" />
-						<div class="table-responsive text-nowrap">
-							<ngx-datatable #table class="bootstrap" [loadingIndicator]="loadingIndicator"
-								[columnMode]="ColumnMode.force" [headerHeight]="50" [footerHeight]="50" rowHeight="auto"
-								[limit]="5" [rows]="topVentas">
+				<!-- BEGIN table -->
+				<ng-container outsideBody>
+					<hr class="m-0 bg-gray-600" />
+					<div class="table-responsive text-nowrap">
+						<ngx-datatable #table class="bootstrap" [loadingIndicator]="loadingIndicator"
+							[columnMode]="ColumnMode.force" [headerHeight]="50" [footerHeight]="50" rowHeight="auto"
+							[limit]="5" [rows]="topVentas">
 
-								<ngx-datatable-column name="Venta" prop="idVenta">
-									<ng-template ngx-datatable-cell-template let-row="row">
-										<a [routerLink]="['/ventaDetalle',row.idVenta]">{{row.idVenta}}</a>
-									</ng-template>
-								</ngx-datatable-column>
+							<ngx-datatable-column name="Venta" prop="idVenta">
+								<ng-template ngx-datatable-cell-template let-row="row">
+									<a [routerLink]="['/ventaDetalle',row.idVenta]">{{row.idVenta}}</a>
+								</ng-template>
+							</ngx-datatable-column>
 
-								<ngx-datatable-column name="Fecha" prop="Fecha">
-									<ng-template ngx-datatable-cell-template let-row="row" let-value="value">
-										{{value | date: 'MM/dd/yyyy'}}
-									</ng-template>
-								</ngx-datatable-column>
-								<ngx-datatable-column name="Cotizacion" prop="idCotizacion"></ngx-datatable-column>
-								<ngx-datatable-column name="Cliente" prop="idCliente"></ngx-datatable-column>
-								<ngx-datatable-column name="Costo Envio" prop="CostoEnvio"></ngx-datatable-column>
+							<ngx-datatable-column name="Fecha" prop="Fecha">
+								<ng-template ngx-datatable-cell-template let-row="row" let-value="value">
+									{{value | date: 'MM/dd/yyyy'}}
+								</ng-template>
+							</ngx-datatable-column>
+							<ngx-datatable-column name="Cotizacion" prop="idCotizacion"></ngx-datatable-column>
+							<ngx-datatable-column name="Cliente" prop="idCliente"></ngx-datatable-column>
+							<ngx-datatable-column name="Costo Envio" prop="CostoEnvio"></ngx-datatable-column>
 
-							</ngx-datatable>
-						</div>
-					</ng-container>
-				</div>
+						</ngx-datatable>
+					</div>
+				</ng-container>
 			</div>
 		</div>
 		<!-- Top 10 de los ultimos enviso activos -->

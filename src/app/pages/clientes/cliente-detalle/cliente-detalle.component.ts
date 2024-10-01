@@ -26,14 +26,14 @@ export class ClienteDetalleComponent implements OnInit{
   loadingIndicator = true;
 
   constructor(private route: ActivatedRoute, private http: HttpClient) {
-    fetch('assets/data/Cotizaciones.json')
+    fetch('assets/data/ventas/cotizaciones/Cotizaciones.json')
       .then(response => response.json())
       .then(data => {
         this.topCotizaciones = data; // Asignar el resultado a la variable
       })
       .catch(error => console.error('Error al cargar las cotizaciones:', error));
 
-    fetch('assets/data/Ventas.json')
+    fetch('assets/data/ventas/ventas/Ventas.json')
       .then(response => response.json())
       .then(data => {
         this.topVentas = data; // Asignar el resultado a la variable

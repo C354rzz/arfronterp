@@ -1,0 +1,502 @@
+[
+	{
+		"idCotizacion" : 27437,
+		"Fecha" : "2018-01-03T16:39:15.437Z",
+		"idCliente" : 22926,
+		"idEmpleado" : "atrev",
+		"idMarcaDM" : 2,
+		"Referencia" : "ET-27437",
+		"CostoEnvio" : "50.0000",
+		"Descuento" : "0.0000"
+	},
+	{
+		"idCotizacion" : 27601,
+		"Fecha" : "2018-01-08T17:17:40.110Z",
+		"idCliente" : 21685,
+		"idEmpleado" : "cmora",
+		"idMarcaDM" : 1,
+		"Referencia" : "CM-27601",
+		"CostoEnvio" : "450.0000",
+		"Descuento" : "518.7000"
+	},
+	{
+		"idCotizacion" : 27735,
+		"Fecha" : "2018-01-09T23:04:47.467Z",
+		"idCliente" : 23093,
+		"idEmpleado" : "atrev",
+		"idMarcaDM" : 2,
+		"Referencia" : "ET-27735",
+		"CostoEnvio" : "50.0000",
+		"Descuento" : "0.0000"
+	},
+	{
+		"idCotizacion" : 27828,
+		"Fecha" : "2018-01-11T20:17:32.587Z",
+		"idCliente" : 23139,
+		"idEmpleado" : "mrdz",
+		"idMarcaDM" : 2,
+		"Referencia" : "MR-27828",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "150.0000"
+	},
+	{
+		"idCotizacion" : 28431,
+		"Fecha" : "2018-01-23T17:12:41.383Z",
+		"idCliente" : 5652,
+		"idEmpleado" : "cmora",
+		"idMarcaDM" : 1,
+		"Referencia" : "CM-28431",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "837.9000"
+	},
+	{
+		"idCotizacion" : 28802,
+		"Fecha" : "2018-01-31T17:39:56.877Z",
+		"idCliente" : 20151,
+		"idEmpleado" : "cmora",
+		"idMarcaDM" : 1,
+		"Referencia" : "CM-28802",
+		"CostoEnvio" : "750.0000",
+		"Descuento" : "650.3000"
+	},
+	{
+		"idCotizacion" : 30757,
+		"Fecha" : "2018-02-23T15:38:47.480Z",
+		"idCliente" : 5869,
+		"idEmpleado" : "eochoa",
+		"idMarcaDM" : 3,
+		"Referencia" : "EO-30757",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "0.0000"
+	},
+	{
+		"idCotizacion" : 31030,
+		"Fecha" : "2018-03-05T16:30:14.260Z",
+		"idCliente" : 5869,
+		"idEmpleado" : "eochoa",
+		"idMarcaDM" : 3,
+		"Referencia" : "EO-31030",
+		"CostoEnvio" : "3900.0000",
+		"Descuento" : "0.0000"
+	},
+	{
+		"idCotizacion" : 31407,
+		"Fecha" : "2018-03-15T22:40:39.477Z",
+		"idCliente" : 23495,
+		"idEmpleado" : "atrev",
+		"idMarcaDM" : 2,
+		"Referencia" : "ET-31407",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "705.6000"
+	},
+	{
+		"idCotizacion" : 31522,
+		"Fecha" : "2018-03-21T16:00:22.560Z",
+		"idCliente" : 5869,
+		"idEmpleado" : "eochoa",
+		"idMarcaDM" : 3,
+		"Referencia" : "EO-31522",
+		"CostoEnvio" : "10300.0000",
+		"Descuento" : "0.0000"
+	},
+	{
+		"idCotizacion" : 31536,
+		"Fecha" : "2018-03-21T18:09:51.027Z",
+		"idCliente" : 12523,
+		"idEmpleado" : "cmora",
+		"idMarcaDM" : 1,
+		"Referencia" : "CM-31536",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "330.4000"
+	},
+	{
+		"idCotizacion" : 31748,
+		"Fecha" : "2018-03-28T20:14:26.750Z",
+		"idCliente" : 25658,
+		"idEmpleado" : "atrev",
+		"idMarcaDM" : 2,
+		"Referencia" : "ET-31748",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "248.0000"
+	},
+	{
+		"idCotizacion" : 31815,
+		"Fecha" : "2018-04-02T22:03:41.310Z",
+		"idCliente" : 25557,
+		"idEmpleado" : "cmora",
+		"idMarcaDM" : 1,
+		"Referencia" : "CM-31815",
+		"CostoEnvio" : "600.0000",
+		"Descuento" : "0.0000"
+	},
+	{
+		"idCotizacion" : 32237,
+		"Fecha" : "2018-04-16T20:42:54.293Z",
+		"idCliente" : 25881,
+		"idEmpleado" : "cmora",
+		"idMarcaDM" : 1,
+		"Referencia" : "CM-32237",
+		"CostoEnvio" : "1050.0000",
+		"Descuento" : "542.8500"
+	},
+	{
+		"idCotizacion" : 36579,
+		"Fecha" : "2018-05-28T20:50:36.210Z",
+		"idCliente" : 17667,
+		"idEmpleado" : "cmora",
+		"idMarcaDM" : 1,
+		"Referencia" : "CM-36579",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "1131.9000"
+	},
+	{
+		"idCotizacion" : 36843,
+		"Fecha" : "2018-06-04T18:50:09.680Z",
+		"idCliente" : 29594,
+		"idEmpleado" : "atrev",
+		"idMarcaDM" : 2,
+		"Referencia" : "ET-36843",
+		"CostoEnvio" : "260.0000",
+		"Descuento" : "0.0000"
+	},
+	{
+		"idCotizacion" : 38206,
+		"Fecha" : "2018-06-14T14:57:48.153Z",
+		"idCliente" : 5647,
+		"idEmpleado" : "mrdz",
+		"idMarcaDM" : 2,
+		"Referencia" : "MR-38206",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "3636.0000"
+	},
+	{
+		"idCotizacion" : 38319,
+		"Fecha" : "2018-06-18T21:05:34.683Z",
+		"idCliente" : 30810,
+		"idEmpleado" : "atrev",
+		"idMarcaDM" : 2,
+		"Referencia" : "ET-38319",
+		"CostoEnvio" : "40.0000",
+		"Descuento" : "0.0000"
+	},
+	{
+		"idCotizacion" : 38399,
+		"Fecha" : "2018-06-20T21:01:05.937Z",
+		"idCliente" : 30846,
+		"idEmpleado" : "cmora",
+		"idMarcaDM" : 1,
+		"Referencia" : "CM-38399",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "20209.0000"
+	},
+	{
+		"idCotizacion" : 38757,
+		"Fecha" : "2018-07-02T20:24:19.393Z",
+		"idCliente" : 1498,
+		"idEmpleado" : "atrev",
+		"idMarcaDM" : 2,
+		"Referencia" : "ET-38757",
+		"CostoEnvio" : "780.0000",
+		"Descuento" : "0.0000"
+	},
+	{
+		"idCotizacion" : 39413,
+		"Fecha" : "2018-07-18T18:04:12.690Z",
+		"idCliente" : 24902,
+		"idEmpleado" : "cmora",
+		"idMarcaDM" : 1,
+		"Referencia" : "CM-39413",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "6563.2000"
+	},
+	{
+		"idCotizacion" : 39507,
+		"Fecha" : "2018-07-20T19:00:50.853Z",
+		"idCliente" : 1649,
+		"idEmpleado" : "cmora",
+		"idMarcaDM" : 1,
+		"Referencia" : "CM-39507",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "490.7000"
+	},
+	{
+		"idCotizacion" : 40658,
+		"Fecha" : "2018-07-25T20:23:08.297Z",
+		"idCliente" : 32455,
+		"idEmpleado" : "mrdz",
+		"idMarcaDM" : 2,
+		"Referencia" : "MR-40658",
+		"CostoEnvio" : "1240.0000",
+		"Descuento" : "0.0000"
+	},
+	{
+		"idCotizacion" : 41842,
+		"Fecha" : "2018-07-31T22:41:34.350Z",
+		"idCliente" : 1272,
+		"idEmpleado" : "mrdz",
+		"idMarcaDM" : 2,
+		"Referencia" : "MR-41842",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "580.4400"
+	},
+	{
+		"idCotizacion" : 45332,
+		"Fecha" : "2018-08-20T14:46:41.030Z",
+		"idCliente" : 36743,
+		"idEmpleado" : "mrdz",
+		"idMarcaDM" : 2,
+		"Referencia" : "MR-45332",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "0.0000"
+	},
+	{
+		"idCotizacion" : 46799,
+		"Fecha" : "2018-09-03T19:40:52.600Z",
+		"idCliente" : 5647,
+		"idEmpleado" : "mrdz",
+		"idMarcaDM" : 2,
+		"Referencia" : "MR-46799",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "250.0000"
+	},
+	{
+		"idCotizacion" : 47839,
+		"Fecha" : "2018-10-03T19:18:44.837Z",
+		"idCliente" : 3202,
+		"idEmpleado" : "cmora",
+		"idMarcaDM" : 1,
+		"Referencia" : "CM-47839",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "4156.6000"
+	},
+	{
+		"idCotizacion" : 47845,
+		"Fecha" : "2018-10-03T21:17:45.457Z",
+		"idCliente" : 1649,
+		"idEmpleado" : "cmora",
+		"idMarcaDM" : 1,
+		"Referencia" : "CM-47845",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "1196.3000"
+	},
+	{
+		"idCotizacion" : 49889,
+		"Fecha" : "2018-11-06T23:30:53.740Z",
+		"idCliente" : 38677,
+		"idEmpleado" : "atrev",
+		"idMarcaDM" : 2,
+		"Referencia" : "ET-49889",
+		"CostoEnvio" : "2700.0000",
+		"Descuento" : "2593.0000"
+	},
+	{
+		"idCotizacion" : 51398,
+		"Fecha" : "2018-11-26T20:54:14.623Z",
+		"idCliente" : 5846,
+		"idEmpleado" : "cmora",
+		"idMarcaDM" : 1,
+		"Referencia" : "CM-51398",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "852.6000"
+	},
+	{
+		"idCotizacion" : 51438,
+		"Fecha" : "2018-11-27T19:05:24.497Z",
+		"idCliente" : 1251,
+		"idEmpleado" : "eochoa",
+		"idMarcaDM" : 3,
+		"Referencia" : "EO-51438",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "1580.0000"
+	},
+	{
+		"idCotizacion" : 51698,
+		"Fecha" : "2018-12-06T16:28:38.070Z",
+		"idCliente" : 27090,
+		"idEmpleado" : "atrev",
+		"idMarcaDM" : 2,
+		"Referencia" : "ET-51698",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "0.0000"
+	},
+	{
+		"idCotizacion" : 51960,
+		"Fecha" : "2018-12-17T18:25:27.407Z",
+		"idCliente" : 23053,
+		"idEmpleado" : "cmora",
+		"idMarcaDM" : 1,
+		"Referencia" : "CM-51960",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "949.2000"
+	},
+	{
+		"idCotizacion" : 52077,
+		"Fecha" : "2018-12-20T17:24:20.400Z",
+		"idCliente" : 41215,
+		"idEmpleado" : "atrev",
+		"idMarcaDM" : 2,
+		"Referencia" : "ET-52077",
+		"CostoEnvio" : "700.0000",
+		"Descuento" : "0.0000"
+	},
+	{
+		"idCotizacion" : 52774,
+		"Fecha" : "2019-01-14T16:24:55.043Z",
+		"idCliente" : 41470,
+		"idEmpleado" : "cmora",
+		"idMarcaDM" : 1,
+		"Referencia" : "CM-52774",
+		"CostoEnvio" : "150.0000",
+		"Descuento" : "0.0000"
+	},
+	{
+		"idCotizacion" : 53036,
+		"Fecha" : "2019-01-21T17:31:55.867Z",
+		"idCliente" : 38286,
+		"idEmpleado" : "cmora",
+		"idMarcaDM" : 1,
+		"Referencia" : "CM-53036",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "1125.1800"
+	},
+	{
+		"idCotizacion" : 53282,
+		"Fecha" : "2019-01-28T17:32:46.430Z",
+		"idCliente" : 12572,
+		"idEmpleado" : "cmora",
+		"idMarcaDM" : 1,
+		"Referencia" : "CM-53282",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "1550.0000"
+	},
+	{
+		"idCotizacion" : 53387,
+		"Fecha" : "2019-01-30T21:36:45.237Z",
+		"idCliente" : 23103,
+		"idEmpleado" : "cmora",
+		"idMarcaDM" : 1,
+		"Referencia" : "CM-53387",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "479.2200"
+	},
+	{
+		"idCotizacion" : 53504,
+		"Fecha" : "2019-02-05T16:27:18.817Z",
+		"idCliente" : 41712,
+		"idEmpleado" : "cmora",
+		"idMarcaDM" : 1,
+		"Referencia" : "CM-53504",
+		"CostoEnvio" : "1650.0000",
+		"Descuento" : "4674.9500"
+	},
+	{
+		"idCotizacion" : 53525,
+		"Fecha" : "2019-02-05T17:17:55.207Z",
+		"idCliente" : 5788,
+		"idEmpleado" : "atrev",
+		"idMarcaDM" : 2,
+		"Referencia" : "ET-53525",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "529.0000"
+	},
+	{
+		"idCotizacion" : 53609,
+		"Fecha" : "2019-02-06T18:31:34.123Z",
+		"idCliente" : 41753,
+		"idEmpleado" : "eochoa",
+		"idMarcaDM" : 3,
+		"Referencia" : "EO-53609",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "13590.0000"
+	},
+	{
+		"idCotizacion" : 54309,
+		"Fecha" : "2019-02-27T16:54:27.127Z",
+		"idCliente" : 1583,
+		"idEmpleado" : "cmora",
+		"idMarcaDM" : 1,
+		"Referencia" : "CM-54309",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "588.0100"
+	},
+	{
+		"idCotizacion" : 54476,
+		"Fecha" : "2019-03-04T22:23:32.080Z",
+		"idCliente" : 5869,
+		"idEmpleado" : "eochoa",
+		"idMarcaDM" : 3,
+		"Referencia" : "EO-54476",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "0.0000"
+	},
+	{
+		"idCotizacion" : 54566,
+		"Fecha" : "2019-03-06T21:06:43.647Z",
+		"idCliente" : 23017,
+		"idEmpleado" : "mrdz",
+		"idMarcaDM" : 2,
+		"Referencia" : "MR-54566",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "1493.0000"
+	},
+	{
+		"idCotizacion" : 54968,
+		"Fecha" : "2019-03-19T16:43:43.127Z",
+		"idCliente" : 42309,
+		"idEmpleado" : "atrev",
+		"idMarcaDM" : 2,
+		"Referencia" : "ET-54968",
+		"CostoEnvio" : "625.0000",
+		"Descuento" : "0.0000"
+	},
+	{
+		"idCotizacion" : 55177,
+		"Fecha" : "2019-03-22T21:53:00.750Z",
+		"idCliente" : 42399,
+		"idEmpleado" : "cmora",
+		"idMarcaDM" : 1,
+		"Referencia" : "CM-55177",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "0.0000"
+	},
+	{
+		"idCotizacion" : 55393,
+		"Fecha" : "2019-03-28T15:52:24.843Z",
+		"idCliente" : 42502,
+		"idEmpleado" : "atrev",
+		"idMarcaDM" : 2,
+		"Referencia" : "ET-55393",
+		"CostoEnvio" : "428.0000",
+		"Descuento" : "563.0000"
+	},
+	{
+		"idCotizacion" : 55807,
+		"Fecha" : "2019-04-08T21:08:39.490Z",
+		"idCliente" : 42693,
+		"idEmpleado" : "atrev",
+		"idMarcaDM" : 2,
+		"Referencia" : "ET-55807",
+		"CostoEnvio" : "50.0000",
+		"Descuento" : "0.0000"
+	},
+	{
+		"idCotizacion" : 56123,
+		"Fecha" : "2019-04-17T17:05:18.717Z",
+		"idCliente" : 24993,
+		"idEmpleado" : "atrev",
+		"idMarcaDM" : 2,
+		"Referencia" : "ET-56123",
+		"CostoEnvio" : "0.0000",
+		"Descuento" : "760.0000"
+	},
+	{
+		"idCotizacion" : 57873,
+		"Fecha" : "2019-05-07T16:59:52.647Z",
+		"idCliente" : 38580,
+		"idEmpleado" : "eochoa",
+		"idMarcaDM" : 3,
+		"Referencia" : "EO-57873",
+		"CostoEnvio" : "750.0000",
+		"Descuento" : "866.0000"
+	}
+	]

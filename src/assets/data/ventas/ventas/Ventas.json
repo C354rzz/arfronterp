@@ -1,0 +1,452 @@
+[
+	{
+		"idVenta" : 25810,
+		"Fecha" : "2018-01-03T16:40:51.833Z",
+		"idCliente" : 22926,
+		"idCotizacion" : 27437,
+		"CostoEnvio" : "50.0000",
+		"CostoDescuento" : "0.0000",
+		"Notas" : ""
+	},
+	{
+		"idVenta" : 26067,
+		"Fecha" : "2018-01-09T23:06:48.137Z",
+		"idCliente" : 23093,
+		"idCotizacion" : 27735,
+		"CostoEnvio" : "50.0000",
+		"CostoDescuento" : "0.0000",
+		"Notas" : ""
+	},
+	{
+		"idVenta" : 26138,
+		"Fecha" : "2018-01-11T20:23:18.813Z",
+		"idCliente" : 23139,
+		"idCotizacion" : 27828,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "150.0000",
+		"Notas" : "MP Qlity $1490 3328792741, Dep Qlity $200  950486"
+	},
+	{
+		"idVenta" : 26647,
+		"Fecha" : "2018-01-23T18:03:45.373Z",
+		"idCliente" : 5652,
+		"idCotizacion" : 28431,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "837.9000",
+		"Notas" : "SENDA"
+	},
+	{
+		"idVenta" : 26665,
+		"Fecha" : "2018-01-23T21:01:22.357Z",
+		"idCliente" : 21685,
+		"idCotizacion" : 27601,
+		"CostoEnvio" : "450.0000",
+		"CostoDescuento" : "518.7000",
+		"Notas" : "senda"
+	},
+	{
+		"idVenta" : 27103,
+		"Fecha" : "2018-02-06T18:47:12.443Z",
+		"idCliente" : 20151,
+		"idCotizacion" : 28802,
+		"CostoEnvio" : "750.0000",
+		"CostoDescuento" : "650.3000",
+		"Notas" : ""
+	},
+	{
+		"idVenta" : 28764,
+		"Fecha" : "2018-02-23T15:48:06.563Z",
+		"idCliente" : 5869,
+		"idCotizacion" : 30757,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "0.0000",
+		"Notas" : "Puedes indicar la direcion de envio "
+	},
+	{
+		"idVenta" : 28991,
+		"Fecha" : "2018-03-05T17:05:54.573Z",
+		"idCliente" : 5869,
+		"idCotizacion" : 31030,
+		"CostoEnvio" : "3900.0000",
+		"CostoDescuento" : "0.0000",
+		"Notas" : "Puedes indicar la direcion de envio "
+	},
+	{
+		"idVenta" : 29271,
+		"Fecha" : "2018-03-15T22:42:07.397Z",
+		"idCliente" : 23495,
+		"idCotizacion" : 31407,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "705.6000",
+		"Notas" : "efevo r. 4255"
+	},
+	{
+		"idVenta" : 29353,
+		"Fecha" : "2018-03-21T16:15:57.643Z",
+		"idCliente" : 5869,
+		"idCotizacion" : 31522,
+		"CostoEnvio" : "10300.0000",
+		"CostoDescuento" : "0.0000",
+		"Notas" : "Puedes indicar la direcion de envio "
+	},
+	{
+		"idVenta" : 29374,
+		"Fecha" : "2018-03-21T21:48:43.343Z",
+		"idCliente" : 12523,
+		"idCotizacion" : 31536,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "330.4000",
+		"Notas" : "SENDA"
+	},
+	{
+		"idVenta" : 29522,
+		"Fecha" : "2018-03-28T20:17:04.367Z",
+		"idCliente" : 25658,
+		"idCotizacion" : 31748,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "248.0000",
+		"Notas" : "efevo. r 4293 y 4292"
+	},
+	{
+		"idVenta" : 29585,
+		"Fecha" : "2018-04-03T20:31:13.603Z",
+		"idCliente" : 25557,
+		"idCotizacion" : 31815,
+		"CostoEnvio" : "600.0000",
+		"CostoDescuento" : "0.0000",
+		"Notas" : ""
+	},
+	{
+		"idVenta" : 29870,
+		"Fecha" : "2018-04-17T20:07:07.660Z",
+		"idCliente" : 25881,
+		"idCotizacion" : 32237,
+		"CostoEnvio" : "1050.0000",
+		"CostoDescuento" : "542.8500",
+		"Notas" : ""
+	},
+	{
+		"idVenta" : 33810,
+		"Fecha" : "2018-05-29T14:30:40.370Z",
+		"idCliente" : 17667,
+		"idCotizacion" : 36579,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "1131.9000",
+		"Notas" : ""
+	},
+	{
+		"idVenta" : 33997,
+		"Fecha" : "2018-06-04T18:54:52.207Z",
+		"idCliente" : 29594,
+		"idCotizacion" : 36843,
+		"CostoEnvio" : "260.0000",
+		"CostoDescuento" : "0.0000",
+		"Notas" : "mp"
+	},
+	{
+		"idVenta" : 35353,
+		"Fecha" : "2018-06-18T21:13:26.517Z",
+		"idCliente" : 30810,
+		"idCotizacion" : 38319,
+		"CostoEnvio" : "40.0000",
+		"CostoDescuento" : "0.0000",
+		"Notas" : "$590\tMERCADO PAGO\tCobro #3840863326\r\n$7,900\tMERCADO PAGO\tCobro #3835781320\r\n"
+	},
+	{
+		"idVenta" : 35376,
+		"Fecha" : "2018-06-19T19:51:07.440Z",
+		"idCliente" : 5647,
+		"idCotizacion" : 38206,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "3636.0000",
+		"Notas" : "remision 4520\r\n"
+	},
+	{
+		"idVenta" : 35796,
+		"Fecha" : "2018-07-06T14:24:44.923Z",
+		"idCliente" : 1498,
+		"idCotizacion" : 38757,
+		"CostoEnvio" : "780.0000",
+		"CostoDescuento" : "0.0000",
+		"Notas" : "$10,000\tDEPOSITO\t177387\r\n$3,000\tDEPOSITO\t177726\r\n"
+	},
+	{
+		"idVenta" : 36212,
+		"Fecha" : "2018-07-20T19:42:45.897Z",
+		"idCliente" : 1649,
+		"idCotizacion" : 39507,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "490.7000",
+		"Notas" : "senda"
+	},
+	{
+		"idVenta" : 37293,
+		"Fecha" : "2018-07-25T20:31:37.157Z",
+		"idCliente" : 32455,
+		"idCotizacion" : 40658,
+		"CostoEnvio" : "1240.0000",
+		"CostoDescuento" : "0.0000",
+		"Notas" : "MP HDZ "
+	},
+	{
+		"idVenta" : 39552,
+		"Fecha" : "2018-08-07T16:37:49.753Z",
+		"idCliente" : 1272,
+		"idCotizacion" : 41842,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "580.4400",
+		"Notas" : "DEP QLITY "
+	},
+	{
+		"idVenta" : 41722,
+		"Fecha" : "2018-08-16T16:29:55.143Z",
+		"idCliente" : 24902,
+		"idCotizacion" : 39413,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "6563.2000",
+		"Notas" : "pago 67000 para primer envio "
+	},
+	{
+		"idVenta" : 41765,
+		"Fecha" : "2018-08-20T14:49:06.320Z",
+		"idCliente" : 36743,
+		"idCotizacion" : 45332,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "0.0000",
+		"Notas" : "MP Qlity pasaran por todos cuando lleguen "
+	},
+	{
+		"idVenta" : 42943,
+		"Fecha" : "2018-08-28T22:37:46.033Z",
+		"idCliente" : 30846,
+		"idCotizacion" : 38399,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "20209.0000",
+		"Notas" : "senda"
+	},
+	{
+		"idVenta" : 43103,
+		"Fecha" : "2018-09-04T19:02:21.350Z",
+		"idCliente" : 5647,
+		"idCotizacion" : 46799,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "250.0000",
+		"Notas" : "dep qlity "
+	},
+	{
+		"idVenta" : 43778,
+		"Fecha" : "2018-10-03T21:46:49.417Z",
+		"idCliente" : 1649,
+		"idCotizacion" : 47845,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "1196.3000",
+		"Notas" : ""
+	},
+	{
+		"idVenta" : 45506,
+		"Fecha" : "2018-11-06T23:34:48.347Z",
+		"idCliente" : 38677,
+		"idCotizacion" : 49889,
+		"CostoEnvio" : "2700.0000",
+		"CostoDescuento" : "2593.0000",
+		"Notas" : "dep."
+	},
+	{
+		"idVenta" : 45576,
+		"Fecha" : "2018-11-09T20:43:02.427Z",
+		"idCliente" : 3202,
+		"idCotizacion" : 47839,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "4156.6000",
+		"Notas" : "separa"
+	},
+	{
+		"idVenta" : 46885,
+		"Fecha" : "2018-11-27T15:29:01.667Z",
+		"idCliente" : 5846,
+		"idCotizacion" : 51398,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "852.6000",
+		"Notas" : " "
+	},
+	{
+		"idVenta" : 47099,
+		"Fecha" : "2018-12-06T15:54:57.897Z",
+		"idCliente" : 1251,
+		"idCotizacion" : 51438,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "1580.0000",
+		"Notas" : "Puedes indicar la direcion de envio "
+	},
+	{
+		"idVenta" : 47102,
+		"Fecha" : "2018-12-06T16:30:04.467Z",
+		"idCliente" : 27090,
+		"idCotizacion" : 51698,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "0.0000",
+		"Notas" : "trans"
+	},
+	{
+		"idVenta" : 47265,
+		"Fecha" : "2018-12-17T18:30:03.330Z",
+		"idCliente" : 23053,
+		"idCotizacion" : 51960,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "949.2000",
+		"Notas" : " "
+	},
+	{
+		"idVenta" : 47344,
+		"Fecha" : "2018-12-20T17:32:09.503Z",
+		"idCliente" : 41215,
+		"idCotizacion" : 52077,
+		"CostoEnvio" : "700.0000",
+		"CostoDescuento" : "0.0000",
+		"Notas" : "utiliza saldo a favor."
+	},
+	{
+		"idVenta" : 47891,
+		"Fecha" : "2019-01-14T21:04:19.003Z",
+		"idCliente" : 41470,
+		"idCotizacion" : 52774,
+		"CostoEnvio" : "150.0000",
+		"CostoDescuento" : "0.0000",
+		"Notas" : " "
+	},
+	{
+		"idVenta" : 48144,
+		"Fecha" : "2019-01-24T18:25:09.000Z",
+		"idCliente" : 38286,
+		"idCotizacion" : 53036,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "1125.1800",
+		"Notas" : "pago 14,950 "
+	},
+	{
+		"idVenta" : 48205,
+		"Fecha" : "2019-01-28T18:17:29.637Z",
+		"idCliente" : 12572,
+		"idCotizacion" : 53282,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "1550.0000",
+		"Notas" : "tienda"
+	},
+	{
+		"idVenta" : 48389,
+		"Fecha" : "2019-02-05T17:19:56.833Z",
+		"idCliente" : 5788,
+		"idCotizacion" : 53525,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "529.0000",
+		"Notas" : "dep."
+	},
+	{
+		"idVenta" : 48453,
+		"Fecha" : "2019-02-06T18:15:41.430Z",
+		"idCliente" : 23103,
+		"idCotizacion" : 53387,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "479.2200",
+		"Notas" : " "
+	},
+	{
+		"idVenta" : 48636,
+		"Fecha" : "2019-02-13T20:35:28.260Z",
+		"idCliente" : 41712,
+		"idCotizacion" : 53504,
+		"CostoEnvio" : "1650.0000",
+		"CostoDescuento" : "4674.9500",
+		"Notas" : ""
+	},
+	{
+		"idVenta" : 48996,
+		"Fecha" : "2019-02-28T16:43:40.813Z",
+		"idCliente" : 1583,
+		"idCotizacion" : 54309,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "588.0100",
+		"Notas" : " "
+	},
+	{
+		"idVenta" : 49095,
+		"Fecha" : "2019-03-04T22:26:54.710Z",
+		"idCliente" : 5869,
+		"idCotizacion" : 54476,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "0.0000",
+		"Notas" : "Puedes indicar la direcion de envio "
+	},
+	{
+		"idVenta" : 49164,
+		"Fecha" : "2019-03-06T22:48:05.630Z",
+		"idCliente" : 23017,
+		"idCotizacion" : 54566,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "1493.0000",
+		"Notas" : "remision 5156"
+	},
+	{
+		"idVenta" : 49179,
+		"Fecha" : "2019-03-07T18:17:55.840Z",
+		"idCliente" : 41753,
+		"idCotizacion" : 53609,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "13590.0000",
+		"Notas" : "Puedes indicar la direcion de envio "
+	},
+	{
+		"idVenta" : 49454,
+		"Fecha" : "2019-03-19T16:46:23.570Z",
+		"idCliente" : 42309,
+		"idCotizacion" : 54968,
+		"CostoEnvio" : "625.0000",
+		"CostoDescuento" : "0.0000",
+		"Notas" : "MP"
+	},
+	{
+		"idVenta" : 49614,
+		"Fecha" : "2019-03-22T22:11:41.453Z",
+		"idCliente" : 42399,
+		"idCotizacion" : 55177,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "0.0000",
+		"Notas" : "VIENEN POR ELLOS"
+	},
+	{
+		"idVenta" : 49759,
+		"Fecha" : "2019-03-28T15:55:30.247Z",
+		"idCliente" : 42502,
+		"idCotizacion" : 55393,
+		"CostoEnvio" : "428.0000",
+		"CostoDescuento" : "563.0000",
+		"Notas" : "MP"
+	},
+	{
+		"idVenta" : 50071,
+		"Fecha" : "2019-04-08T21:09:28.390Z",
+		"idCliente" : 42693,
+		"idCotizacion" : 55807,
+		"CostoEnvio" : "50.0000",
+		"CostoDescuento" : "0.0000",
+		"Notas" : "MP"
+	},
+	{
+		"idVenta" : 50322,
+		"Fecha" : "2019-04-17T17:06:39.367Z",
+		"idCliente" : 24993,
+		"idCotizacion" : 56123,
+		"CostoEnvio" : "0.0000",
+		"CostoDescuento" : "760.0000",
+		"Notas" : "TRANS, OCURRRRRRRRRE!"
+	},
+	{
+		"idVenta" : 51941,
+		"Fecha" : "2019-05-07T22:48:07.793Z",
+		"idCliente" : 38580,
+		"idCotizacion" : 57873,
+		"CostoEnvio" : "750.0000",
+		"CostoDescuento" : "866.0000",
+		"Notas" : "Puedes indicar la direcion de envio "
+	}
+]
