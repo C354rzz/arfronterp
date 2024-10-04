@@ -14,6 +14,10 @@ import { CotizacionesComponent } from './pages/ventas/cotizaciones/cotizaciones.
 import { VentasComponent } from './pages/ventas/ventas/ventas.component';
 import { VentaDetalleComponent } from './pages/ventas/ventas/venta-detalle/venta-detalle.component';
 import { CotizacionDetalleComponent } from './pages/ventas/cotizaciones/cotizacion-detalle/cotizacion-detalle.component';
+import { ProductosComponent } from './pages/productos/productos.component';
+import { PaquetesComponent } from './pages/productos/paquetes/paquetes.component';
+import { ProductoDetalleComponent } from './pages/productos/producto-detalle/producto-detalle.component';
+import { PaqueteDetalleComponent } from './pages/productos/paquetes/paquete-detalle/paquete-detalle.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -22,6 +26,10 @@ const routes: Routes = [
   { path: 'clienteDetalle/:uidCliente',  component: ClienteDetalleComponent, data: { title: 'Cliente Detalle'} },
   { path: 'clientesDirecciones', component: DireccionesComponent, data: { title: 'Direcciones'} },
   { path: 'cotizaciones', component: CotizacionesComponent, data: { title: 'Cotizaciones'} },
+  { path: 'productos', component: ProductosComponent, data: { title: 'Productos'} },
+  { path: 'productoDetalle/:idProducto', component: ProductoDetalleComponent, data: { title: 'Producto Detalle'} },
+  { path: 'paquetes', component: PaquetesComponent, data: { title: 'Paquetes'} },
+  { path: 'paqueteDetalle/:idPaquete', component: PaqueteDetalleComponent, data: { title: 'Paquete Detalle'} },
   { path: 'cotizacionDetalle/:uidCotizacion',  component: CotizacionDetalleComponent, data: { title: 'Cotización Detalle'} },
   { path: 'ventas', component: VentasComponent, data: { title: 'Ventas'} },
   { path: 'ventaDetalle/:uidCliente',  component: VentaDetalleComponent, data: { title: 'Venta Detalle'} },

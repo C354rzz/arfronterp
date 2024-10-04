@@ -32,6 +32,10 @@ import { VentasComponent } from './pages/ventas/ventas/ventas.component';
 import { VentaDetalleComponent } from './pages/ventas/ventas/venta-detalle/venta-detalle.component';
 import { CotizacionesComponent } from './pages/ventas/cotizaciones/cotizaciones.component';
 import { CotizacionDetalleComponent } from './pages/ventas/cotizaciones/cotizacion-detalle/cotizacion-detalle.component';
+import { ProductosComponent } from './pages/productos/productos.component';
+import { ProductoDetalleComponent } from './pages/productos/producto-detalle/producto-detalle.component';
+import { PaquetesComponent } from './pages/productos/paquetes/paquetes.component';
+import { PaqueteDetalleComponent } from './pages/productos/paquetes/paquete-detalle/paquete-detalle.component';
 
 
 @NgModule({
@@ -52,7 +56,11 @@ import { CotizacionDetalleComponent } from './pages/ventas/cotizaciones/cotizaci
     VentasComponent,
     VentaDetalleComponent,
     CotizacionesComponent,
-    CotizacionDetalleComponent
+    CotizacionDetalleComponent,
+    ProductosComponent,
+    ProductoDetalleComponent,
+    PaquetesComponent,
+    PaqueteDetalleComponent
   ],
   imports: [
     AppRoutingModule,

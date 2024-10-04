@@ -29,14 +29,26 @@ export class ClienteDetalleComponent implements OnInit{
     fetch('assets/data/ventas/cotizaciones/Cotizaciones.json')
       .then(response => response.json())
       .then(data => {
-        this.topCotizaciones = data; // Asignar el resultado a la variable
+        const cliente = this.uidCliente
+        const filteredData = data.filter(function(dts:any){
+          return dts.idCliente == cliente
+        });
+        this.topCotizaciones = filteredData;
+        this.table.offset = 0;
+        // this.topCotizaciones = data; // Asignar el resultado a la variable
       })
       .catch(error => console.error('Error al cargar las cotizaciones:', error));
 
     fetch('assets/data/ventas/ventas/Ventas.json')
       .then(response => response.json())
       .then(data => {
-        this.topVentas = data; // Asignar el resultado a la variable
+        const cliente = this.uidCliente
+        const filteredData = data.filter(function(dts:any){
+          return dts.idCliente == cliente
+        });
+        this.topVentas = filteredData;
+        this.table.offset = 0;
+        // this.topVentas = data; // Asignar el resultado a la variable
       })
       .catch(error => console.error('Error al cargar las ventas:', error));
   }
