@@ -81,14 +81,14 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "arfronterp:build"
+            "buildTarget": "arfronterp:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "arfronterp:build:production"
+              "buildTarget": "arfronterp:build:production"
             },
             "development": {
-              "browserTarget": "arfronterp:build:development"
+              "buildTarget": "arfronterp:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -96,7 +96,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "arfronterp:build"
+            "buildTarget": "arfronterp:build"
           }
         },
         "test": {
