@@ -26,7 +26,6 @@ export class CotizacionesComponent implements OnInit {
    }
 
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
   }
 
   @ViewChild(DatatableComponent) table!: DatatableComponent;
