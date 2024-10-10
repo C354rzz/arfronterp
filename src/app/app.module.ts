@@ -22,6 +22,9 @@ import { NgScrollbarModule, NG_SCROLLBAR_OPTIONS } from 'ngx-scrollbar';
 import { HighlightModule, HIGHLIGHT_OPTIONS } from 'ngx-highlightjs';
 import { NgxDatatableModule } from '@swimlane/ngx-datatable'
 
+// Plugins
+import { NgxEditorModule } from 'ngx-editor';
+
 //Pages
 import { HomePage } from './pages/home/home';
 import { ClientesComponent } from './pages/clientes/clientes.component';
@@ -73,6 +76,7 @@ import { PaqueteDetalleComponent } from './pages/productos/paquetes/paquete-deta
 
     // plugins
     HighlightModule,
+    NgxEditorModule,
     NgxDatatableModule.forRoot({
       messages: {
         emptyMessage: 'No data to display', // Message to show when array is presented, but contains no values
